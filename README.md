@@ -60,9 +60,9 @@ This generates:
 
 - `dist/animated-icons.css`
 - `dist/animated-icons.min.css`
+- `dist/animated-icons.bundle.min.css`
 - `dist/aic-icons/` (individual SVGs, one per icon)
 - `dist/icons.json` (metadata used by the docs)
-- `dist/index.html` (demo / playground)
 
 **Include the CSS in your app**
 

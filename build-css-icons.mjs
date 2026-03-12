@@ -4,6 +4,7 @@ import path from "path";
 
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, "dist");
+const deployDir = path.join(rootDir, "deploy");
 const iconsDir = path.join(distDir, "aic-icons");
 const baseCssPath = path.join(rootDir, "base.css");
 const templatePath = path.join(rootDir, "index.ejs");
@@ -316,14 +317,9 @@ function build() {
         animation: icon.animation.animation
     }));
     fs.writeFileSync(path.join(distDir, "icons.json"), JSON.stringify(manifest, null, 2) + "\n");
-    fs.writeFileSync(path.join(distDir, "index.html"), buildHtmlPreview(icons));
+    fs.writeFileSync(path.join(deployDir, "index.html"), buildHtmlPreview(icons));
 
     console.log(`Built ${icons.length} icons.`);
-    console.log(`CSS: ${path.join("dist", "animated-icons.css")}`);
-    console.log(`CSS (min): ${path.join("dist", "animated-icons.min.css")}`);
-    console.log(`Icons: ${path.join("dist", "icons")}`);
-    console.log(`Template: ${path.join("index.ejs")}`);
-    console.log(`HTML: ${path.join("dist", "index.html")}`);
 }
 
 build();

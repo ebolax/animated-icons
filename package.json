@@ -24,7 +24,8 @@
         "prepublishOnly": "npm run build",
         "esbuild_bundle": "esbuild dist/animated-icons.css --bundle --outfile=dist/animated-icons.bundle.min.css --minify --loader:.svg=dataurl",
         "esbuild_minify": "esbuild dist/animated-icons.css --outfile=dist/animated-icons.min.css --minify",
-        "build": "node build-css-icons.mjs && npm run esbuild_bundle && npm run esbuild_minify",
+        "copy_css": "cpx \"dist/animated-icons.bundle.min.css\" deploy",
+        "build": "node build-css-icons.mjs && npm run esbuild_bundle && npm run esbuild_minify && npm run copy_css",
         "serve": "serve dist",
         "start": "npm run build && npm run serve",
         "nodemon": "nodemon --watch base.css --watch index.ejs --watch build-css-icons.mjs --exec \"npm run build\"",
@@ -48,6 +49,7 @@
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
+        "cpx": "^1.5.0",
         "ejs": "^5.0.1",
         "esbuild": "^0.27.3",
         "eslint": "^10.0.3",
