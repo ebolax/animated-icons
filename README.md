@@ -18,7 +18,32 @@ npm i @ebolax/animated-icons
 ```
 After installing, link the stylesheet from  `node_modules/ebolax-animated-icons/dist/animated-icons.css` (or the minified `animated-icons.min.css`) and use the icon classes as shown below.
 
+If you prefer an even simpler setup with no dependency on the `aic-icons` directory, you can use the bundled CSS file:
+
+```html
+<link rel="stylesheet" href="/path/to/animated-icons.bundle.min.css">
+```
+
+This includes all icons and necessary styles as embedded assets (using data URLs), so you **do not need to copy or serve the `aic-icons` folder**. Just use the icon classes in your HTML as usual, and everything will work out of the box.
+
+
 You can also copy the `animated-icons.css` file and the `aic-icons` directory from the `dist/` folder to any location in your project. Once copied, update the `<link>` tag `href` and the icon asset paths accordingly, and the icons will work independently from your `node_modules` directory.
+
+You can also import the CSS directly in your JavaScript or TypeScript project.  
+For example, with modern bundlers (like Vite, Webpack, or esbuild):
+
+```js
+import "@ebolax/animated-icons";
+```
+
+Or, if you are using CommonJS:
+
+```js
+require("@ebolax/animated-icons");
+```
+
+This will automatically bundle and apply the icon CSS to your project, without manually adding a `<link>` tag.
+
 
 **Manual Install**
 
@@ -42,6 +67,12 @@ This generates:
 ```
 
 You can also copy the contents of `animated-icons.css` and `aic-icons` directory into your own bundle.
+
+If you prefer an even simpler setup with no dependency on the `aic-icons` directory, you can use the bundled CSS file:
+
+```html
+<link rel="stylesheet" href="/path/to/animated-icons.bundle.min.css">
+```
 
 ---
 

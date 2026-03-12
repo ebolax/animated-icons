@@ -209,15 +209,6 @@ function buildHtmlPreview(iconMeta) {
     );
 }
 
-function minifyCss(css) {
-    return css
-        .replace(/\/\*[^!*][\s\S]*?\*\//g, "")
-        .replace(/\s+/g, " ")
-        .replace(/\s*([{}:;,>])\s*/g, "$1")
-        .replace(/;}/g, "}")
-        .trim();
-}
-
 function collectIcons() {
     const icons = [];
     const seen = new Set();
@@ -314,9 +305,7 @@ function build() {
     }
 
     const css = buildCss(icons);
-    const minifiedCss = minifyCss(css);
     fs.writeFileSync(path.join(distDir, "animated-icons.css"), css);
-    fs.writeFileSync(path.join(distDir, "animated-icons.min.css"), minifiedCss);
 
     const manifest = icons.map((icon) => ({
         source: icon.source,

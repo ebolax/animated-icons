@@ -788,9 +788,37 @@
 
         <section class="wrapper-docs mt-5 mb-5 rounded">
             <h2 class="section-title">Install from npm</h2>
-            <p class="section-meta mb-3">You can install this package from <a href="https://www.npmjs.com/package/@ebolax/animated-icons" target="_blank" rel="noopener noreferrer">npm</a> and use the built CSS and icons in your project.</p>
-            <pre><code>npm i @ebolax/animated-icons</code></pre>
-            <p class="section-meta mb-0 mt-2">After installing, link the stylesheet from <code>node_modules/ebolax-animated-icons/dist/animated-icons.css</code> (or the minified <code>animated-icons.min.css</code>) and use the icon classes as shown below.</p>
+            <p class="section-meta mb-2">You can install this package from <a href="https://www.npmjs.com/package/@ebolax/animated-icons" target="_blank" rel="noopener noreferrer">npm</a> and use the built CSS and icons in your project.</p>
+            <pre class="mb-2"><code>npm i @ebolax/animated-icons</code></pre>
+            <p class="section-meta mb-2">After installing, link the stylesheet from <code>node_modules/ebolax-animated-icons/dist/animated-icons.css</code> (or the minified <code>animated-icons.min.css</code>) and use the icon classes as shown below.</p>
+            <pre class="mb-2"><code>&lt;link rel="stylesheet" href="/path/to/animated-icons.min.css"&gt;</code></pre>
+            <p class="section-meta mb-2">
+                For the simplest setup, you can use the bundled <code>animated-icons.bundle.min.css</code> file, which includes all icons as embedded assets.
+                <br>
+                <strong>This means you do <u>not</u> need to copy or serve the <code>aic-icons</code> folder separately.</strong>
+            </p>
+            <pre class="mb-2"><code>&lt;link rel="stylesheet" href="/path/to/animated-icons.bundle.min.css"&gt;</code></pre>
+            <p class="section-meta mb-2">
+                You can also import the CSS file directly into your JavaScript or TypeScript project using <code>import</code> or <code>require</code>:
+            </p>
+            <pre class="mb-2"><code>import "@ebolax/animated-icons";</code></pre>
+            <p class="section-meta mb-2">
+                Or, for CommonJS projects:
+            </p>
+            <pre class="mb-2"><code>require("@ebolax/animated-icons");</code></pre>
+        </section>
+
+        <section class="wrapper-docs mt-5 mb-5 rounded">
+            <h2 class="section-title">Basic usage</h2>
+            <p class="section-meta mb-3">Basic usage: Just add an <code>i</code> tag with the <code>aic</code> class and the icon's class name. For example:</p>
+            <pre><code>&lt;!-- Heroicons --&gt;
+&lt;i class=&quot;aic aic-hero-academic-cap&quot;&gt;&lt;/i&gt;
+
+&lt;!-- Iconoir --&gt;
+&lt;i class=&quot;aic aic-io-mail&quot;&gt;&lt;/i&gt;
+
+&lt;!-- Lucide --&gt;
+&lt;i class=&quot;aic aic-luc-home&quot;&gt;&lt;/i&gt;</code></pre>
         </section>
 
         <section class="wrapper-docs mt-5 mb-5 rounded">
@@ -802,7 +830,7 @@
         </section>
 
         <section class="wrapper-docs mt-5 mb-5 rounded">
-            <h2 class="section-title">If you want to change the animation</h2>
+            <h2 class="section-title">Change the animation</h2>
             <p class="section-meta mb-3">You can change the animation by adding the <code>--aic-animation style variable</code> attribute to the icon. The value is the name of the animation. For example, to change the animation to <code>bar</code>, you can add the <code>style="--aic-animation: aic-bar;"</code> attribute to the icon.</p>
             <pre><code id="animation-demo-code">&lt;i class="aic aic-hero-arrow-path" style="--aic-animation: aic-bar;"&gt;&lt;/i&gt;</code></pre>
             <h6 class="mt-2">DEMO</h6>

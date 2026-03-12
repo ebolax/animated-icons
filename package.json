@@ -1,6 +1,6 @@
 {
     "name": "@ebolax/animated-icons",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "CSS-only animated icons for Lucide, Heroicons and Iconoir",
     "repository": {
         "type": "git",
@@ -22,7 +22,9 @@
     ],
     "scripts": {
         "prepublishOnly": "npm run build",
-        "build": "node build-css-icons.mjs",
+        "esbuild_bundle": "esbuild dist/animated-icons.css --bundle --outfile=dist/animated-icons.bundle.min.css --minify --loader:.svg=dataurl",
+        "esbuild_minify": "esbuild dist/animated-icons.css --outfile=dist/animated-icons.min.css --minify",
+        "build": "node build-css-icons.mjs && npm run esbuild_bundle && npm run esbuild_minify",
         "serve": "serve dist",
         "start": "npm run build && npm run serve",
         "nodemon": "nodemon --watch base.css --watch index.ejs --watch build-css-icons.mjs --exec \"npm run build\"",
@@ -38,13 +40,14 @@
     ],
     "exports": {
         ".": {
-            "import": "./dist/animated-icons.min.css",
-            "require": "./dist/animated-icons.min.css"
+            "import": "./dist/animated-icons.bundle.min.css",
+            "require": "./dist/animated-icons.bundle.min.css"
         }
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
         "ejs": "^5.0.1",
+        "esbuild": "^0.27.3",
         "eslint": "^10.0.3",
         "globals": "^17.4.0",
         "heroicons": "^2.2.0",
