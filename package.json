@@ -1,6 +1,6 @@
 {
     "name": "@ebolax/animated-icons",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "CSS-only animated icons for Lucide, Heroicons and Iconoir",
     "repository": {
         "type": "git",
@@ -36,7 +36,8 @@
     "license": "ISC",
     "type": "commonjs",
     "files": [
-        "dist"
+        "dist",
+        "README.md"
     ],
     "exports": {
         ".": {
