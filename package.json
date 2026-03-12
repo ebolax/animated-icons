@@ -26,7 +26,9 @@
         "serve": "serve dist",
         "start": "npm run build && npm run serve",
         "nodemon": "nodemon --watch base.css --watch index.ejs --watch build-css-icons.mjs --exec \"npm run build\"",
-        "dev": "npm-run-all --parallel nodemon serve"
+        "dev": "npm-run-all --parallel nodemon serve",
+        "git_update": "git add . && git commit -m 'Update' && git push origin main",
+        "npm_update": "npm version patch && npm publish"
     },
     "author": "ebolax",
     "license": "ISC",
