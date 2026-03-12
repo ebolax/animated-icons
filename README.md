@@ -99,7 +99,7 @@ Each icon is a combination of the base `aic` class and a library‑specific clas
 <i class="aic aic-luc-home"></i>
 ```
 
-The actual list of available icons depends on the versions of `heroicons`, `iconoir` and `lucide-static`. You can browse them in `dist/index.html` (search, filter, pagination) or inspect `dist/icons.json`.
+The actual list of available icons depends on the versions of `heroicons`, `iconoir` and `lucide-static`. You can browse them in `dist/icons.json`.
 
 ---
 
