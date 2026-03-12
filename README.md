@@ -76,40 +76,23 @@ In the docs (`dist/index.html`), all sidebar items, tabs and icon buttons use th
 
 ---
 
-## Colors and theming
+## Change Parameters
 
-Icons use CSS custom properties for color and animation:
+Icons use CSS custom properties
 
-- `--aic-icon` – URL of the SVG
-- `--aic-animation` – keyframe name (e.g. `aic-scale-pop`, `aic-nudge`)
-- `--aic-size` – icon size (defaults to `24px` – overridden in the docs)
-- `--aic-preview-primary` – main accent color used in the demo
+- `--aic-animation`: aic-fade;
+- `--aic-size`: 1em;
+- `--aic-duration`: 600ms;
+- `--aic-ease`: cubic-bezier(0.34, 1.56, 0.64, 1);
+- `--aic-origin`: center;
 
-To change the accent color globally (like the color picker in the demo), override `--aic-preview-primary` on `:root` or on any container:
+To change the animation or size for example:
 
-```css
-:root {
-  --aic-preview-primary: #14b8a6; /* teal */
-}
-
-.my-card {
-  --aic-preview-primary: #6366f1; /* per-card override */
-}
 ```
+<i class="aic aic-hero-arrow-path" style="--aic-animation: aic-bar;"></i>
 
----
-
-## Demo / playground
-
-After running `npm run build`, open:
-
-- `dist/index.html` – full demo UI with:
-  - Heroicons, Iconoir and Lucide tabs
-  - Search box + category filters
-  - Pagination for large icon sets
-  - Color picker that live‑updates the accent color
-  - Modal that shows copy‑paste snippets for each icon
-  - “See Lucide in action” section with sidebar, tabs and buttons wired up to real icons
+<i class="aic aic-hero-arrow-path" style="--aic-size: 32px;"></i>
+```
 
 You can also start a dev server:
 
@@ -123,93 +106,9 @@ This will rebuild CSS when sources change (EJS template, base CSS, build script)
 
 ---
 
-## Build pipeline
-
-The build script (`build-css-icons.mjs`) does the following:
-
-- Reads SVGs from:
-  - `node_modules/heroicons/24/outline`
-  - `node_modules/iconoir/icons/regular`
-  - `node_modules/lucide-static/icons`
-- Normalises them and writes a copy into `dist/icons/`.
-- Categorises icons (arrows, communication, media, files, UI, status, weather, objects, editing, people, navigation, data, security, development).
-- Picks an appropriate animation per icon (spin, nudge, shake, heart‑beat, rocket‑lift, etc.) and exposes it via CSS variables.
-- Renders `base.css` + generated rules into `dist/animated-icons.css` and a minified `dist/animated-icons.min.css`.
-- Generates `dist/index.html` from `index.ejs` using EJS.
-
-You rarely need to touch this unless you are adding a new icon source or changing how animations are assigned.
-
----
-
 ## License & credits
 
 - **Library license**: ISC (see `package.json`).
 - **Icon licenses**: The underlying icon sets (Lucide, Heroicons, Iconoir) use their own open‑source licenses (ISC / MIT). Refer to their official repos/sites for details.
 
-Built on [Lucide](https://lucide.dev), [Heroicons](https://heroicons.com) and [Iconoir](https://iconoir.com).  
-Source: [`ebolax/animated-icons`](https://github.com/ebolax/animated-icons).
-
-# Animated Icons
-
-CSS tabanlı animated icon çıktısı üretir.
-
-## Build
-
-```bash
-npm run build
-```
-
-Üretilen dosyalar:
-
-- `dist/animated-icons.css`
-- `dist/icons/*.svg`
-- `dist/icons.json`
-- `dist/index.html`
-
-Şablon dosyası:
-
-- `index.ejs` → build sırasında render edilerek `dist/index.html` üretilir.
-- `base.css` → build sırasında okunur ve icon kurallarıyla birleştirilerek `dist/animated-icons.css` üretilir.
-
-## Kullanım
-
-```html
-<link rel="stylesheet" href="./dist/animated-icons.css" />
-
-<i class="aic-hero aic-chat-bubble-left"></i>
-<i class="aic-hero aic-bell"></i>
-<i class="aic-hero aic-arrow-right"></i>
-
-<i class="aic-io aic-xbox-a"></i>
-<i class="aic-io aic-archive"></i>
-
-<button class="aic-wrapper">
-  <i class="aic-hero aic-chat-bubble-left"></i>
-  Mesajlar
-</button>
-```
-
-## Notlar
-
-- Heroicons kaynağı: `heroicons/24/outline`
-- Iconoir kaynağı: `iconoir/icons/regular`
-- Heroicons kullanımı: `aic-hero aic-{ikon-adi}`
-- Iconoir kullanımı: `aic-io aic-{ikon-adi}`
-- Hover/focus sırasında animasyon çalışır.
-- Bir kapsayıcıya `aic-wrapper` verirsen, kapsayıcı hover/focus/focus-within olduğunda içindeki ikonlar da animasyon oynatır.
-- Renk `currentColor` üzerinden gelir.
-
-## Boyut ve renk
-
-```html
-<i class="aic-hero aic-archive-box" style="font-size: 32px; color: #2563eb;"></i>
-```
-
-veya
-
-```css
-.big-icon {
-  --aic-size: 32px;
-  color: #2563eb;
-}
-```
+Built on [Lucide](https://lucide.dev), [Heroicons](https://heroicons.com) and [Iconoir](https://iconoir.com).
