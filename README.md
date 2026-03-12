@@ -18,6 +18,10 @@ npm i @ebolax/animated-icons
 ```
 After installing, link the stylesheet from  `node_modules/ebolax-animated-icons/dist/animated-icons.css` (or the minified `animated-icons.min.css`) and use the icon classes as shown below.
 
+```html
+<link rel="stylesheet" href="node_modules/@ebolax/animated-icons/dist/animated-icons.min.css">
+```
+
 If you prefer an even simpler setup with no dependency on the `aic-icons` directory, you can use the bundled CSS file:
 
 ```html
