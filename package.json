@@ -21,7 +21,6 @@
         "aic-icons"
     ],
     "scripts": {
-        "prepublishOnly": "npm run build",
         "esbuild_bundle": "esbuild dist/animated-icons.css --bundle --outfile=dist/animated-icons.bundle.min.css --minify --loader:.svg=dataurl",
         "esbuild_minify": "esbuild dist/animated-icons.css --outfile=dist/animated-icons.min.css --minify",
         "copy_css": "cpx \"dist/animated-icons.bundle.min.css\" docs",
