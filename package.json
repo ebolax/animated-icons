@@ -1,5 +1,5 @@
 {
-    "name": "ebolax-animated-icons",
+    "name": "@ebolax/animated-icons",
     "version": "1.0.0",
     "description": "CSS-only animated icons for Lucide, Heroicons and Iconoir",
     "repository": {
@@ -16,7 +16,9 @@
         "icons",
         "lucide",
         "heroicons",
-        "iconoir"
+        "iconoir",
+        "aic",
+        "aic-icons"
     ],
     "scripts": {
         "prepublishOnly": "npm run build",

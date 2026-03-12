@@ -19,7 +19,7 @@ This generates:
 
 - `dist/animated-icons.css`
 - `dist/animated-icons.min.css`
-- `dist/icons/` (individual SVGs, one per icon)
+- `dist/aic-icons/` (individual SVGs, one per icon)
 - `dist/icons.json` (metadata used by the docs)
 - `dist/index.html` (demo / playground)
 
@@ -29,7 +29,7 @@ This generates:
 <link rel="stylesheet" href="/path/to/animated-icons.css">
 ```
 
-You can also copy the contents of `animated-icons.css` into your own bundle.
+You can also copy the contents of `animated-icons.css` `and aic-icons` directory into your own bundle.
 
 ---
 

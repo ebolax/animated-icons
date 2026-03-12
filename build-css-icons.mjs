@@ -4,7 +4,7 @@ import path from "path";
 
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, "dist");
-const iconsDir = path.join(distDir, "icons");
+const iconsDir = path.join(distDir, "aic-icons");
 const baseCssPath = path.join(rootDir, "base.css");
 const templatePath = path.join(rootDir, "index.ejs");
 const heroiconsDir = path.join(rootDir, "node_modules", "heroicons", "24", "outline");
@@ -178,7 +178,7 @@ function buildCss(iconMeta) {
     const rules = iconMeta.map((icon) =>
         // eslint-disable-next-line implicit-arrow-linebreak
         toRuleBlock(icon.selectors, {
-            iconPath: `./icons/${icon.fileName}`,
+            iconPath: `./aic-icons/${icon.fileName}`,
             ...icon.animation
         })
     );
