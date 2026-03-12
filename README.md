@@ -8,7 +8,19 @@ The `/dist` folder contains everything you need to consume the library in your o
 
 ## Getting started
 
-1. **Install and build**
+**Install and build**
+
+Install from npm
+You can install this package from npm and use the built CSS and icons in your project.
+
+```
+npm i @ebolax/animated-icons
+```
+After installing, link the stylesheet from  `node_modules/ebolax-animated-icons/dist/animated-icons.css` (or the minified `animated-icons.min.css`) and use the icon classes as shown below.
+
+You can also copy the `animated-icons.css` file and the `aic-icons` directory from the `dist/` folder to any location in your project. Once copied, update the `<link>` tag `href` and the icon asset paths accordingly, and the icons will work independently from your `node_modules` directory.
+
+**Manual Install**
 
 ```bash
 npm install
@@ -23,13 +35,13 @@ This generates:
 - `dist/icons.json` (metadata used by the docs)
 - `dist/index.html` (demo / playground)
 
-2. **Include the CSS in your app**
+**Include the CSS in your app**
 
 ```html
 <link rel="stylesheet" href="/path/to/animated-icons.css">
 ```
 
-You can also copy the contents of `animated-icons.css` `and aic-icons` directory into your own bundle.
+You can also copy the contents of `animated-icons.css` and `aic-icons` directory into your own bundle.
 
 ---
 
@@ -76,7 +88,7 @@ In the docs (`dist/index.html`), all sidebar items, tabs and icon buttons use th
 
 ---
 
-## Change Parameters
+## Advanced Parameters
 
 Icons use CSS custom properties
 
@@ -88,11 +100,38 @@ Icons use CSS custom properties
 
 To change the animation or size for example:
 
-```
+```html
 <i class="aic aic-hero-arrow-path" style="--aic-animation: aic-bar;"></i>
-
+```
+```html
 <i class="aic aic-hero-arrow-path" style="--aic-size: 32px;"></i>
 ```
+
+### Available Animation Names
+
+You can control the animation applied to any icon by setting the `--aic-animation` CSS variable. The following animation names are available:
+
+- **bar**: Grows or pulses upwards from the bottom, suitable for progress, charts, or similar icons.
+- **bell-ring**: Mimics a ringing bell; a subtle shaking from the top, great for notification or alert icons.
+- **dot-appear**: Fades & scales a dot in/out; best for indicators and "active" states.
+- **fade**: Simple fade-in/out effect.
+- **gear**: Rotates as a gear; useful for settings, cog, or machinery icons.
+- **heart-beat**: Pulseslike a beating heart. Use with heart or favorite icons.
+- **mail-flap**: Flips/flaps on the Y axis like an envelope; works best with mail/envelope icons.
+- **nudge-up, nudge-down, nudge-left, nudge-right, nudge-right-up, nudge-right-down, nudge-left-up, nudge-left-down**: Nudges the icon quickly in a given direction. Great for arrows, navigation, or "movement" cues.
+- **page-turn**: Simulates the corner of a page being turned; ideally used with book or document-related icons.
+- **pulse-element**: Scales and pulses the icon, perfect for "live," "online," or attention-grabbing effects.
+- **rocket-lift**: Lifts/launches like a rocket; fun for rocket, navigation, or launch-related icons.
+- **scale-pop**: Quick scale in/out ("pop"); the default, suitable for most icons.
+- **shake**: Vigorous left-right shake, communicating "no," a warning, or error.
+- **spin**: Continuous rotation, as with spinners/loaders or refresh icons.
+
+**Example usage:**
+```html
+<i class="aic aic-luc-bell" style="--aic-animation: aic-bell-ring;"></i>
+```
+
+You can interactively cycle through available animations in the docs (`dist/index.html`) under the "If you want to change the animation" section.
 
 You can also start a dev server:
 
