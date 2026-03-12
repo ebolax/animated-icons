@@ -1,0 +1,53 @@
+{
+    "name": "ebolax-animated-icons",
+    "version": "1.0.0",
+    "description": "CSS-only animated icons for Lucide, Heroicons and Iconoir",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ebolax/animated-icons.git"
+    },
+    "homepage": "https://github.com/ebolax/animated-icons",
+    "bugs": {
+        "url": "https://github.com/ebolax/animated-icons/issues"
+    },
+    "keywords": [
+        "css",
+        "animated",
+        "icons",
+        "lucide",
+        "heroicons",
+        "iconoir"
+    ],
+    "scripts": {
+        "prepublishOnly": "npm run build",
+        "build": "node build-css-icons.mjs",
+        "serve": "serve dist",
+        "start": "npm run build && npm run serve",
+        "nodemon": "nodemon --watch base.css --watch index.ejs --watch build-css-icons.mjs --exec \"npm run build\"",
+        "dev": "npm-run-all --parallel nodemon serve"
+    },
+    "author": "ebolax",
+    "license": "ISC",
+    "type": "commonjs",
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/animated-icons.min.css",
+            "require": "./dist/animated-icons.min.css"
+        }
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "ejs": "^5.0.1",
+        "eslint": "^10.0.3",
+        "globals": "^17.4.0",
+        "heroicons": "^2.2.0",
+        "iconoir": "^7.11.0",
+        "lucide-static": "^0.577.0",
+        "nodemon": "^3.1.14",
+        "npm-run-all": "^4.1.5",
+        "serve": "^14.2.6"
+    }
+}
