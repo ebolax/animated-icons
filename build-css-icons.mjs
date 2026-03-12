@@ -4,7 +4,7 @@ import path from "path";
 
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, "dist");
-const deployDir = path.join(rootDir, "deploy");
+const deployDir = path.join(rootDir, "docs");
 const iconsDir = path.join(distDir, "aic-icons");
 const baseCssPath = path.join(rootDir, "base.css");
 const templatePath = path.join(rootDir, "index.ejs");
