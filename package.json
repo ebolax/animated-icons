@@ -36,8 +36,8 @@
     "license": "ISC",
     "type": "commonjs",
     "files": [
-        "dist",
-        "README.md"
+        "README.md",
+        "dist"
     ],
     "exports": {
         ".": {
