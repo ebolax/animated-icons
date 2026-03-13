@@ -35,7 +35,7 @@ This includes all icons and necessary styles as embedded assets (using data URLs
 
 You can also copy the `animated-icons.css` file and the `aic-icons` directory from the `dist/` folder to any location in your project. Once copied, update the `<link>` tag `href` and the icon asset paths accordingly, and the icons will work independently from your `node_modules` directory.
 
-You can also import the CSS directly in your JavaScript or TypeScript project.  
+You can also import the CSS directly in your JavaScript or TypeScript project.
 For example, with modern bundlers (like Vite, Webpack, or esbuild):
 
 ```js
