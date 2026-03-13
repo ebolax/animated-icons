@@ -1,6 +1,6 @@
 ## Animated Icons
 
-CSS‑only animated icons for **Lucide**, **Heroicons** and **Iconoir**. Icons are rendered as plain `<i>` tags with utility‑style classes and animated on hover using custom properties – no JavaScript required in production.
+CSS‑only animated icons for **Lucide**, **Heroicons** (with solid icons) and **Iconoir** (with solid icons). Icons are rendered as plain `<i>` tags with utility‑style classes and animated on hover using custom properties – no JavaScript required in production.
 
 [Homepage](https://ebolax.github.io/animated-icons/)
 
