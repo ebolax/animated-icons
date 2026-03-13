@@ -9,7 +9,9 @@ const iconsDir = path.join(distDir, "aic-icons");
 const baseCssPath = path.join(rootDir, "base.css");
 const templatePath = path.join(rootDir, "index.ejs");
 const heroiconsDir = path.join(rootDir, "node_modules", "heroicons", "24", "outline");
+const heroiconsSolidDir = path.join(rootDir, "node_modules", "heroicons", "24", "solid");
 const iconoirDir = path.join(rootDir, "node_modules", "iconoir", "icons", "regular");
+const iconoirSolidDir = path.join(rootDir, "node_modules", "iconoir", "icons", "solid");
 const lucideDir = path.join(rootDir, "node_modules", "lucide-static", "icons");
 
 const categories = ["all", "arrows", "communication", "media", "files", "ui", "status", "weather", "objects", "editing", "people", "navigation", "data", "security", "development"];
@@ -190,7 +192,9 @@ function buildCss(iconMeta) {
 function buildHtmlPreview(iconMeta) {
     const template = fs.readFileSync(templatePath, "utf8");
     const heroMeta = iconMeta.filter((icon) => icon.source === "heroicons");
+    const heroSolidMeta = iconMeta.filter((icon) => icon.source === "heroicons-solid");
     const iconoirMeta = iconMeta.filter((icon) => icon.source === "iconoir");
+    const iconoirSolidMeta = iconMeta.filter((icon) => icon.source === "iconoir-solid");
     const lucideMeta = iconMeta.filter((icon) => icon.source === "lucide");
 
     return ejs.render(
@@ -198,8 +202,10 @@ function buildHtmlPreview(iconMeta) {
         {
             categories,
             heroMeta,
+            heroSolidMeta,
             iconMeta,
             iconoirMeta,
+            iconoirSolidMeta,
             lucideMeta,
             titleCase,
             animations
@@ -240,6 +246,32 @@ function collectIcons() {
         });
     }
 
+    const heroSolidFiles = fs
+        .readdirSync(heroiconsSolidDir)
+        .filter((file) => file.endsWith(".svg"))
+        .sort();
+    for (const file of heroSolidFiles) {
+        const name = file.replace(/\.svg$/, "");
+        const sourcePath = path.join(heroiconsSolidDir, file);
+        const fileName = `hero-s-${name}.svg`;
+        const manifestKey = `heroicons-solid:${name}`;
+
+        if (seen.has(manifestKey)) continue;
+        seen.add(manifestKey);
+
+        icons.push({
+            source: "heroicons-solid",
+            name,
+            category: pickCategory(name),
+            fileName,
+            sourcePath,
+            selectors: [`.aic.aic-hero-s-${name}`],
+            className: `aic aic-hero-s-${name}`,
+            svg: normalizeSvg(readSvg(sourcePath)),
+            animation: pickAnimation(name)
+        });
+    }
+
     const iconoirFiles = fs
         .readdirSync(iconoirDir)
         .filter((file) => file.endsWith(".svg"))
@@ -261,6 +293,32 @@ function collectIcons() {
             sourcePath,
             selectors: [`.aic.aic-io-${originalName}`],
             className: `aic aic-io-${originalName}`,
+            svg: normalizeSvg(readSvg(sourcePath)),
+            animation: pickAnimation(originalName)
+        });
+    }
+
+    const iconoirSolidFiles = fs
+        .readdirSync(iconoirSolidDir)
+        .filter((file) => file.endsWith(".svg"))
+        .sort();
+    for (const file of iconoirSolidFiles) {
+        const originalName = file.replace(/\.svg$/, "");
+        const sourcePath = path.join(iconoirSolidDir, file);
+        const fileName = `io-s-${originalName}.svg`;
+        const manifestKey = `iconoir-solid:${originalName}`;
+
+        if (seen.has(manifestKey)) continue;
+        seen.add(manifestKey);
+
+        icons.push({
+            source: "iconoir-solid",
+            name: originalName,
+            category: pickCategory(originalName),
+            fileName,
+            sourcePath,
+            selectors: [`.aic.aic-io-s-${originalName}`],
+            className: `aic aic-io-s-${originalName}`,
             svg: normalizeSvg(readSvg(sourcePath)),
             animation: pickAnimation(originalName)
         });

@@ -1,5 +1,2597 @@
 [
   {
+    "source": "heroicons-solid",
+    "name": "academic-cap",
+    "category": "objects",
+    "className": "aic aic-hero-s-academic-cap",
+    "fileName": "hero-s-academic-cap.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "adjustments-horizontal",
+    "category": "objects",
+    "className": "aic aic-hero-s-adjustments-horizontal",
+    "fileName": "hero-s-adjustments-horizontal.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "adjustments-vertical",
+    "category": "objects",
+    "className": "aic aic-hero-s-adjustments-vertical",
+    "fileName": "hero-s-adjustments-vertical.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "archive-box",
+    "category": "files",
+    "className": "aic aic-hero-s-archive-box",
+    "fileName": "hero-s-archive-box.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "archive-box-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-archive-box-arrow-down",
+    "fileName": "hero-s-archive-box-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "archive-box-x-mark",
+    "category": "files",
+    "className": "aic aic-hero-s-archive-box-x-mark",
+    "fileName": "hero-s-archive-box-x-mark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-down",
+    "fileName": "hero-s-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-down-circle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-down-circle",
+    "fileName": "hero-s-arrow-down-circle.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-down-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-down-left",
+    "fileName": "hero-s-arrow-down-left.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-down-on-square",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-down-on-square",
+    "fileName": "hero-s-arrow-down-on-square.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-down-on-square-stack",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-down-on-square-stack",
+    "fileName": "hero-s-arrow-down-on-square-stack.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-down-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-down-right",
+    "fileName": "hero-s-arrow-down-right.svg",
+    "animation": "nudge-right-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-down-tray",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-down-tray",
+    "fileName": "hero-s-arrow-down-tray.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-left",
+    "fileName": "hero-s-arrow-left.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-left-circle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-left-circle",
+    "fileName": "hero-s-arrow-left-circle.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-left-end-on-rectangle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-left-end-on-rectangle",
+    "fileName": "hero-s-arrow-left-end-on-rectangle.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-left-on-rectangle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-left-on-rectangle",
+    "fileName": "hero-s-arrow-left-on-rectangle.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-left-start-on-rectangle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-left-start-on-rectangle",
+    "fileName": "hero-s-arrow-left-start-on-rectangle.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-long-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-long-down",
+    "fileName": "hero-s-arrow-long-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-long-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-long-left",
+    "fileName": "hero-s-arrow-long-left.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-long-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-long-right",
+    "fileName": "hero-s-arrow-long-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-long-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-long-up",
+    "fileName": "hero-s-arrow-long-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-path",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-path",
+    "fileName": "hero-s-arrow-path.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-path-rounded-square",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-path-rounded-square",
+    "fileName": "hero-s-arrow-path-rounded-square.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-right",
+    "fileName": "hero-s-arrow-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-right-circle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-right-circle",
+    "fileName": "hero-s-arrow-right-circle.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-right-end-on-rectangle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-right-end-on-rectangle",
+    "fileName": "hero-s-arrow-right-end-on-rectangle.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-right-on-rectangle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-right-on-rectangle",
+    "fileName": "hero-s-arrow-right-on-rectangle.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-right-start-on-rectangle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-right-start-on-rectangle",
+    "fileName": "hero-s-arrow-right-start-on-rectangle.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-small-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-small-down",
+    "fileName": "hero-s-arrow-small-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-small-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-small-left",
+    "fileName": "hero-s-arrow-small-left.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-small-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-small-right",
+    "fileName": "hero-s-arrow-small-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-small-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-small-up",
+    "fileName": "hero-s-arrow-small-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-top-right-on-square",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-top-right-on-square",
+    "fileName": "hero-s-arrow-top-right-on-square.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-trending-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-trending-down",
+    "fileName": "hero-s-arrow-trending-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-trending-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-trending-up",
+    "fileName": "hero-s-arrow-trending-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-down-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-down-left",
+    "fileName": "hero-s-arrow-turn-down-left.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-down-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-down-right",
+    "fileName": "hero-s-arrow-turn-down-right.svg",
+    "animation": "nudge-right-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-left-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-left-down",
+    "fileName": "hero-s-arrow-turn-left-down.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-left-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-left-up",
+    "fileName": "hero-s-arrow-turn-left-up.svg",
+    "animation": "nudge-left-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-right-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-right-down",
+    "fileName": "hero-s-arrow-turn-right-down.svg",
+    "animation": "nudge-right-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-right-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-right-up",
+    "fileName": "hero-s-arrow-turn-right-up.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-up-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-up-left",
+    "fileName": "hero-s-arrow-turn-up-left.svg",
+    "animation": "nudge-left-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-turn-up-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-turn-up-right",
+    "fileName": "hero-s-arrow-turn-up-right.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-up",
+    "fileName": "hero-s-arrow-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-up-circle",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-up-circle",
+    "fileName": "hero-s-arrow-up-circle.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-up-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-up-left",
+    "fileName": "hero-s-arrow-up-left.svg",
+    "animation": "nudge-left-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-up-on-square",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-up-on-square",
+    "fileName": "hero-s-arrow-up-on-square.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-up-on-square-stack",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-up-on-square-stack",
+    "fileName": "hero-s-arrow-up-on-square-stack.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-up-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-up-right",
+    "fileName": "hero-s-arrow-up-right.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-up-tray",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-up-tray",
+    "fileName": "hero-s-arrow-up-tray.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-uturn-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-uturn-down",
+    "fileName": "hero-s-arrow-uturn-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-uturn-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-uturn-left",
+    "fileName": "hero-s-arrow-uturn-left.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-uturn-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-uturn-right",
+    "fileName": "hero-s-arrow-uturn-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrow-uturn-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrow-uturn-up",
+    "fileName": "hero-s-arrow-uturn-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrows-pointing-in",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrows-pointing-in",
+    "fileName": "hero-s-arrows-pointing-in.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrows-pointing-out",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrows-pointing-out",
+    "fileName": "hero-s-arrows-pointing-out.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrows-right-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrows-right-left",
+    "fileName": "hero-s-arrows-right-left.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "arrows-up-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-arrows-up-down",
+    "fileName": "hero-s-arrows-up-down.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "at-symbol",
+    "category": "objects",
+    "className": "aic aic-hero-s-at-symbol",
+    "fileName": "hero-s-at-symbol.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "backspace",
+    "category": "objects",
+    "className": "aic aic-hero-s-backspace",
+    "fileName": "hero-s-backspace.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "backward",
+    "category": "arrows",
+    "className": "aic aic-hero-s-backward",
+    "fileName": "hero-s-backward.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "banknotes",
+    "category": "files",
+    "className": "aic aic-hero-s-banknotes",
+    "fileName": "hero-s-banknotes.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-2",
+    "category": "data",
+    "className": "aic aic-hero-s-bars-2",
+    "fileName": "hero-s-bars-2.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-3",
+    "category": "data",
+    "className": "aic aic-hero-s-bars-3",
+    "fileName": "hero-s-bars-3.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-3-bottom-left",
+    "category": "data",
+    "className": "aic aic-hero-s-bars-3-bottom-left",
+    "fileName": "hero-s-bars-3-bottom-left.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-3-bottom-right",
+    "category": "data",
+    "className": "aic aic-hero-s-bars-3-bottom-right",
+    "fileName": "hero-s-bars-3-bottom-right.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-3-center-left",
+    "category": "data",
+    "className": "aic aic-hero-s-bars-3-center-left",
+    "fileName": "hero-s-bars-3-center-left.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-4",
+    "category": "data",
+    "className": "aic aic-hero-s-bars-4",
+    "fileName": "hero-s-bars-4.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-bars-arrow-down",
+    "fileName": "hero-s-bars-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bars-arrow-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-bars-arrow-up",
+    "fileName": "hero-s-bars-arrow-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "battery-0",
+    "category": "objects",
+    "className": "aic aic-hero-s-battery-0",
+    "fileName": "hero-s-battery-0.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "battery-100",
+    "category": "objects",
+    "className": "aic aic-hero-s-battery-100",
+    "fileName": "hero-s-battery-100.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "battery-50",
+    "category": "objects",
+    "className": "aic aic-hero-s-battery-50",
+    "fileName": "hero-s-battery-50.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "beaker",
+    "category": "objects",
+    "className": "aic aic-hero-s-beaker",
+    "fileName": "hero-s-beaker.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bell",
+    "category": "status",
+    "className": "aic aic-hero-s-bell",
+    "fileName": "hero-s-bell.svg",
+    "animation": "bell-ring"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bell-alert",
+    "category": "status",
+    "className": "aic aic-hero-s-bell-alert",
+    "fileName": "hero-s-bell-alert.svg",
+    "animation": "bell-ring"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bell-slash",
+    "category": "status",
+    "className": "aic aic-hero-s-bell-slash",
+    "fileName": "hero-s-bell-slash.svg",
+    "animation": "bell-ring"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bell-snooze",
+    "category": "status",
+    "className": "aic aic-hero-s-bell-snooze",
+    "fileName": "hero-s-bell-snooze.svg",
+    "animation": "bell-ring"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bold",
+    "category": "editing",
+    "className": "aic aic-hero-s-bold",
+    "fileName": "hero-s-bold.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bolt",
+    "category": "objects",
+    "className": "aic aic-hero-s-bolt",
+    "fileName": "hero-s-bolt.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bolt-slash",
+    "category": "objects",
+    "className": "aic aic-hero-s-bolt-slash",
+    "fileName": "hero-s-bolt-slash.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "book-open",
+    "category": "files",
+    "className": "aic aic-hero-s-book-open",
+    "fileName": "hero-s-book-open.svg",
+    "animation": "page-turn"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bookmark",
+    "category": "files",
+    "className": "aic aic-hero-s-bookmark",
+    "fileName": "hero-s-bookmark.svg",
+    "animation": "page-turn"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bookmark-slash",
+    "category": "files",
+    "className": "aic aic-hero-s-bookmark-slash",
+    "fileName": "hero-s-bookmark-slash.svg",
+    "animation": "page-turn"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bookmark-square",
+    "category": "files",
+    "className": "aic aic-hero-s-bookmark-square",
+    "fileName": "hero-s-bookmark-square.svg",
+    "animation": "page-turn"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "briefcase",
+    "category": "objects",
+    "className": "aic aic-hero-s-briefcase",
+    "fileName": "hero-s-briefcase.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "bug-ant",
+    "category": "development",
+    "className": "aic aic-hero-s-bug-ant",
+    "fileName": "hero-s-bug-ant.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "building-library",
+    "category": "objects",
+    "className": "aic aic-hero-s-building-library",
+    "fileName": "hero-s-building-library.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "building-office",
+    "category": "objects",
+    "className": "aic aic-hero-s-building-office",
+    "fileName": "hero-s-building-office.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "building-office-2",
+    "category": "objects",
+    "className": "aic aic-hero-s-building-office-2",
+    "fileName": "hero-s-building-office-2.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "building-storefront",
+    "category": "objects",
+    "className": "aic aic-hero-s-building-storefront",
+    "fileName": "hero-s-building-storefront.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cake",
+    "category": "objects",
+    "className": "aic aic-hero-s-cake",
+    "fileName": "hero-s-cake.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "calculator",
+    "category": "data",
+    "className": "aic aic-hero-s-calculator",
+    "fileName": "hero-s-calculator.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "calendar",
+    "category": "objects",
+    "className": "aic aic-hero-s-calendar",
+    "fileName": "hero-s-calendar.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "calendar-date-range",
+    "category": "objects",
+    "className": "aic aic-hero-s-calendar-date-range",
+    "fileName": "hero-s-calendar-date-range.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "calendar-days",
+    "category": "objects",
+    "className": "aic aic-hero-s-calendar-days",
+    "fileName": "hero-s-calendar-days.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "camera",
+    "category": "media",
+    "className": "aic aic-hero-s-camera",
+    "fileName": "hero-s-camera.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chart-bar",
+    "category": "data",
+    "className": "aic aic-hero-s-chart-bar",
+    "fileName": "hero-s-chart-bar.svg",
+    "animation": "bar"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chart-bar-square",
+    "category": "data",
+    "className": "aic aic-hero-s-chart-bar-square",
+    "fileName": "hero-s-chart-bar-square.svg",
+    "animation": "bar"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chart-pie",
+    "category": "data",
+    "className": "aic aic-hero-s-chart-pie",
+    "fileName": "hero-s-chart-pie.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chat-bubble-bottom-center",
+    "category": "communication",
+    "className": "aic aic-hero-s-chat-bubble-bottom-center",
+    "fileName": "hero-s-chat-bubble-bottom-center.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chat-bubble-bottom-center-text",
+    "category": "communication",
+    "className": "aic aic-hero-s-chat-bubble-bottom-center-text",
+    "fileName": "hero-s-chat-bubble-bottom-center-text.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chat-bubble-left",
+    "category": "communication",
+    "className": "aic aic-hero-s-chat-bubble-left",
+    "fileName": "hero-s-chat-bubble-left.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chat-bubble-left-ellipsis",
+    "category": "communication",
+    "className": "aic aic-hero-s-chat-bubble-left-ellipsis",
+    "fileName": "hero-s-chat-bubble-left-ellipsis.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chat-bubble-left-right",
+    "category": "communication",
+    "className": "aic aic-hero-s-chat-bubble-left-right",
+    "fileName": "hero-s-chat-bubble-left-right.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chat-bubble-oval-left",
+    "category": "communication",
+    "className": "aic aic-hero-s-chat-bubble-oval-left",
+    "fileName": "hero-s-chat-bubble-oval-left.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chat-bubble-oval-left-ellipsis",
+    "category": "communication",
+    "className": "aic aic-hero-s-chat-bubble-oval-left-ellipsis",
+    "fileName": "hero-s-chat-bubble-oval-left-ellipsis.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "check",
+    "category": "status",
+    "className": "aic aic-hero-s-check",
+    "fileName": "hero-s-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "check-badge",
+    "category": "status",
+    "className": "aic aic-hero-s-check-badge",
+    "fileName": "hero-s-check-badge.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "check-circle",
+    "category": "status",
+    "className": "aic aic-hero-s-check-circle",
+    "fileName": "hero-s-check-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-double-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-double-down",
+    "fileName": "hero-s-chevron-double-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-double-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-double-left",
+    "fileName": "hero-s-chevron-double-left.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-double-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-double-right",
+    "fileName": "hero-s-chevron-double-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-double-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-double-up",
+    "fileName": "hero-s-chevron-double-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-down",
+    "fileName": "hero-s-chevron-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-left",
+    "fileName": "hero-s-chevron-left.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-right",
+    "fileName": "hero-s-chevron-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-up",
+    "fileName": "hero-s-chevron-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "chevron-up-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-chevron-up-down",
+    "fileName": "hero-s-chevron-up-down.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "circle-stack",
+    "category": "objects",
+    "className": "aic aic-hero-s-circle-stack",
+    "fileName": "hero-s-circle-stack.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "clipboard",
+    "category": "files",
+    "className": "aic aic-hero-s-clipboard",
+    "fileName": "hero-s-clipboard.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "clipboard-document",
+    "category": "files",
+    "className": "aic aic-hero-s-clipboard-document",
+    "fileName": "hero-s-clipboard-document.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "clipboard-document-check",
+    "category": "files",
+    "className": "aic aic-hero-s-clipboard-document-check",
+    "fileName": "hero-s-clipboard-document-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "clipboard-document-list",
+    "category": "files",
+    "className": "aic aic-hero-s-clipboard-document-list",
+    "fileName": "hero-s-clipboard-document-list.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "clock",
+    "category": "objects",
+    "className": "aic aic-hero-s-clock",
+    "fileName": "hero-s-clock.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cloud",
+    "category": "weather",
+    "className": "aic aic-hero-s-cloud",
+    "fileName": "hero-s-cloud.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cloud-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-cloud-arrow-down",
+    "fileName": "hero-s-cloud-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cloud-arrow-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-cloud-arrow-up",
+    "fileName": "hero-s-cloud-arrow-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "code-bracket",
+    "category": "editing",
+    "className": "aic aic-hero-s-code-bracket",
+    "fileName": "hero-s-code-bracket.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "code-bracket-square",
+    "category": "editing",
+    "className": "aic aic-hero-s-code-bracket-square",
+    "fileName": "hero-s-code-bracket-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cog",
+    "category": "ui",
+    "className": "aic aic-hero-s-cog",
+    "fileName": "hero-s-cog.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cog-6-tooth",
+    "category": "ui",
+    "className": "aic aic-hero-s-cog-6-tooth",
+    "fileName": "hero-s-cog-6-tooth.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cog-8-tooth",
+    "category": "ui",
+    "className": "aic aic-hero-s-cog-8-tooth",
+    "fileName": "hero-s-cog-8-tooth.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "command-line",
+    "category": "ui",
+    "className": "aic aic-hero-s-command-line",
+    "fileName": "hero-s-command-line.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "computer-desktop",
+    "category": "objects",
+    "className": "aic aic-hero-s-computer-desktop",
+    "fileName": "hero-s-computer-desktop.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cpu-chip",
+    "category": "data",
+    "className": "aic aic-hero-s-cpu-chip",
+    "fileName": "hero-s-cpu-chip.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "credit-card",
+    "category": "objects",
+    "className": "aic aic-hero-s-credit-card",
+    "fileName": "hero-s-credit-card.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cube",
+    "category": "objects",
+    "className": "aic aic-hero-s-cube",
+    "fileName": "hero-s-cube.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cube-transparent",
+    "category": "objects",
+    "className": "aic aic-hero-s-cube-transparent",
+    "fileName": "hero-s-cube-transparent.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "currency-bangladeshi",
+    "category": "objects",
+    "className": "aic aic-hero-s-currency-bangladeshi",
+    "fileName": "hero-s-currency-bangladeshi.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "currency-dollar",
+    "category": "objects",
+    "className": "aic aic-hero-s-currency-dollar",
+    "fileName": "hero-s-currency-dollar.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "currency-euro",
+    "category": "objects",
+    "className": "aic aic-hero-s-currency-euro",
+    "fileName": "hero-s-currency-euro.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "currency-pound",
+    "category": "objects",
+    "className": "aic aic-hero-s-currency-pound",
+    "fileName": "hero-s-currency-pound.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "currency-rupee",
+    "category": "objects",
+    "className": "aic aic-hero-s-currency-rupee",
+    "fileName": "hero-s-currency-rupee.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "currency-yen",
+    "category": "objects",
+    "className": "aic aic-hero-s-currency-yen",
+    "fileName": "hero-s-currency-yen.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cursor-arrow-rays",
+    "category": "arrows",
+    "className": "aic aic-hero-s-cursor-arrow-rays",
+    "fileName": "hero-s-cursor-arrow-rays.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "cursor-arrow-ripple",
+    "category": "arrows",
+    "className": "aic aic-hero-s-cursor-arrow-ripple",
+    "fileName": "hero-s-cursor-arrow-ripple.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "device-phone-mobile",
+    "category": "communication",
+    "className": "aic aic-hero-s-device-phone-mobile",
+    "fileName": "hero-s-device-phone-mobile.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "device-tablet",
+    "category": "data",
+    "className": "aic aic-hero-s-device-tablet",
+    "fileName": "hero-s-device-tablet.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "divide",
+    "category": "objects",
+    "className": "aic aic-hero-s-divide",
+    "fileName": "hero-s-divide.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document",
+    "category": "files",
+    "className": "aic aic-hero-s-document",
+    "fileName": "hero-s-document.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-document-arrow-down",
+    "fileName": "hero-s-document-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-arrow-up",
+    "category": "arrows",
+    "className": "aic aic-hero-s-document-arrow-up",
+    "fileName": "hero-s-document-arrow-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-chart-bar",
+    "category": "files",
+    "className": "aic aic-hero-s-document-chart-bar",
+    "fileName": "hero-s-document-chart-bar.svg",
+    "animation": "bar"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-check",
+    "category": "files",
+    "className": "aic aic-hero-s-document-check",
+    "fileName": "hero-s-document-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-currency-bangladeshi",
+    "category": "files",
+    "className": "aic aic-hero-s-document-currency-bangladeshi",
+    "fileName": "hero-s-document-currency-bangladeshi.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-currency-dollar",
+    "category": "files",
+    "className": "aic aic-hero-s-document-currency-dollar",
+    "fileName": "hero-s-document-currency-dollar.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-currency-euro",
+    "category": "files",
+    "className": "aic aic-hero-s-document-currency-euro",
+    "fileName": "hero-s-document-currency-euro.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-currency-pound",
+    "category": "files",
+    "className": "aic aic-hero-s-document-currency-pound",
+    "fileName": "hero-s-document-currency-pound.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-currency-rupee",
+    "category": "files",
+    "className": "aic aic-hero-s-document-currency-rupee",
+    "fileName": "hero-s-document-currency-rupee.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-currency-yen",
+    "category": "files",
+    "className": "aic aic-hero-s-document-currency-yen",
+    "fileName": "hero-s-document-currency-yen.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-duplicate",
+    "category": "files",
+    "className": "aic aic-hero-s-document-duplicate",
+    "fileName": "hero-s-document-duplicate.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-magnifying-glass",
+    "category": "files",
+    "className": "aic aic-hero-s-document-magnifying-glass",
+    "fileName": "hero-s-document-magnifying-glass.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-minus",
+    "category": "files",
+    "className": "aic aic-hero-s-document-minus",
+    "fileName": "hero-s-document-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-plus",
+    "category": "files",
+    "className": "aic aic-hero-s-document-plus",
+    "fileName": "hero-s-document-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "document-text",
+    "category": "files",
+    "className": "aic aic-hero-s-document-text",
+    "fileName": "hero-s-document-text.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "ellipsis-horizontal",
+    "category": "ui",
+    "className": "aic aic-hero-s-ellipsis-horizontal",
+    "fileName": "hero-s-ellipsis-horizontal.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "ellipsis-horizontal-circle",
+    "category": "ui",
+    "className": "aic aic-hero-s-ellipsis-horizontal-circle",
+    "fileName": "hero-s-ellipsis-horizontal-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "ellipsis-vertical",
+    "category": "ui",
+    "className": "aic aic-hero-s-ellipsis-vertical",
+    "fileName": "hero-s-ellipsis-vertical.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "envelope",
+    "category": "communication",
+    "className": "aic aic-hero-s-envelope",
+    "fileName": "hero-s-envelope.svg",
+    "animation": "mail-flap"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "envelope-open",
+    "category": "communication",
+    "className": "aic aic-hero-s-envelope-open",
+    "fileName": "hero-s-envelope-open.svg",
+    "animation": "mail-flap"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "equals",
+    "category": "objects",
+    "className": "aic aic-hero-s-equals",
+    "fileName": "hero-s-equals.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "exclamation-circle",
+    "category": "objects",
+    "className": "aic aic-hero-s-exclamation-circle",
+    "fileName": "hero-s-exclamation-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "exclamation-triangle",
+    "category": "objects",
+    "className": "aic aic-hero-s-exclamation-triangle",
+    "fileName": "hero-s-exclamation-triangle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "eye",
+    "category": "objects",
+    "className": "aic aic-hero-s-eye",
+    "fileName": "hero-s-eye.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "eye-dropper",
+    "category": "objects",
+    "className": "aic aic-hero-s-eye-dropper",
+    "fileName": "hero-s-eye-dropper.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "eye-slash",
+    "category": "security",
+    "className": "aic aic-hero-s-eye-slash",
+    "fileName": "hero-s-eye-slash.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "face-frown",
+    "category": "people",
+    "className": "aic aic-hero-s-face-frown",
+    "fileName": "hero-s-face-frown.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "face-smile",
+    "category": "people",
+    "className": "aic aic-hero-s-face-smile",
+    "fileName": "hero-s-face-smile.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "film",
+    "category": "media",
+    "className": "aic aic-hero-s-film",
+    "fileName": "hero-s-film.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "finger-print",
+    "category": "files",
+    "className": "aic aic-hero-s-finger-print",
+    "fileName": "hero-s-finger-print.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "fire",
+    "category": "objects",
+    "className": "aic aic-hero-s-fire",
+    "fileName": "hero-s-fire.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "flag",
+    "category": "objects",
+    "className": "aic aic-hero-s-flag",
+    "fileName": "hero-s-flag.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "folder",
+    "category": "files",
+    "className": "aic aic-hero-s-folder",
+    "fileName": "hero-s-folder.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "folder-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-folder-arrow-down",
+    "fileName": "hero-s-folder-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "folder-minus",
+    "category": "files",
+    "className": "aic aic-hero-s-folder-minus",
+    "fileName": "hero-s-folder-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "folder-open",
+    "category": "files",
+    "className": "aic aic-hero-s-folder-open",
+    "fileName": "hero-s-folder-open.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "folder-plus",
+    "category": "files",
+    "className": "aic aic-hero-s-folder-plus",
+    "fileName": "hero-s-folder-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "forward",
+    "category": "arrows",
+    "className": "aic aic-hero-s-forward",
+    "fileName": "hero-s-forward.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "funnel",
+    "category": "objects",
+    "className": "aic aic-hero-s-funnel",
+    "fileName": "hero-s-funnel.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "gif",
+    "category": "objects",
+    "className": "aic aic-hero-s-gif",
+    "fileName": "hero-s-gif.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "gift",
+    "category": "objects",
+    "className": "aic aic-hero-s-gift",
+    "fileName": "hero-s-gift.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "gift-top",
+    "category": "objects",
+    "className": "aic aic-hero-s-gift-top",
+    "fileName": "hero-s-gift-top.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "globe-alt",
+    "category": "navigation",
+    "className": "aic aic-hero-s-globe-alt",
+    "fileName": "hero-s-globe-alt.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "globe-americas",
+    "category": "navigation",
+    "className": "aic aic-hero-s-globe-americas",
+    "fileName": "hero-s-globe-americas.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "globe-asia-australia",
+    "category": "navigation",
+    "className": "aic aic-hero-s-globe-asia-australia",
+    "fileName": "hero-s-globe-asia-australia.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "globe-europe-africa",
+    "category": "navigation",
+    "className": "aic aic-hero-s-globe-europe-africa",
+    "fileName": "hero-s-globe-europe-africa.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "h1",
+    "category": "objects",
+    "className": "aic aic-hero-s-h1",
+    "fileName": "hero-s-h1.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "h2",
+    "category": "objects",
+    "className": "aic aic-hero-s-h2",
+    "fileName": "hero-s-h2.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "h3",
+    "category": "objects",
+    "className": "aic aic-hero-s-h3",
+    "fileName": "hero-s-h3.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "hand-raised",
+    "category": "people",
+    "className": "aic aic-hero-s-hand-raised",
+    "fileName": "hero-s-hand-raised.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "hand-thumb-down",
+    "category": "people",
+    "className": "aic aic-hero-s-hand-thumb-down",
+    "fileName": "hero-s-hand-thumb-down.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "hand-thumb-up",
+    "category": "people",
+    "className": "aic aic-hero-s-hand-thumb-up",
+    "fileName": "hero-s-hand-thumb-up.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "hashtag",
+    "category": "objects",
+    "className": "aic aic-hero-s-hashtag",
+    "fileName": "hero-s-hashtag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "heart",
+    "category": "status",
+    "className": "aic aic-hero-s-heart",
+    "fileName": "hero-s-heart.svg",
+    "animation": "heart-beat"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "home",
+    "category": "ui",
+    "className": "aic aic-hero-s-home",
+    "fileName": "hero-s-home.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "home-modern",
+    "category": "ui",
+    "className": "aic aic-hero-s-home-modern",
+    "fileName": "hero-s-home-modern.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "identification",
+    "category": "objects",
+    "className": "aic aic-hero-s-identification",
+    "fileName": "hero-s-identification.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "inbox",
+    "category": "objects",
+    "className": "aic aic-hero-s-inbox",
+    "fileName": "hero-s-inbox.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "inbox-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-hero-s-inbox-arrow-down",
+    "fileName": "hero-s-inbox-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "inbox-stack",
+    "category": "status",
+    "className": "aic aic-hero-s-inbox-stack",
+    "fileName": "hero-s-inbox-stack.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "information-circle",
+    "category": "status",
+    "className": "aic aic-hero-s-information-circle",
+    "fileName": "hero-s-information-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "italic",
+    "category": "editing",
+    "className": "aic aic-hero-s-italic",
+    "fileName": "hero-s-italic.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "key",
+    "category": "objects",
+    "className": "aic aic-hero-s-key",
+    "fileName": "hero-s-key.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "language",
+    "category": "objects",
+    "className": "aic aic-hero-s-language",
+    "fileName": "hero-s-language.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "lifebuoy",
+    "category": "objects",
+    "className": "aic aic-hero-s-lifebuoy",
+    "fileName": "hero-s-lifebuoy.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "light-bulb",
+    "category": "objects",
+    "className": "aic aic-hero-s-light-bulb",
+    "fileName": "hero-s-light-bulb.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "link",
+    "category": "objects",
+    "className": "aic aic-hero-s-link",
+    "fileName": "hero-s-link.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "link-slash",
+    "category": "objects",
+    "className": "aic aic-hero-s-link-slash",
+    "fileName": "hero-s-link-slash.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "list-bullet",
+    "category": "editing",
+    "className": "aic aic-hero-s-list-bullet",
+    "fileName": "hero-s-list-bullet.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "lock-closed",
+    "category": "objects",
+    "className": "aic aic-hero-s-lock-closed",
+    "fileName": "hero-s-lock-closed.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "lock-open",
+    "category": "objects",
+    "className": "aic aic-hero-s-lock-open",
+    "fileName": "hero-s-lock-open.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "magnifying-glass",
+    "category": "ui",
+    "className": "aic aic-hero-s-magnifying-glass",
+    "fileName": "hero-s-magnifying-glass.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "magnifying-glass-circle",
+    "category": "ui",
+    "className": "aic aic-hero-s-magnifying-glass-circle",
+    "fileName": "hero-s-magnifying-glass-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "magnifying-glass-minus",
+    "category": "ui",
+    "className": "aic aic-hero-s-magnifying-glass-minus",
+    "fileName": "hero-s-magnifying-glass-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "magnifying-glass-plus",
+    "category": "ui",
+    "className": "aic aic-hero-s-magnifying-glass-plus",
+    "fileName": "hero-s-magnifying-glass-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "map",
+    "category": "navigation",
+    "className": "aic aic-hero-s-map",
+    "fileName": "hero-s-map.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "map-pin",
+    "category": "navigation",
+    "className": "aic aic-hero-s-map-pin",
+    "fileName": "hero-s-map-pin.svg",
+    "animation": "dot-appear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "megaphone",
+    "category": "communication",
+    "className": "aic aic-hero-s-megaphone",
+    "fileName": "hero-s-megaphone.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "microphone",
+    "category": "communication",
+    "className": "aic aic-hero-s-microphone",
+    "fileName": "hero-s-microphone.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "minus",
+    "category": "status",
+    "className": "aic aic-hero-s-minus",
+    "fileName": "hero-s-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "minus-circle",
+    "category": "status",
+    "className": "aic aic-hero-s-minus-circle",
+    "fileName": "hero-s-minus-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "minus-small",
+    "category": "status",
+    "className": "aic aic-hero-s-minus-small",
+    "fileName": "hero-s-minus-small.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "moon",
+    "category": "weather",
+    "className": "aic aic-hero-s-moon",
+    "fileName": "hero-s-moon.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "musical-note",
+    "category": "media",
+    "className": "aic aic-hero-s-musical-note",
+    "fileName": "hero-s-musical-note.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "newspaper",
+    "category": "files",
+    "className": "aic aic-hero-s-newspaper",
+    "fileName": "hero-s-newspaper.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "no-symbol",
+    "category": "objects",
+    "className": "aic aic-hero-s-no-symbol",
+    "fileName": "hero-s-no-symbol.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "numbered-list",
+    "category": "editing",
+    "className": "aic aic-hero-s-numbered-list",
+    "fileName": "hero-s-numbered-list.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "paint-brush",
+    "category": "objects",
+    "className": "aic aic-hero-s-paint-brush",
+    "fileName": "hero-s-paint-brush.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "paper-airplane",
+    "category": "files",
+    "className": "aic aic-hero-s-paper-airplane",
+    "fileName": "hero-s-paper-airplane.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "paper-clip",
+    "category": "files",
+    "className": "aic aic-hero-s-paper-clip",
+    "fileName": "hero-s-paper-clip.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "pause",
+    "category": "media",
+    "className": "aic aic-hero-s-pause",
+    "fileName": "hero-s-pause.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "pause-circle",
+    "category": "media",
+    "className": "aic aic-hero-s-pause-circle",
+    "fileName": "hero-s-pause-circle.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "pencil",
+    "category": "objects",
+    "className": "aic aic-hero-s-pencil",
+    "fileName": "hero-s-pencil.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "pencil-square",
+    "category": "objects",
+    "className": "aic aic-hero-s-pencil-square",
+    "fileName": "hero-s-pencil-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "percent-badge",
+    "category": "status",
+    "className": "aic aic-hero-s-percent-badge",
+    "fileName": "hero-s-percent-badge.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "phone",
+    "category": "communication",
+    "className": "aic aic-hero-s-phone",
+    "fileName": "hero-s-phone.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "phone-arrow-down-left",
+    "category": "arrows",
+    "className": "aic aic-hero-s-phone-arrow-down-left",
+    "fileName": "hero-s-phone-arrow-down-left.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "phone-arrow-up-right",
+    "category": "arrows",
+    "className": "aic aic-hero-s-phone-arrow-up-right",
+    "fileName": "hero-s-phone-arrow-up-right.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "phone-x-mark",
+    "category": "communication",
+    "className": "aic aic-hero-s-phone-x-mark",
+    "fileName": "hero-s-phone-x-mark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "photo",
+    "category": "media",
+    "className": "aic aic-hero-s-photo",
+    "fileName": "hero-s-photo.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "play",
+    "category": "media",
+    "className": "aic aic-hero-s-play",
+    "fileName": "hero-s-play.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "play-circle",
+    "category": "media",
+    "className": "aic aic-hero-s-play-circle",
+    "fileName": "hero-s-play-circle.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "play-pause",
+    "category": "media",
+    "className": "aic aic-hero-s-play-pause",
+    "fileName": "hero-s-play-pause.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "plus",
+    "category": "status",
+    "className": "aic aic-hero-s-plus",
+    "fileName": "hero-s-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "plus-circle",
+    "category": "status",
+    "className": "aic aic-hero-s-plus-circle",
+    "fileName": "hero-s-plus-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "plus-small",
+    "category": "status",
+    "className": "aic aic-hero-s-plus-small",
+    "fileName": "hero-s-plus-small.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "power",
+    "category": "objects",
+    "className": "aic aic-hero-s-power",
+    "fileName": "hero-s-power.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "presentation-chart-bar",
+    "category": "data",
+    "className": "aic aic-hero-s-presentation-chart-bar",
+    "fileName": "hero-s-presentation-chart-bar.svg",
+    "animation": "bar"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "presentation-chart-line",
+    "category": "data",
+    "className": "aic aic-hero-s-presentation-chart-line",
+    "fileName": "hero-s-presentation-chart-line.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "printer",
+    "category": "files",
+    "className": "aic aic-hero-s-printer",
+    "fileName": "hero-s-printer.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "puzzle-piece",
+    "category": "data",
+    "className": "aic aic-hero-s-puzzle-piece",
+    "fileName": "hero-s-puzzle-piece.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "qr-code",
+    "category": "editing",
+    "className": "aic aic-hero-s-qr-code",
+    "fileName": "hero-s-qr-code.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "question-mark-circle",
+    "category": "status",
+    "className": "aic aic-hero-s-question-mark-circle",
+    "fileName": "hero-s-question-mark-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "queue-list",
+    "category": "editing",
+    "className": "aic aic-hero-s-queue-list",
+    "fileName": "hero-s-queue-list.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "radio",
+    "category": "media",
+    "className": "aic aic-hero-s-radio",
+    "fileName": "hero-s-radio.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "receipt-percent",
+    "category": "files",
+    "className": "aic aic-hero-s-receipt-percent",
+    "fileName": "hero-s-receipt-percent.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "receipt-refund",
+    "category": "files",
+    "className": "aic aic-hero-s-receipt-refund",
+    "fileName": "hero-s-receipt-refund.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "rectangle-group",
+    "category": "people",
+    "className": "aic aic-hero-s-rectangle-group",
+    "fileName": "hero-s-rectangle-group.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "rectangle-stack",
+    "category": "objects",
+    "className": "aic aic-hero-s-rectangle-stack",
+    "fileName": "hero-s-rectangle-stack.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "rocket-launch",
+    "category": "objects",
+    "className": "aic aic-hero-s-rocket-launch",
+    "fileName": "hero-s-rocket-launch.svg",
+    "animation": "rocket-lift"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "rss",
+    "category": "communication",
+    "className": "aic aic-hero-s-rss",
+    "fileName": "hero-s-rss.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "scale",
+    "category": "objects",
+    "className": "aic aic-hero-s-scale",
+    "fileName": "hero-s-scale.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "scissors",
+    "category": "objects",
+    "className": "aic aic-hero-s-scissors",
+    "fileName": "hero-s-scissors.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "server",
+    "category": "data",
+    "className": "aic aic-hero-s-server",
+    "fileName": "hero-s-server.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "server-stack",
+    "category": "data",
+    "className": "aic aic-hero-s-server-stack",
+    "fileName": "hero-s-server-stack.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "share",
+    "category": "communication",
+    "className": "aic aic-hero-s-share",
+    "fileName": "hero-s-share.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "shield-check",
+    "category": "status",
+    "className": "aic aic-hero-s-shield-check",
+    "fileName": "hero-s-shield-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "shield-exclamation",
+    "category": "security",
+    "className": "aic aic-hero-s-shield-exclamation",
+    "fileName": "hero-s-shield-exclamation.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "shopping-bag",
+    "category": "objects",
+    "className": "aic aic-hero-s-shopping-bag",
+    "fileName": "hero-s-shopping-bag.svg",
+    "animation": "dot-appear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "shopping-cart",
+    "category": "objects",
+    "className": "aic aic-hero-s-shopping-cart",
+    "fileName": "hero-s-shopping-cart.svg",
+    "animation": "dot-appear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "signal",
+    "category": "data",
+    "className": "aic aic-hero-s-signal",
+    "fileName": "hero-s-signal.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "signal-slash",
+    "category": "data",
+    "className": "aic aic-hero-s-signal-slash",
+    "fileName": "hero-s-signal-slash.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "slash",
+    "category": "objects",
+    "className": "aic aic-hero-s-slash",
+    "fileName": "hero-s-slash.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "sparkles",
+    "category": "objects",
+    "className": "aic aic-hero-s-sparkles",
+    "fileName": "hero-s-sparkles.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "speaker-wave",
+    "category": "media",
+    "className": "aic aic-hero-s-speaker-wave",
+    "fileName": "hero-s-speaker-wave.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "speaker-x-mark",
+    "category": "media",
+    "className": "aic aic-hero-s-speaker-x-mark",
+    "fileName": "hero-s-speaker-x-mark.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "square-2-stack",
+    "category": "objects",
+    "className": "aic aic-hero-s-square-2-stack",
+    "fileName": "hero-s-square-2-stack.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "square-3-stack-3d",
+    "category": "objects",
+    "className": "aic aic-hero-s-square-3-stack-3d",
+    "fileName": "hero-s-square-3-stack-3d.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "squares-2x2",
+    "category": "objects",
+    "className": "aic aic-hero-s-squares-2x2",
+    "fileName": "hero-s-squares-2x2.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "squares-plus",
+    "category": "status",
+    "className": "aic aic-hero-s-squares-plus",
+    "fileName": "hero-s-squares-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "star",
+    "category": "status",
+    "className": "aic aic-hero-s-star",
+    "fileName": "hero-s-star.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "stop",
+    "category": "media",
+    "className": "aic aic-hero-s-stop",
+    "fileName": "hero-s-stop.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "stop-circle",
+    "category": "media",
+    "className": "aic aic-hero-s-stop-circle",
+    "fileName": "hero-s-stop-circle.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "strikethrough",
+    "category": "editing",
+    "className": "aic aic-hero-s-strikethrough",
+    "fileName": "hero-s-strikethrough.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "sun",
+    "category": "weather",
+    "className": "aic aic-hero-s-sun",
+    "fileName": "hero-s-sun.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "swatch",
+    "category": "objects",
+    "className": "aic aic-hero-s-swatch",
+    "fileName": "hero-s-swatch.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "table-cells",
+    "category": "data",
+    "className": "aic aic-hero-s-table-cells",
+    "fileName": "hero-s-table-cells.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "tag",
+    "category": "objects",
+    "className": "aic aic-hero-s-tag",
+    "fileName": "hero-s-tag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "ticket",
+    "category": "objects",
+    "className": "aic aic-hero-s-ticket",
+    "fileName": "hero-s-ticket.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "trash",
+    "category": "objects",
+    "className": "aic aic-hero-s-trash",
+    "fileName": "hero-s-trash.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "trophy",
+    "category": "objects",
+    "className": "aic aic-hero-s-trophy",
+    "fileName": "hero-s-trophy.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "truck",
+    "category": "objects",
+    "className": "aic aic-hero-s-truck",
+    "fileName": "hero-s-truck.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "tv",
+    "category": "objects",
+    "className": "aic aic-hero-s-tv",
+    "fileName": "hero-s-tv.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "underline",
+    "category": "editing",
+    "className": "aic aic-hero-s-underline",
+    "fileName": "hero-s-underline.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "user",
+    "category": "people",
+    "className": "aic aic-hero-s-user",
+    "fileName": "hero-s-user.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "user-circle",
+    "category": "people",
+    "className": "aic aic-hero-s-user-circle",
+    "fileName": "hero-s-user-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "user-group",
+    "category": "people",
+    "className": "aic aic-hero-s-user-group",
+    "fileName": "hero-s-user-group.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "user-minus",
+    "category": "status",
+    "className": "aic aic-hero-s-user-minus",
+    "fileName": "hero-s-user-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "user-plus",
+    "category": "status",
+    "className": "aic aic-hero-s-user-plus",
+    "fileName": "hero-s-user-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "users",
+    "category": "people",
+    "className": "aic aic-hero-s-users",
+    "fileName": "hero-s-users.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "variable",
+    "category": "objects",
+    "className": "aic aic-hero-s-variable",
+    "fileName": "hero-s-variable.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "video-camera",
+    "category": "media",
+    "className": "aic aic-hero-s-video-camera",
+    "fileName": "hero-s-video-camera.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "video-camera-slash",
+    "category": "media",
+    "className": "aic aic-hero-s-video-camera-slash",
+    "fileName": "hero-s-video-camera-slash.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "view-columns",
+    "category": "objects",
+    "className": "aic aic-hero-s-view-columns",
+    "fileName": "hero-s-view-columns.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "viewfinder-circle",
+    "category": "objects",
+    "className": "aic aic-hero-s-viewfinder-circle",
+    "fileName": "hero-s-viewfinder-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "wallet",
+    "category": "objects",
+    "className": "aic aic-hero-s-wallet",
+    "fileName": "hero-s-wallet.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "wifi",
+    "category": "data",
+    "className": "aic aic-hero-s-wifi",
+    "fileName": "hero-s-wifi.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "window",
+    "category": "ui",
+    "className": "aic aic-hero-s-window",
+    "fileName": "hero-s-window.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "wrench",
+    "category": "objects",
+    "className": "aic aic-hero-s-wrench",
+    "fileName": "hero-s-wrench.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "wrench-screwdriver",
+    "category": "objects",
+    "className": "aic aic-hero-s-wrench-screwdriver",
+    "fileName": "hero-s-wrench-screwdriver.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "x-circle",
+    "category": "status",
+    "className": "aic aic-hero-s-x-circle",
+    "fileName": "hero-s-x-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "heroicons-solid",
+    "name": "x-mark",
+    "category": "status",
+    "className": "aic aic-hero-s-x-mark",
+    "fileName": "hero-s-x-mark.svg",
+    "animation": "scale-pop"
+  },
+  {
     "source": "heroicons",
     "name": "academic-cap",
     "category": "objects",
@@ -2589,6 +5181,2310 @@
     "category": "status",
     "className": "aic aic-hero-x-mark",
     "fileName": "hero-x-mark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "adobe-after-effects",
+    "category": "objects",
+    "className": "aic aic-io-s-adobe-after-effects",
+    "fileName": "io-s-adobe-after-effects.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "adobe-illustrator",
+    "category": "objects",
+    "className": "aic aic-io-s-adobe-illustrator",
+    "fileName": "io-s-adobe-illustrator.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "adobe-indesign",
+    "category": "objects",
+    "className": "aic aic-io-s-adobe-indesign",
+    "fileName": "io-s-adobe-indesign.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "adobe-lightroom",
+    "category": "objects",
+    "className": "aic aic-io-s-adobe-lightroom",
+    "fileName": "io-s-adobe-lightroom.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "adobe-photoshop",
+    "category": "media",
+    "className": "aic aic-io-s-adobe-photoshop",
+    "fileName": "io-s-adobe-photoshop.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "adobe-xd",
+    "category": "objects",
+    "className": "aic aic-io-s-adobe-xd",
+    "fileName": "io-s-adobe-xd.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "airplay",
+    "category": "media",
+    "className": "aic aic-io-s-airplay",
+    "fileName": "io-s-airplay.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "alarm",
+    "category": "objects",
+    "className": "aic aic-io-s-alarm",
+    "fileName": "io-s-alarm.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-bottom-box",
+    "category": "objects",
+    "className": "aic aic-io-s-align-bottom-box",
+    "fileName": "io-s-align-bottom-box.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-horizontal-centers",
+    "category": "editing",
+    "className": "aic aic-io-s-align-horizontal-centers",
+    "fileName": "io-s-align-horizontal-centers.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-horizontal-spacing",
+    "category": "editing",
+    "className": "aic aic-io-s-align-horizontal-spacing",
+    "fileName": "io-s-align-horizontal-spacing.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-left-box",
+    "category": "objects",
+    "className": "aic aic-io-s-align-left-box",
+    "fileName": "io-s-align-left-box.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-right-box",
+    "category": "objects",
+    "className": "aic aic-io-s-align-right-box",
+    "fileName": "io-s-align-right-box.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-top-box",
+    "category": "objects",
+    "className": "aic aic-io-s-align-top-box",
+    "fileName": "io-s-align-top-box.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-vertical-centers",
+    "category": "editing",
+    "className": "aic aic-io-s-align-vertical-centers",
+    "fileName": "io-s-align-vertical-centers.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "align-vertical-spacing",
+    "category": "editing",
+    "className": "aic aic-io-s-align-vertical-spacing",
+    "fileName": "io-s-align-vertical-spacing.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "app-notification",
+    "category": "ui",
+    "className": "aic aic-io-s-app-notification",
+    "fileName": "io-s-app-notification.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "app-store",
+    "category": "ui",
+    "className": "aic aic-io-s-app-store",
+    "fileName": "io-s-app-store.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "apple-shortcuts",
+    "category": "ui",
+    "className": "aic aic-io-s-apple-shortcuts",
+    "fileName": "io-s-apple-shortcuts.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-down-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-down-circle",
+    "fileName": "io-s-arrow-down-circle.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-down-left-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-down-left-circle",
+    "fileName": "io-s-arrow-down-left-circle.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-down-left-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-down-left-square",
+    "fileName": "io-s-arrow-down-left-square.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-down-right-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-down-right-circle",
+    "fileName": "io-s-arrow-down-right-circle.svg",
+    "animation": "nudge-right-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-down-right-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-down-right-square",
+    "fileName": "io-s-arrow-down-right-square.svg",
+    "animation": "nudge-right-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-left-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-left-circle",
+    "fileName": "io-s-arrow-left-circle.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-left-tag",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-left-tag",
+    "fileName": "io-s-arrow-left-tag.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-right-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-right-circle",
+    "fileName": "io-s-arrow-right-circle.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-right-tag",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-right-tag",
+    "fileName": "io-s-arrow-right-tag.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-up-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-up-circle",
+    "fileName": "io-s-arrow-up-circle.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-up-left-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-up-left-circle",
+    "fileName": "io-s-arrow-up-left-circle.svg",
+    "animation": "nudge-left-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-up-left-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-up-left-square",
+    "fileName": "io-s-arrow-up-left-square.svg",
+    "animation": "nudge-left-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-up-right-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-up-right-circle",
+    "fileName": "io-s-arrow-up-right-circle.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "arrow-up-right-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-arrow-up-right-square",
+    "fileName": "io-s-arrow-up-right-square.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bathroom",
+    "category": "objects",
+    "className": "aic aic-io-s-bathroom",
+    "fileName": "io-s-bathroom.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bell-notification",
+    "category": "status",
+    "className": "aic aic-io-s-bell-notification",
+    "fileName": "io-s-bell-notification.svg",
+    "animation": "bell-ring"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bitcoin-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-bitcoin-circle",
+    "fileName": "io-s-bitcoin-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bluetooth-tag",
+    "category": "objects",
+    "className": "aic aic-io-s-bluetooth-tag",
+    "fileName": "io-s-bluetooth-tag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bold-square",
+    "category": "editing",
+    "className": "aic aic-io-s-bold-square",
+    "fileName": "io-s-bold-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "book",
+    "category": "files",
+    "className": "aic aic-io-s-book",
+    "fileName": "io-s-book.svg",
+    "animation": "page-turn"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bookmark",
+    "category": "files",
+    "className": "aic aic-io-s-bookmark",
+    "fileName": "io-s-bookmark.svg",
+    "animation": "page-turn"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bookmark-circle",
+    "category": "files",
+    "className": "aic aic-io-s-bookmark-circle",
+    "fileName": "io-s-bookmark-circle.svg",
+    "animation": "page-turn"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bubble-search",
+    "category": "communication",
+    "className": "aic aic-io-s-bubble-search",
+    "fileName": "io-s-bubble-search.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bubble-xmark",
+    "category": "communication",
+    "className": "aic aic-io-s-bubble-xmark",
+    "fileName": "io-s-bubble-xmark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "bug",
+    "category": "development",
+    "className": "aic aic-io-s-bug",
+    "fileName": "io-s-bug.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "cable-tag",
+    "category": "objects",
+    "className": "aic aic-io-s-cable-tag",
+    "fileName": "io-s-cable-tag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "calendar-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-io-s-calendar-arrow-down",
+    "fileName": "io-s-calendar-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "calendar-arrow-up",
+    "category": "arrows",
+    "className": "aic aic-io-s-calendar-arrow-up",
+    "fileName": "io-s-calendar-arrow-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "calendar-check",
+    "category": "status",
+    "className": "aic aic-io-s-calendar-check",
+    "fileName": "io-s-calendar-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "calendar-minus",
+    "category": "status",
+    "className": "aic aic-io-s-calendar-minus",
+    "fileName": "io-s-calendar-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "calendar-plus",
+    "category": "status",
+    "className": "aic aic-io-s-calendar-plus",
+    "fileName": "io-s-calendar-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "calendar-rotate",
+    "category": "objects",
+    "className": "aic aic-io-s-calendar-rotate",
+    "fileName": "io-s-calendar-rotate.svg",
+    "animation": "spin"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "calendar-xmark",
+    "category": "status",
+    "className": "aic aic-io-s-calendar-xmark",
+    "fileName": "io-s-calendar-xmark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "camera",
+    "category": "media",
+    "className": "aic aic-io-s-camera",
+    "fileName": "io-s-camera.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "cash",
+    "category": "objects",
+    "className": "aic aic-io-s-cash",
+    "fileName": "io-s-cash.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "center-align",
+    "category": "editing",
+    "className": "aic aic-io-s-center-align",
+    "fileName": "io-s-center-align.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-bubble",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-bubble",
+    "fileName": "io-s-chat-bubble.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-bubble-check",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-bubble-check",
+    "fileName": "io-s-chat-bubble-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-bubble-empty",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-bubble-empty",
+    "fileName": "io-s-chat-bubble-empty.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-bubble-question",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-bubble-question",
+    "fileName": "io-s-chat-bubble-question.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-bubble-translate",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-bubble-translate",
+    "fileName": "io-s-chat-bubble-translate.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-bubble-warning",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-bubble-warning",
+    "fileName": "io-s-chat-bubble-warning.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-bubble-xmark",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-bubble-xmark",
+    "fileName": "io-s-chat-bubble-xmark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-lines",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-lines",
+    "fileName": "io-s-chat-lines.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-minus-in",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-minus-in",
+    "fileName": "io-s-chat-minus-in.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "chat-plus-in",
+    "category": "communication",
+    "className": "aic aic-io-s-chat-plus-in",
+    "fileName": "io-s-chat-plus-in.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "check-circle",
+    "category": "status",
+    "className": "aic aic-io-s-check-circle",
+    "fileName": "io-s-check-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "check-square",
+    "category": "status",
+    "className": "aic aic-io-s-check-square",
+    "fileName": "io-s-check-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "clock",
+    "category": "objects",
+    "className": "aic aic-io-s-clock",
+    "fileName": "io-s-clock.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "closed-captions-tag",
+    "category": "objects",
+    "className": "aic aic-io-s-closed-captions-tag",
+    "fileName": "io-s-closed-captions-tag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "cloud-square",
+    "category": "weather",
+    "className": "aic aic-io-s-cloud-square",
+    "fileName": "io-s-cloud-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "comp-align-bottom",
+    "category": "editing",
+    "className": "aic aic-io-s-comp-align-bottom",
+    "fileName": "io-s-comp-align-bottom.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "comp-align-left",
+    "category": "editing",
+    "className": "aic aic-io-s-comp-align-left",
+    "fileName": "io-s-comp-align-left.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "comp-align-right",
+    "category": "editing",
+    "className": "aic aic-io-s-comp-align-right",
+    "fileName": "io-s-comp-align-right.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "comp-align-top",
+    "category": "editing",
+    "className": "aic aic-io-s-comp-align-top",
+    "fileName": "io-s-comp-align-top.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "compass",
+    "category": "navigation",
+    "className": "aic aic-io-s-compass",
+    "fileName": "io-s-compass.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "component",
+    "category": "development",
+    "className": "aic aic-io-s-component",
+    "fileName": "io-s-component.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "cooling-square",
+    "category": "objects",
+    "className": "aic aic-io-s-cooling-square",
+    "fileName": "io-s-cooling-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "credit-card",
+    "category": "objects",
+    "className": "aic aic-io-s-credit-card",
+    "fileName": "io-s-credit-card.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "cube-dots",
+    "category": "objects",
+    "className": "aic aic-io-s-cube-dots",
+    "fileName": "io-s-cube-dots.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "cube-scan",
+    "category": "objects",
+    "className": "aic aic-io-s-cube-scan",
+    "fileName": "io-s-cube-scan.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "database",
+    "category": "data",
+    "className": "aic aic-io-s-database",
+    "fileName": "io-s-database.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "database-check",
+    "category": "status",
+    "className": "aic aic-io-s-database-check",
+    "fileName": "io-s-database-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "database-tag",
+    "category": "objects",
+    "className": "aic aic-io-s-database-tag",
+    "fileName": "io-s-database-tag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "database-xmark",
+    "category": "status",
+    "className": "aic aic-io-s-database-xmark",
+    "fileName": "io-s-database-xmark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "design-nib",
+    "category": "objects",
+    "className": "aic aic-io-s-design-nib",
+    "fileName": "io-s-design-nib.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "diameter",
+    "category": "objects",
+    "className": "aic aic-io-s-diameter",
+    "fileName": "io-s-diameter.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "divide",
+    "category": "objects",
+    "className": "aic aic-io-s-divide",
+    "fileName": "io-s-divide.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "divide-three",
+    "category": "objects",
+    "className": "aic aic-io-s-divide-three",
+    "fileName": "io-s-divide-three.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "dogecoin-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-dogecoin-circle",
+    "fileName": "io-s-dogecoin-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "dollar-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-dollar-circle",
+    "fileName": "io-s-dollar-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "dots-grid-3x3",
+    "category": "ui",
+    "className": "aic aic-io-s-dots-grid-3x3",
+    "fileName": "io-s-dots-grid-3x3.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "download-circle",
+    "category": "files",
+    "className": "aic aic-io-s-download-circle",
+    "fileName": "io-s-download-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "download-square",
+    "category": "files",
+    "className": "aic aic-io-s-download-square",
+    "fileName": "io-s-download-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "drag",
+    "category": "objects",
+    "className": "aic aic-io-s-drag",
+    "fileName": "io-s-drag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "droplet",
+    "category": "objects",
+    "className": "aic aic-io-s-droplet",
+    "fileName": "io-s-droplet.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "droplet-snow-flake-in",
+    "category": "weather",
+    "className": "aic aic-io-s-droplet-snow-flake-in",
+    "fileName": "io-s-droplet-snow-flake-in.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "erase",
+    "category": "objects",
+    "className": "aic aic-io-s-erase",
+    "fileName": "io-s-erase.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "ethereum-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-ethereum-circle",
+    "fileName": "io-s-ethereum-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "euro-square",
+    "category": "objects",
+    "className": "aic aic-io-s-euro-square",
+    "fileName": "io-s-euro-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "eye",
+    "category": "objects",
+    "className": "aic aic-io-s-eye",
+    "fileName": "io-s-eye.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "facetime",
+    "category": "people",
+    "className": "aic aic-io-s-facetime",
+    "fileName": "io-s-facetime.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "fast-arrow-down-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-fast-arrow-down-square",
+    "fileName": "io-s-fast-arrow-down-square.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "fast-arrow-left-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-fast-arrow-left-square",
+    "fileName": "io-s-fast-arrow-left-square.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "fast-arrow-right-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-fast-arrow-right-square",
+    "fileName": "io-s-fast-arrow-right-square.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "fast-arrow-up-square",
+    "category": "arrows",
+    "className": "aic aic-io-s-fast-arrow-up-square",
+    "fileName": "io-s-fast-arrow-up-square.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "fill-color",
+    "category": "objects",
+    "className": "aic aic-io-s-fill-color",
+    "fileName": "io-s-fill-color.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "filter",
+    "category": "ui",
+    "className": "aic aic-io-s-filter",
+    "fileName": "io-s-filter.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "filter-list-circle",
+    "category": "ui",
+    "className": "aic aic-io-s-filter-list-circle",
+    "fileName": "io-s-filter-list-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "flash",
+    "category": "objects",
+    "className": "aic aic-io-s-flash",
+    "fileName": "io-s-flash.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "flask",
+    "category": "objects",
+    "className": "aic aic-io-s-flask",
+    "fileName": "io-s-flask.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "forward",
+    "category": "arrows",
+    "className": "aic aic-io-s-forward",
+    "fileName": "io-s-forward.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "frame-tool",
+    "category": "objects",
+    "className": "aic aic-io-s-frame-tool",
+    "fileName": "io-s-frame-tool.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "fx-tag",
+    "category": "status",
+    "className": "aic aic-io-s-fx-tag",
+    "fileName": "io-s-fx-tag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "git",
+    "category": "development",
+    "className": "aic aic-io-s-git",
+    "fileName": "io-s-git.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "google-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-google-circle",
+    "fileName": "io-s-google-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "graduation-cap",
+    "category": "objects",
+    "className": "aic aic-io-s-graduation-cap",
+    "fileName": "io-s-graduation-cap.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "hd-display",
+    "category": "media",
+    "className": "aic aic-io-s-hd-display",
+    "fileName": "io-s-hd-display.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "headset",
+    "category": "objects",
+    "className": "aic aic-io-s-headset",
+    "fileName": "io-s-headset.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "headset-bolt",
+    "category": "objects",
+    "className": "aic aic-io-s-headset-bolt",
+    "fileName": "io-s-headset-bolt.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "headset-warning",
+    "category": "status",
+    "className": "aic aic-io-s-headset-warning",
+    "fileName": "io-s-headset-warning.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "heart",
+    "category": "status",
+    "className": "aic aic-io-s-heart",
+    "fileName": "io-s-heart.svg",
+    "animation": "heart-beat"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "heating-square",
+    "category": "objects",
+    "className": "aic aic-io-s-heating-square",
+    "fileName": "io-s-heating-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "help-circle",
+    "category": "status",
+    "className": "aic aic-io-s-help-circle",
+    "fileName": "io-s-help-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "help-square",
+    "category": "status",
+    "className": "aic aic-io-s-help-square",
+    "fileName": "io-s-help-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "horiz-distribution-left",
+    "category": "objects",
+    "className": "aic aic-io-s-horiz-distribution-left",
+    "fileName": "io-s-horiz-distribution-left.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "horiz-distribution-right",
+    "category": "objects",
+    "className": "aic aic-io-s-horiz-distribution-right",
+    "fileName": "io-s-horiz-distribution-right.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "hospital-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-hospital-circle",
+    "fileName": "io-s-hospital-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "ice-cream",
+    "category": "objects",
+    "className": "aic aic-io-s-ice-cream",
+    "fileName": "io-s-ice-cream.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "info-circle",
+    "category": "status",
+    "className": "aic aic-io-s-info-circle",
+    "fileName": "io-s-info-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "italic-square",
+    "category": "editing",
+    "className": "aic aic-io-s-italic-square",
+    "fileName": "io-s-italic-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe",
+    "category": "objects",
+    "className": "aic aic-io-s-keyframe",
+    "fileName": "io-s-keyframe.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-align-center",
+    "category": "objects",
+    "className": "aic aic-io-s-keyframe-align-center",
+    "fileName": "io-s-keyframe-align-center.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-align-horizontal",
+    "category": "objects",
+    "className": "aic aic-io-s-keyframe-align-horizontal",
+    "fileName": "io-s-keyframe-align-horizontal.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-align-vertical",
+    "category": "objects",
+    "className": "aic aic-io-s-keyframe-align-vertical",
+    "fileName": "io-s-keyframe-align-vertical.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-minus",
+    "category": "status",
+    "className": "aic aic-io-s-keyframe-minus",
+    "fileName": "io-s-keyframe-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-minus-in",
+    "category": "status",
+    "className": "aic aic-io-s-keyframe-minus-in",
+    "fileName": "io-s-keyframe-minus-in.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-plus",
+    "category": "status",
+    "className": "aic aic-io-s-keyframe-plus",
+    "fileName": "io-s-keyframe-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-plus-in",
+    "category": "status",
+    "className": "aic aic-io-s-keyframe-plus-in",
+    "fileName": "io-s-keyframe-plus-in.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframe-position",
+    "category": "objects",
+    "className": "aic aic-io-s-keyframe-position",
+    "fileName": "io-s-keyframe-position.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframes",
+    "category": "objects",
+    "className": "aic aic-io-s-keyframes",
+    "fileName": "io-s-keyframes.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "keyframes-couple",
+    "category": "objects",
+    "className": "aic aic-io-s-keyframes-couple",
+    "fileName": "io-s-keyframes-couple.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "label",
+    "category": "objects",
+    "className": "aic aic-io-s-label",
+    "fileName": "io-s-label.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "litecoin-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-litecoin-circle",
+    "fileName": "io-s-litecoin-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-down-left",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-down-left",
+    "fileName": "io-s-long-arrow-down-left.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-down-right",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-down-right",
+    "fileName": "io-s-long-arrow-down-right.svg",
+    "animation": "nudge-right-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-left-down",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-left-down",
+    "fileName": "io-s-long-arrow-left-down.svg",
+    "animation": "nudge-left-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-left-up",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-left-up",
+    "fileName": "io-s-long-arrow-left-up.svg",
+    "animation": "nudge-left-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-right-down",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-right-down",
+    "fileName": "io-s-long-arrow-right-down.svg",
+    "animation": "nudge-right-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-right-up",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-right-up",
+    "fileName": "io-s-long-arrow-right-up.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-up-left",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-up-left",
+    "fileName": "io-s-long-arrow-up-left.svg",
+    "animation": "nudge-left-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "long-arrow-up-right",
+    "category": "arrows",
+    "className": "aic aic-io-s-long-arrow-up-right",
+    "fileName": "io-s-long-arrow-up-right.svg",
+    "animation": "nudge-right-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "magnet",
+    "category": "objects",
+    "className": "aic aic-io-s-magnet",
+    "fileName": "io-s-magnet.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "mail",
+    "category": "communication",
+    "className": "aic aic-io-s-mail",
+    "fileName": "io-s-mail.svg",
+    "animation": "mail-flap"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "mail-in",
+    "category": "communication",
+    "className": "aic aic-io-s-mail-in",
+    "fileName": "io-s-mail-in.svg",
+    "animation": "mail-flap"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "mail-open",
+    "category": "communication",
+    "className": "aic aic-io-s-mail-open",
+    "fileName": "io-s-mail-open.svg",
+    "animation": "mail-flap"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "mail-out",
+    "category": "communication",
+    "className": "aic aic-io-s-mail-out",
+    "fileName": "io-s-mail-out.svg",
+    "animation": "mail-flap"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "medal",
+    "category": "objects",
+    "className": "aic aic-io-s-medal",
+    "fileName": "io-s-medal.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "medal-1st",
+    "category": "objects",
+    "className": "aic aic-io-s-medal-1st",
+    "fileName": "io-s-medal-1st.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "message",
+    "category": "communication",
+    "className": "aic aic-io-s-message",
+    "fileName": "io-s-message.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "message-alert",
+    "category": "communication",
+    "className": "aic aic-io-s-message-alert",
+    "fileName": "io-s-message-alert.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "message-text",
+    "category": "communication",
+    "className": "aic aic-io-s-message-text",
+    "fileName": "io-s-message-text.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microphone",
+    "category": "communication",
+    "className": "aic aic-io-s-microphone",
+    "fileName": "io-s-microphone.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microphone-check",
+    "category": "communication",
+    "className": "aic aic-io-s-microphone-check",
+    "fileName": "io-s-microphone-check.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microphone-minus",
+    "category": "communication",
+    "className": "aic aic-io-s-microphone-minus",
+    "fileName": "io-s-microphone-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microphone-mute",
+    "category": "communication",
+    "className": "aic aic-io-s-microphone-mute",
+    "fileName": "io-s-microphone-mute.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microphone-plus",
+    "category": "communication",
+    "className": "aic aic-io-s-microphone-plus",
+    "fileName": "io-s-microphone-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microphone-speaking",
+    "category": "communication",
+    "className": "aic aic-io-s-microphone-speaking",
+    "fileName": "io-s-microphone-speaking.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microphone-warning",
+    "category": "communication",
+    "className": "aic aic-io-s-microphone-warning",
+    "fileName": "io-s-microphone-warning.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "microscope",
+    "category": "objects",
+    "className": "aic aic-io-s-microscope",
+    "fileName": "io-s-microscope.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "minus-circle",
+    "category": "status",
+    "className": "aic aic-io-s-minus-circle",
+    "fileName": "io-s-minus-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "minus-square",
+    "category": "status",
+    "className": "aic aic-io-s-minus-square",
+    "fileName": "io-s-minus-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "money-square",
+    "category": "objects",
+    "className": "aic aic-io-s-money-square",
+    "fileName": "io-s-money-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "multi-bubble",
+    "category": "communication",
+    "className": "aic aic-io-s-multi-bubble",
+    "fileName": "io-s-multi-bubble.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "music-note",
+    "category": "media",
+    "className": "aic aic-io-s-music-note",
+    "fileName": "io-s-music-note.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "music-note-plus",
+    "category": "media",
+    "className": "aic aic-io-s-music-note-plus",
+    "fileName": "io-s-music-note-plus.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "nav-arrow-down",
+    "category": "arrows",
+    "className": "aic aic-io-s-nav-arrow-down",
+    "fileName": "io-s-nav-arrow-down.svg",
+    "animation": "nudge-down"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "nav-arrow-left",
+    "category": "arrows",
+    "className": "aic aic-io-s-nav-arrow-left",
+    "fileName": "io-s-nav-arrow-left.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "nav-arrow-right",
+    "category": "arrows",
+    "className": "aic aic-io-s-nav-arrow-right",
+    "fileName": "io-s-nav-arrow-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "nav-arrow-up",
+    "category": "arrows",
+    "className": "aic aic-io-s-nav-arrow-up",
+    "fileName": "io-s-nav-arrow-up.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "network",
+    "category": "objects",
+    "className": "aic aic-io-s-network",
+    "fileName": "io-s-network.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "network-left",
+    "category": "objects",
+    "className": "aic aic-io-s-network-left",
+    "fileName": "io-s-network-left.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "network-reverse",
+    "category": "objects",
+    "className": "aic aic-io-s-network-reverse",
+    "fileName": "io-s-network-reverse.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "network-right",
+    "category": "objects",
+    "className": "aic aic-io-s-network-right",
+    "fileName": "io-s-network-right.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-0-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-0-square",
+    "fileName": "io-s-number-0-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-1-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-1-square",
+    "fileName": "io-s-number-1-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-2-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-2-square",
+    "fileName": "io-s-number-2-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-3-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-3-square",
+    "fileName": "io-s-number-3-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-4-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-4-square",
+    "fileName": "io-s-number-4-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-5-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-5-square",
+    "fileName": "io-s-number-5-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-6-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-6-square",
+    "fileName": "io-s-number-6-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-7-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-7-square",
+    "fileName": "io-s-number-7-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-8-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-8-square",
+    "fileName": "io-s-number-8-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "number-9-square",
+    "category": "objects",
+    "className": "aic aic-io-s-number-9-square",
+    "fileName": "io-s-number-9-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "page-down",
+    "category": "files",
+    "className": "aic aic-io-s-page-down",
+    "fileName": "io-s-page-down.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "page-left",
+    "category": "files",
+    "className": "aic aic-io-s-page-left",
+    "fileName": "io-s-page-left.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "page-right",
+    "category": "files",
+    "className": "aic aic-io-s-page-right",
+    "fileName": "io-s-page-right.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "page-up",
+    "category": "files",
+    "className": "aic aic-io-s-page-up",
+    "fileName": "io-s-page-up.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "path-arrow",
+    "category": "arrows",
+    "className": "aic aic-io-s-path-arrow",
+    "fileName": "io-s-path-arrow.svg",
+    "animation": "nudge-up"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "pause",
+    "category": "media",
+    "className": "aic aic-io-s-pause",
+    "fileName": "io-s-pause.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "peerlist",
+    "category": "editing",
+    "className": "aic aic-io-s-peerlist",
+    "fileName": "io-s-peerlist.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "percentage-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-percentage-circle",
+    "fileName": "io-s-percentage-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "percentage-square",
+    "category": "objects",
+    "className": "aic aic-io-s-percentage-square",
+    "fileName": "io-s-percentage-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "phone",
+    "category": "communication",
+    "className": "aic aic-io-s-phone",
+    "fileName": "io-s-phone.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "phone-income",
+    "category": "communication",
+    "className": "aic aic-io-s-phone-income",
+    "fileName": "io-s-phone-income.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "phone-minus",
+    "category": "communication",
+    "className": "aic aic-io-s-phone-minus",
+    "fileName": "io-s-phone-minus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "phone-outcome",
+    "category": "communication",
+    "className": "aic aic-io-s-phone-outcome",
+    "fileName": "io-s-phone-outcome.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "phone-paused",
+    "category": "communication",
+    "className": "aic aic-io-s-phone-paused",
+    "fileName": "io-s-phone-paused.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "phone-plus",
+    "category": "communication",
+    "className": "aic aic-io-s-phone-plus",
+    "fileName": "io-s-phone-plus.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "phone-xmark",
+    "category": "communication",
+    "className": "aic aic-io-s-phone-xmark",
+    "fileName": "io-s-phone-xmark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "pin",
+    "category": "navigation",
+    "className": "aic aic-io-s-pin",
+    "fileName": "io-s-pin.svg",
+    "animation": "dot-appear"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "pin-slash",
+    "category": "navigation",
+    "className": "aic aic-io-s-pin-slash",
+    "fileName": "io-s-pin-slash.svg",
+    "animation": "dot-appear"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "planet",
+    "category": "navigation",
+    "className": "aic aic-io-s-planet",
+    "fileName": "io-s-planet.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "play",
+    "category": "media",
+    "className": "aic aic-io-s-play",
+    "fileName": "io-s-play.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "plus-circle",
+    "category": "status",
+    "className": "aic aic-io-s-plus-circle",
+    "fileName": "io-s-plus-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "plus-square",
+    "category": "status",
+    "className": "aic aic-io-s-plus-square",
+    "fileName": "io-s-plus-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "pocket",
+    "category": "objects",
+    "className": "aic aic-io-s-pocket",
+    "fileName": "io-s-pocket.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "podcast",
+    "category": "media",
+    "className": "aic aic-io-s-podcast",
+    "fileName": "io-s-podcast.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "post",
+    "category": "objects",
+    "className": "aic aic-io-s-post",
+    "fileName": "io-s-post.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "presentation",
+    "category": "data",
+    "className": "aic aic-io-s-presentation",
+    "fileName": "io-s-presentation.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "priority-down",
+    "category": "objects",
+    "className": "aic aic-io-s-priority-down",
+    "fileName": "io-s-priority-down.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "priority-high",
+    "category": "objects",
+    "className": "aic aic-io-s-priority-high",
+    "fileName": "io-s-priority-high.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "priority-medium",
+    "category": "objects",
+    "className": "aic aic-io-s-priority-medium",
+    "fileName": "io-s-priority-medium.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "priority-up",
+    "category": "objects",
+    "className": "aic aic-io-s-priority-up",
+    "fileName": "io-s-priority-up.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "quote",
+    "category": "editing",
+    "className": "aic aic-io-s-quote",
+    "fileName": "io-s-quote.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "quote-message",
+    "category": "communication",
+    "className": "aic aic-io-s-quote-message",
+    "fileName": "io-s-quote-message.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "radiation",
+    "category": "objects",
+    "className": "aic aic-io-s-radiation",
+    "fileName": "io-s-radiation.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "radius",
+    "category": "objects",
+    "className": "aic aic-io-s-radius",
+    "fileName": "io-s-radius.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "redo-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-redo-circle",
+    "fileName": "io-s-redo-circle.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "refresh-circle",
+    "category": "objects",
+    "className": "aic aic-io-s-refresh-circle",
+    "fileName": "io-s-refresh-circle.svg",
+    "animation": "spin"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "reports",
+    "category": "objects",
+    "className": "aic aic-io-s-reports",
+    "fileName": "io-s-reports.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "rewind",
+    "category": "weather",
+    "className": "aic aic-io-s-rewind",
+    "fileName": "io-s-rewind.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "rhombus-arrow-right",
+    "category": "arrows",
+    "className": "aic aic-io-s-rhombus-arrow-right",
+    "fileName": "io-s-rhombus-arrow-right.svg",
+    "animation": "nudge-right"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "round-flask",
+    "category": "objects",
+    "className": "aic aic-io-s-round-flask",
+    "fileName": "io-s-round-flask.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "rss-feed-tag",
+    "category": "communication",
+    "className": "aic aic-io-s-rss-feed-tag",
+    "fileName": "io-s-rss-feed-tag.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "send",
+    "category": "communication",
+    "className": "aic aic-io-s-send",
+    "fileName": "io-s-send.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "send-diagonal",
+    "category": "communication",
+    "className": "aic aic-io-s-send-diagonal",
+    "fileName": "io-s-send-diagonal.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "send-mail",
+    "category": "communication",
+    "className": "aic aic-io-s-send-mail",
+    "fileName": "io-s-send-mail.svg",
+    "animation": "mail-flap"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "server",
+    "category": "data",
+    "className": "aic aic-io-s-server",
+    "fileName": "io-s-server.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "server-connection",
+    "category": "data",
+    "className": "aic aic-io-s-server-connection",
+    "fileName": "io-s-server-connection.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "share-android",
+    "category": "communication",
+    "className": "aic aic-io-s-share-android",
+    "fileName": "io-s-share-android.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "shortcut-square",
+    "category": "objects",
+    "className": "aic aic-io-s-shortcut-square",
+    "fileName": "io-s-shortcut-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "skip-next",
+    "category": "arrows",
+    "className": "aic aic-io-s-skip-next",
+    "fileName": "io-s-skip-next.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "skip-prev",
+    "category": "arrows",
+    "className": "aic aic-io-s-skip-prev",
+    "fileName": "io-s-skip-prev.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "snapchat",
+    "category": "communication",
+    "className": "aic aic-io-s-snapchat",
+    "fileName": "io-s-snapchat.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "sound-high",
+    "category": "objects",
+    "className": "aic aic-io-s-sound-high",
+    "fileName": "io-s-sound-high.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "sound-low",
+    "category": "objects",
+    "className": "aic aic-io-s-sound-low",
+    "fileName": "io-s-sound-low.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "sound-min",
+    "category": "objects",
+    "className": "aic aic-io-s-sound-min",
+    "fileName": "io-s-sound-min.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "sound-off",
+    "category": "objects",
+    "className": "aic aic-io-s-sound-off",
+    "fileName": "io-s-sound-off.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "spark",
+    "category": "objects",
+    "className": "aic aic-io-s-spark",
+    "fileName": "io-s-spark.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "sparks",
+    "category": "objects",
+    "className": "aic aic-io-s-sparks",
+    "fileName": "io-s-sparks.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "square-cursor",
+    "category": "development",
+    "className": "aic aic-io-s-square-cursor",
+    "fileName": "io-s-square-cursor.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "star",
+    "category": "status",
+    "className": "aic aic-io-s-star",
+    "fileName": "io-s-star.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "stats-down-square",
+    "category": "data",
+    "className": "aic aic-io-s-stats-down-square",
+    "fileName": "io-s-stats-down-square.svg",
+    "animation": "bar"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "stats-up-square",
+    "category": "data",
+    "className": "aic aic-io-s-stats-up-square",
+    "fileName": "io-s-stats-up-square.svg",
+    "animation": "bar"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "style-border",
+    "category": "objects",
+    "className": "aic aic-io-s-style-border",
+    "fileName": "io-s-style-border.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "test-tube",
+    "category": "objects",
+    "className": "aic aic-io-s-test-tube",
+    "fileName": "io-s-test-tube.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "text-square",
+    "category": "editing",
+    "className": "aic aic-io-s-text-square",
+    "fileName": "io-s-text-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "three-stars",
+    "category": "status",
+    "className": "aic aic-io-s-three-stars",
+    "fileName": "io-s-three-stars.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "tiktok",
+    "category": "objects",
+    "className": "aic aic-io-s-tiktok",
+    "fileName": "io-s-tiktok.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "timer",
+    "category": "objects",
+    "className": "aic aic-io-s-timer",
+    "fileName": "io-s-timer.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "transition-down",
+    "category": "objects",
+    "className": "aic aic-io-s-transition-down",
+    "fileName": "io-s-transition-down.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "transition-left",
+    "category": "objects",
+    "className": "aic aic-io-s-transition-left",
+    "fileName": "io-s-transition-left.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "transition-right",
+    "category": "objects",
+    "className": "aic aic-io-s-transition-right",
+    "fileName": "io-s-transition-right.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "transition-up",
+    "category": "objects",
+    "className": "aic aic-io-s-transition-up",
+    "fileName": "io-s-transition-up.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "trash",
+    "category": "objects",
+    "className": "aic aic-io-s-trash",
+    "fileName": "io-s-trash.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "underline-square",
+    "category": "editing",
+    "className": "aic aic-io-s-underline-square",
+    "fileName": "io-s-underline-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "undo-circle",
+    "category": "arrows",
+    "className": "aic aic-io-s-undo-circle",
+    "fileName": "io-s-undo-circle.svg",
+    "animation": "nudge-left"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "upload-square",
+    "category": "files",
+    "className": "aic aic-io-s-upload-square",
+    "fileName": "io-s-upload-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "usb",
+    "category": "objects",
+    "className": "aic aic-io-s-usb",
+    "fileName": "io-s-usb.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "vials",
+    "category": "objects",
+    "className": "aic aic-io-s-vials",
+    "fileName": "io-s-vials.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "wallet",
+    "category": "objects",
+    "className": "aic aic-io-s-wallet",
+    "fileName": "io-s-wallet.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "warning-circle",
+    "category": "status",
+    "className": "aic aic-io-s-warning-circle",
+    "fileName": "io-s-warning-circle.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "warning-square",
+    "category": "status",
+    "className": "aic aic-io-s-warning-square",
+    "fileName": "io-s-warning-square.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "warning-triangle",
+    "category": "status",
+    "className": "aic aic-io-s-warning-triangle",
+    "fileName": "io-s-warning-triangle.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "web-window",
+    "category": "ui",
+    "className": "aic aic-io-s-web-window",
+    "fileName": "io-s-web-window.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "web-window-energy-consumption",
+    "category": "ui",
+    "className": "aic aic-io-s-web-window-energy-consumption",
+    "fileName": "io-s-web-window-energy-consumption.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "web-window-xmark",
+    "category": "ui",
+    "className": "aic aic-io-s-web-window-xmark",
+    "fileName": "io-s-web-window-xmark.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "whatsapp",
+    "category": "communication",
+    "className": "aic aic-io-s-whatsapp",
+    "fileName": "io-s-whatsapp.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "white-flag",
+    "category": "objects",
+    "className": "aic aic-io-s-white-flag",
+    "fileName": "io-s-white-flag.svg",
+    "animation": "shake"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "wifi-signal-none",
+    "category": "data",
+    "className": "aic aic-io-s-wifi-signal-none",
+    "fileName": "io-s-wifi-signal-none.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "wifi-tag",
+    "category": "objects",
+    "className": "aic aic-io-s-wifi-tag",
+    "fileName": "io-s-wifi-tag.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "wifi-warning",
+    "category": "status",
+    "className": "aic aic-io-s-wifi-warning",
+    "fileName": "io-s-wifi-warning.svg",
+    "animation": "pulse-element"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "window-tabs",
+    "category": "ui",
+    "className": "aic aic-io-s-window-tabs",
+    "fileName": "io-s-window-tabs.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "wolf",
+    "category": "objects",
+    "className": "aic aic-io-s-wolf",
+    "fileName": "io-s-wolf.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "xmark-circle",
+    "category": "status",
+    "className": "aic aic-io-s-xmark-circle",
+    "fileName": "io-s-xmark-circle.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "xmark-square",
+    "category": "status",
+    "className": "aic aic-io-s-xmark-square",
+    "fileName": "io-s-xmark-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "yen-square",
+    "category": "objects",
+    "className": "aic aic-io-s-yen-square",
+    "fileName": "io-s-yen-square.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "iconoir-solid",
+    "name": "youtube",
+    "category": "objects",
+    "className": "aic aic-io-s-youtube",
+    "fileName": "io-s-youtube.svg",
     "animation": "scale-pop"
   },
   {

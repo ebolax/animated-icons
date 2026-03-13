@@ -87,15 +87,23 @@ If you prefer an even simpler setup with no dependency on the `aic-icons` direct
 Each icon is a combination of the base `aic` class and a library‑specific class:
 
 - **Heroicons**: `aic aic-hero-icon-name`
+- **Heroicons Solid**: `aic aic-hero-s-icon-name`
 - **Iconoir**: `aic aic-io-icon-name`
+- **Iconoir Solid**: `aic aic-io-s-icon-name`
 - **Lucide**: `aic aic-luc-icon-name`
 
 ```html
 <!-- Heroicons -->
 <i class="aic aic-hero-academic-cap"></i>
 
+<!-- Heroicons Solid -->
+<i class="aic aic-hero-s-academic-cap"></i>
+
 <!-- Iconoir -->
 <i class="aic aic-io-mail"></i>
+
+<!-- Iconoir -->
+<i class="aic aic-io-s-mail"></i>
 
 <!-- Lucide -->
 <i class="aic aic-luc-home"></i>

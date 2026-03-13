@@ -115,7 +115,7 @@
         }
 
         .toolbar {
-            padding: 1rem;
+            padding: 0.7rem;
             position: sticky;
             top: 1rem;
             background: #0f0f10;
@@ -653,11 +653,11 @@
 
         <section class="mb-4">
             <div class="toolbar rounded">
-                <div class="row g-3 align-items-center">
-                    <div class="col-xl-4 d-flex justify-content-center">
-                        <input id="iconSearch" type="search" class="form-control form-control search-input w-50" placeholder="Search icons... e.g. chat, xbox, arrow" />
+                <div class="row p-0 align-items-center">
+                    <div class="col-xl-3 d-flex py-2 justify-content-center align-items-center">
+                        <input id="iconSearch" type="search" class="form-control form-control search-input w-100" placeholder="Search icons... e.g. chat, xbox, arrow" />
                     </div>
-                    <div class="col-xl-4 d-flex justify-content-center">
+                    <div class="col-xl-4 d-flex py-2 justify-content-center">
                         <div id="colors" class="colors-wrapper">
                             <button type="button" class="color-swatch active" data-color="#14b8a6" style="background-color:#14b8a6" aria-label="Teal" title="Teal"></button>
                             <button type="button" class="color-swatch" data-color="#6366f1" style="background-color:#6366f1" aria-label="Blue" title="Blue"></button>
@@ -669,13 +669,19 @@
                             <button type="button" class="color-swatch" data-color="#22c55e" style="background-color:#22c55e" aria-label="Green" title="Green"></button>
                         </div>
                     </div>
-                    <div class="col-xl-4 d-flex justify-content-center">
+                    <div class="col-xl-5 d-flex py-2 justify-content-center">
                         <ul class="nav nav-pills justify-content-xl-end" id="iconTabs" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="heroicons-tab" data-bs-toggle="pill" data-bs-target="#heroicons-pane" type="button" role="tab" aria-controls="heroicons-pane" aria-selected="true">Heroicons</button>
                             </li>
                             <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="heroicons-solid-tab" data-bs-toggle="pill" data-bs-target="#heroicons-solid-pane" type="button" role="tab" aria-controls="heroicons-solid-pane" aria-selected="false">Heroicons Solid</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="iconoir-tab" data-bs-toggle="pill" data-bs-target="#iconoir-pane" type="button" role="tab" aria-controls="iconoir-pane" aria-selected="false">Iconoir</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="iconoir-solid-tab" data-bs-toggle="pill" data-bs-target="#iconoir-solid-pane" type="button" role="tab" aria-controls="iconoir-solid-pane" aria-selected="false">Iconoir Solid</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="lucide-tab" data-bs-toggle="pill" data-bs-target="#lucide-pane" type="button" role="tab" aria-controls="lucide-pane" aria-selected="false">Lucide</button>
@@ -724,6 +730,38 @@
                 <div class="empty-state mt-4" data-empty="heroicons">No Heroicons found for your search.</div>
             </div>
 
+            <div class="tab-pane fade" id="heroicons-solid-pane" role="tabpanel" aria-labelledby="heroicons-solid-tab" tabindex="0">
+                <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-4">
+                    <div>
+                        <h2 class="section-title">Heroicons Solid</h2>
+                        <p class="section-meta mb-0">Usage: <code>aic aic-hero-s-icon-name</code></p>
+                    </div>
+                </div>
+
+                <section class="category-block mb-5">
+                    <div class="row icon-grid">
+                        <div class="col icon-grid-inner" id="heroiconsSolidGrid">
+                            <% heroSolidMeta.forEach((icon, index) => { %>
+                            <button class="icon-item aic-wrapper d-flex flex-column align-items-center justify-content-center rounded" data-hero-solid-index="<%= index %>" data-category="<%= icon.category %>" data-icon-name="<%= icon.name %>">
+                                <i class="<%= icon.className %>"></i>
+                                <code class="icon-name mt-2"><%= icon.className.replace('aic aic-hero-s-', '') %></code>
+                            </button>
+                            <% }) %>
+                        </div>
+                    </div>
+                </section>
+                <div class="pagination-hero mt-4" id="heroiconsSolidPagination" data-total="<%= heroSolidMeta.length %>">
+                    <nav class="pagination-nav" aria-label="Heroicons Solid pagination">
+                        <button type="button" class="pagination-arrow" id="heroiconsSolidPrev" aria-label="Previous page">&lt;</button>
+                        <div class="pagination-numbers" id="heroiconsSolidPageNumbers"></div>
+                        <button type="button" class="pagination-arrow" id="heroiconsSolidNext" aria-label="Next page">&gt;</button>
+                    </nav>
+                    <p class="pagination-info" id="heroiconsSolidPaginationInfo">Showing 1–80 of <%= heroSolidMeta.length %> icons</p>
+                </div>
+
+                <div class="empty-state mt-4" data-empty="heroicons-solid">No Heroicons Solid icons found for your search.</div>
+            </div>
+
             <div class="tab-pane fade" id="iconoir-pane" role="tabpanel" aria-labelledby="iconoir-tab" tabindex="0">
                 <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-4">
                     <div>
@@ -754,6 +792,38 @@
                 </div>
 
                 <div class="empty-state mt-4" data-empty="iconoir">No Iconoir icons found for your search.</div>
+            </div>
+
+            <div class="tab-pane fade" id="iconoir-solid-pane" role="tabpanel" aria-labelledby="iconoir-solid-tab" tabindex="0">
+                <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-4">
+                    <div>
+                        <h2 class="section-title">Iconoir Solid</h2>
+                        <p class="section-meta mb-0">Usage: <code>aic aic-io-s-icon-name</code></p>
+                    </div>
+                </div>
+
+                <section class="category-block mb-5">
+                    <div class="row icon-grid">
+                        <div class="col icon-grid-inner" id="iconoirSolidGrid">
+                            <% iconoirSolidMeta.forEach((icon, index) => { %>
+                            <button class="icon-item aic-wrapper d-flex flex-column align-items-center justify-content-center rounded" data-iconoir-solid-index="<%= index %>" data-category="<%= icon.category %>" data-icon-name="<%= icon.name %>">
+                                <i class="<%= icon.className %>"></i>
+                                <code class="icon-name mt-2"><%= icon.className.replace('aic aic-io-s-', '') %></code>
+                            </button>
+                            <% }) %>
+                        </div>
+                    </div>
+                </section>
+                <div class="pagination-hero mt-4" id="iconoirSolidPagination" data-total="<%= iconoirSolidMeta.length %>">
+                    <nav class="pagination-nav" aria-label="Iconoir Solid pagination">
+                        <button type="button" class="pagination-arrow" id="iconoirSolidPrev" aria-label="Previous page">&lt;</button>
+                        <div class="pagination-numbers" id="iconoirSolidPageNumbers"></div>
+                        <button type="button" class="pagination-arrow" id="iconoirSolidNext" aria-label="Next page">&gt;</button>
+                    </nav>
+                    <p class="pagination-info" id="iconoirSolidPaginationInfo">Showing 1–80 of <%= iconoirSolidMeta.length %> icons</p>
+                </div>
+
+                <div class="empty-state mt-4" data-empty="iconoir-solid">No Iconoir Solid icons found for your search.</div>
             </div>
 
             <div class="tab-pane fade" id="lucide-pane" role="tabpanel" aria-labelledby="lucide-tab" tabindex="0">
@@ -817,8 +887,14 @@
             <pre><code>&lt;!-- Heroicons --&gt;
 &lt;i class=&quot;aic aic-hero-academic-cap&quot;&gt;&lt;/i&gt;
 
+&lt;!-- Heroicons Solid --&gt;
+&lt;i class=&quot;aic aic-hero-s-academic-cap&quot;&gt;&lt;/i&gt;
+
 &lt;!-- Iconoir --&gt;
 &lt;i class=&quot;aic aic-io-mail&quot;&gt;&lt;/i&gt;
+
+&lt;!-- Iconoir Solid --&gt;
+&lt;i class=&quot;aic aic-io-s-mail&quot;&gt;&lt;/i&gt;
 
 &lt;!-- Lucide --&gt;
 &lt;i class=&quot;aic aic-luc-home&quot;&gt;&lt;/i&gt;</code></pre>
@@ -828,8 +904,14 @@
             <h2 class="section-title">Using icons inside buttons or links</h2>
             <p class="section-meta mb-3">When an icon is used inside a parent element (button, link, nav item), wrap the icon with a container that has the <code>aic-wrapper</code> class. This keeps the animation and hit area correct when the user hovers the parent.</p>
             <pre><code>&lt;button class="aic-wrapper"&gt;
-  &lt;i class="aic aic-luc-accessibility"&gt;&lt;/i&gt; Test
+  &lt;i class="aic aic-hero-s-banknotes"&gt;&lt;/i&gt; Test
 &lt;/button&gt;</code></pre>
+            <p class="mt-2">
+                <button class="btn btn-primary aic-wrapper">
+                    <i class="aic aic-hero-s-banknotes"></i>
+                    Test
+                </button>
+            </p>
         </section>
 
         <section class="wrapper-docs mt-5 mb-5 rounded">
@@ -1155,6 +1237,19 @@
                 }).refresh);
 
                 refreshFns.push(createPagination({
+                    gridId: 'heroiconsSolidGrid',
+                    containerId: 'heroiconsSolidPagination',
+                    prevId: 'heroiconsSolidPrev',
+                    nextId: 'heroiconsSolidNext',
+                    numbersId: 'heroiconsSolidPageNumbers',
+                    infoId: 'heroiconsSolidPaginationInfo',
+                    indexAttr: 'data-hero-solid-index',
+                    perPage: 80,
+                    itemLabel: 'icons',
+                    emptyStateKey: 'heroicons-solid'
+                }).refresh);
+
+                refreshFns.push(createPagination({
                     gridId: 'iconoirGrid',
                     containerId: 'iconoirPagination',
                     prevId: 'iconoirPrev',
@@ -1165,6 +1260,19 @@
                     perPage: 80,
                     itemLabel: 'icons',
                     emptyStateKey: 'iconoir'
+                }).refresh);
+
+                refreshFns.push(createPagination({
+                    gridId: 'iconoirSolidGrid',
+                    containerId: 'iconoirSolidPagination',
+                    prevId: 'iconoirSolidPrev',
+                    nextId: 'iconoirSolidNext',
+                    numbersId: 'iconoirSolidPageNumbers',
+                    infoId: 'iconoirSolidPaginationInfo',
+                    indexAttr: 'data-iconoir-solid-index',
+                    perPage: 80,
+                    itemLabel: 'icons',
+                    emptyStateKey: 'iconoir-solid'
                 }).refresh);
 
                 refreshFns.push(createPagination({

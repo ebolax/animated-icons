@@ -320,6 +320,1872 @@
     }
 }
 
+.aic.aic-hero-s-academic-cap {
+  --aic-icon: url("./aic-icons/hero-s-academic-cap.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-adjustments-horizontal {
+  --aic-icon: url("./aic-icons/hero-s-adjustments-horizontal.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-adjustments-vertical {
+  --aic-icon: url("./aic-icons/hero-s-adjustments-vertical.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-archive-box {
+  --aic-icon: url("./aic-icons/hero-s-archive-box.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-archive-box-arrow-down {
+  --aic-icon: url("./aic-icons/hero-s-archive-box-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-archive-box-x-mark {
+  --aic-icon: url("./aic-icons/hero-s-archive-box-x-mark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-arrow-down {
+  --aic-icon: url("./aic-icons/hero-s-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-down-circle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-down-circle.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-down-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-down-left.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-hero-s-arrow-down-on-square {
+  --aic-icon: url("./aic-icons/hero-s-arrow-down-on-square.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-down-on-square-stack {
+  --aic-icon: url("./aic-icons/hero-s-arrow-down-on-square-stack.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-down-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-down-right.svg");
+  --aic-animation: aic-nudge-right-down;
+}
+
+.aic.aic-hero-s-arrow-down-tray {
+  --aic-icon: url("./aic-icons/hero-s-arrow-down-tray.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-left.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-left-circle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-left-circle.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-left-end-on-rectangle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-left-end-on-rectangle.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-left-on-rectangle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-left-on-rectangle.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-left-start-on-rectangle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-left-start-on-rectangle.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-long-down {
+  --aic-icon: url("./aic-icons/hero-s-arrow-long-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-long-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-long-left.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-long-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-long-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-long-up {
+  --aic-icon: url("./aic-icons/hero-s-arrow-long-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-path {
+  --aic-icon: url("./aic-icons/hero-s-arrow-path.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-path-rounded-square {
+  --aic-icon: url("./aic-icons/hero-s-arrow-path-rounded-square.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-right-circle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-right-circle.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-right-end-on-rectangle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-right-end-on-rectangle.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-right-on-rectangle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-right-on-rectangle.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-right-start-on-rectangle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-right-start-on-rectangle.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-small-down {
+  --aic-icon: url("./aic-icons/hero-s-arrow-small-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-small-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-small-left.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-small-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-small-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-small-up {
+  --aic-icon: url("./aic-icons/hero-s-arrow-small-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-top-right-on-square {
+  --aic-icon: url("./aic-icons/hero-s-arrow-top-right-on-square.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-trending-down {
+  --aic-icon: url("./aic-icons/hero-s-arrow-trending-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-trending-up {
+  --aic-icon: url("./aic-icons/hero-s-arrow-trending-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-turn-down-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-down-left.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-hero-s-arrow-turn-down-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-down-right.svg");
+  --aic-animation: aic-nudge-right-down;
+}
+
+.aic.aic-hero-s-arrow-turn-left-down {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-left-down.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-hero-s-arrow-turn-left-up {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-left-up.svg");
+  --aic-animation: aic-nudge-left-up;
+}
+
+.aic.aic-hero-s-arrow-turn-right-down {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-right-down.svg");
+  --aic-animation: aic-nudge-right-down;
+}
+
+.aic.aic-hero-s-arrow-turn-right-up {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-right-up.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-hero-s-arrow-turn-up-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-up-left.svg");
+  --aic-animation: aic-nudge-left-up;
+}
+
+.aic.aic-hero-s-arrow-turn-up-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-turn-up-right.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-hero-s-arrow-up {
+  --aic-icon: url("./aic-icons/hero-s-arrow-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-up-circle {
+  --aic-icon: url("./aic-icons/hero-s-arrow-up-circle.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-up-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-up-left.svg");
+  --aic-animation: aic-nudge-left-up;
+}
+
+.aic.aic-hero-s-arrow-up-on-square {
+  --aic-icon: url("./aic-icons/hero-s-arrow-up-on-square.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-up-on-square-stack {
+  --aic-icon: url("./aic-icons/hero-s-arrow-up-on-square-stack.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-up-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-up-right.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-hero-s-arrow-up-tray {
+  --aic-icon: url("./aic-icons/hero-s-arrow-up-tray.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrow-uturn-down {
+  --aic-icon: url("./aic-icons/hero-s-arrow-uturn-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-arrow-uturn-left {
+  --aic-icon: url("./aic-icons/hero-s-arrow-uturn-left.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-arrow-uturn-right {
+  --aic-icon: url("./aic-icons/hero-s-arrow-uturn-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrow-uturn-up {
+  --aic-icon: url("./aic-icons/hero-s-arrow-uturn-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrows-pointing-in {
+  --aic-icon: url("./aic-icons/hero-s-arrows-pointing-in.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrows-pointing-out {
+  --aic-icon: url("./aic-icons/hero-s-arrows-pointing-out.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-arrows-right-left {
+  --aic-icon: url("./aic-icons/hero-s-arrows-right-left.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-arrows-up-down {
+  --aic-icon: url("./aic-icons/hero-s-arrows-up-down.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-at-symbol {
+  --aic-icon: url("./aic-icons/hero-s-at-symbol.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-backspace {
+  --aic-icon: url("./aic-icons/hero-s-backspace.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-backward {
+  --aic-icon: url("./aic-icons/hero-s-backward.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-banknotes {
+  --aic-icon: url("./aic-icons/hero-s-banknotes.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bars-2 {
+  --aic-icon: url("./aic-icons/hero-s-bars-2.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bars-3 {
+  --aic-icon: url("./aic-icons/hero-s-bars-3.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bars-3-bottom-left {
+  --aic-icon: url("./aic-icons/hero-s-bars-3-bottom-left.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bars-3-bottom-right {
+  --aic-icon: url("./aic-icons/hero-s-bars-3-bottom-right.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bars-3-center-left {
+  --aic-icon: url("./aic-icons/hero-s-bars-3-center-left.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bars-4 {
+  --aic-icon: url("./aic-icons/hero-s-bars-4.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bars-arrow-down {
+  --aic-icon: url("./aic-icons/hero-s-bars-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-bars-arrow-up {
+  --aic-icon: url("./aic-icons/hero-s-bars-arrow-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-battery-0 {
+  --aic-icon: url("./aic-icons/hero-s-battery-0.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-battery-100 {
+  --aic-icon: url("./aic-icons/hero-s-battery-100.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-battery-50 {
+  --aic-icon: url("./aic-icons/hero-s-battery-50.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-beaker {
+  --aic-icon: url("./aic-icons/hero-s-beaker.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bell {
+  --aic-icon: url("./aic-icons/hero-s-bell.svg");
+  --aic-animation: aic-bell-ring;
+  --aic-origin: 50% 12%;
+}
+
+.aic.aic-hero-s-bell-alert {
+  --aic-icon: url("./aic-icons/hero-s-bell-alert.svg");
+  --aic-animation: aic-bell-ring;
+  --aic-origin: 50% 12%;
+}
+
+.aic.aic-hero-s-bell-slash {
+  --aic-icon: url("./aic-icons/hero-s-bell-slash.svg");
+  --aic-animation: aic-bell-ring;
+  --aic-origin: 50% 12%;
+}
+
+.aic.aic-hero-s-bell-snooze {
+  --aic-icon: url("./aic-icons/hero-s-bell-snooze.svg");
+  --aic-animation: aic-bell-ring;
+  --aic-origin: 50% 12%;
+}
+
+.aic.aic-hero-s-bold {
+  --aic-icon: url("./aic-icons/hero-s-bold.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bolt {
+  --aic-icon: url("./aic-icons/hero-s-bolt.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bolt-slash {
+  --aic-icon: url("./aic-icons/hero-s-bolt-slash.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-book-open {
+  --aic-icon: url("./aic-icons/hero-s-book-open.svg");
+  --aic-animation: aic-page-turn;
+  --aic-origin: 0% 50%;
+}
+
+.aic.aic-hero-s-bookmark {
+  --aic-icon: url("./aic-icons/hero-s-bookmark.svg");
+  --aic-animation: aic-page-turn;
+  --aic-origin: 0% 50%;
+}
+
+.aic.aic-hero-s-bookmark-slash {
+  --aic-icon: url("./aic-icons/hero-s-bookmark-slash.svg");
+  --aic-animation: aic-page-turn;
+  --aic-origin: 0% 50%;
+}
+
+.aic.aic-hero-s-bookmark-square {
+  --aic-icon: url("./aic-icons/hero-s-bookmark-square.svg");
+  --aic-animation: aic-page-turn;
+  --aic-origin: 0% 50%;
+}
+
+.aic.aic-hero-s-briefcase {
+  --aic-icon: url("./aic-icons/hero-s-briefcase.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-bug-ant {
+  --aic-icon: url("./aic-icons/hero-s-bug-ant.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-building-library {
+  --aic-icon: url("./aic-icons/hero-s-building-library.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-building-office {
+  --aic-icon: url("./aic-icons/hero-s-building-office.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-building-office-2 {
+  --aic-icon: url("./aic-icons/hero-s-building-office-2.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-building-storefront {
+  --aic-icon: url("./aic-icons/hero-s-building-storefront.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cake {
+  --aic-icon: url("./aic-icons/hero-s-cake.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-calculator {
+  --aic-icon: url("./aic-icons/hero-s-calculator.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-calendar {
+  --aic-icon: url("./aic-icons/hero-s-calendar.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-calendar-date-range {
+  --aic-icon: url("./aic-icons/hero-s-calendar-date-range.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-calendar-days {
+  --aic-icon: url("./aic-icons/hero-s-calendar-days.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-camera {
+  --aic-icon: url("./aic-icons/hero-s-camera.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chart-bar {
+  --aic-icon: url("./aic-icons/hero-s-chart-bar.svg");
+  --aic-animation: aic-bar;
+  --aic-origin: 50% 100%;
+}
+
+.aic.aic-hero-s-chart-bar-square {
+  --aic-icon: url("./aic-icons/hero-s-chart-bar-square.svg");
+  --aic-animation: aic-bar;
+  --aic-origin: 50% 100%;
+}
+
+.aic.aic-hero-s-chart-pie {
+  --aic-icon: url("./aic-icons/hero-s-chart-pie.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chat-bubble-bottom-center {
+  --aic-icon: url("./aic-icons/hero-s-chat-bubble-bottom-center.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chat-bubble-bottom-center-text {
+  --aic-icon: url("./aic-icons/hero-s-chat-bubble-bottom-center-text.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chat-bubble-left {
+  --aic-icon: url("./aic-icons/hero-s-chat-bubble-left.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chat-bubble-left-ellipsis {
+  --aic-icon: url("./aic-icons/hero-s-chat-bubble-left-ellipsis.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chat-bubble-left-right {
+  --aic-icon: url("./aic-icons/hero-s-chat-bubble-left-right.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chat-bubble-oval-left {
+  --aic-icon: url("./aic-icons/hero-s-chat-bubble-oval-left.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chat-bubble-oval-left-ellipsis {
+  --aic-icon: url("./aic-icons/hero-s-chat-bubble-oval-left-ellipsis.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-check {
+  --aic-icon: url("./aic-icons/hero-s-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-check-badge {
+  --aic-icon: url("./aic-icons/hero-s-check-badge.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-check-circle {
+  --aic-icon: url("./aic-icons/hero-s-check-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-chevron-double-down {
+  --aic-icon: url("./aic-icons/hero-s-chevron-double-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-chevron-double-left {
+  --aic-icon: url("./aic-icons/hero-s-chevron-double-left.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-chevron-double-right {
+  --aic-icon: url("./aic-icons/hero-s-chevron-double-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-chevron-double-up {
+  --aic-icon: url("./aic-icons/hero-s-chevron-double-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-chevron-down {
+  --aic-icon: url("./aic-icons/hero-s-chevron-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-chevron-left {
+  --aic-icon: url("./aic-icons/hero-s-chevron-left.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-hero-s-chevron-right {
+  --aic-icon: url("./aic-icons/hero-s-chevron-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-chevron-up {
+  --aic-icon: url("./aic-icons/hero-s-chevron-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-chevron-up-down {
+  --aic-icon: url("./aic-icons/hero-s-chevron-up-down.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-circle-stack {
+  --aic-icon: url("./aic-icons/hero-s-circle-stack.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-clipboard {
+  --aic-icon: url("./aic-icons/hero-s-clipboard.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-clipboard-document {
+  --aic-icon: url("./aic-icons/hero-s-clipboard-document.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-clipboard-document-check {
+  --aic-icon: url("./aic-icons/hero-s-clipboard-document-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-clipboard-document-list {
+  --aic-icon: url("./aic-icons/hero-s-clipboard-document-list.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-clock {
+  --aic-icon: url("./aic-icons/hero-s-clock.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cloud {
+  --aic-icon: url("./aic-icons/hero-s-cloud.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cloud-arrow-down {
+  --aic-icon: url("./aic-icons/hero-s-cloud-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-cloud-arrow-up {
+  --aic-icon: url("./aic-icons/hero-s-cloud-arrow-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-code-bracket {
+  --aic-icon: url("./aic-icons/hero-s-code-bracket.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-code-bracket-square {
+  --aic-icon: url("./aic-icons/hero-s-code-bracket-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cog {
+  --aic-icon: url("./aic-icons/hero-s-cog.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cog-6-tooth {
+  --aic-icon: url("./aic-icons/hero-s-cog-6-tooth.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cog-8-tooth {
+  --aic-icon: url("./aic-icons/hero-s-cog-8-tooth.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-command-line {
+  --aic-icon: url("./aic-icons/hero-s-command-line.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-computer-desktop {
+  --aic-icon: url("./aic-icons/hero-s-computer-desktop.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cpu-chip {
+  --aic-icon: url("./aic-icons/hero-s-cpu-chip.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-credit-card {
+  --aic-icon: url("./aic-icons/hero-s-credit-card.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cube {
+  --aic-icon: url("./aic-icons/hero-s-cube.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cube-transparent {
+  --aic-icon: url("./aic-icons/hero-s-cube-transparent.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-currency-bangladeshi {
+  --aic-icon: url("./aic-icons/hero-s-currency-bangladeshi.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-currency-dollar {
+  --aic-icon: url("./aic-icons/hero-s-currency-dollar.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-currency-euro {
+  --aic-icon: url("./aic-icons/hero-s-currency-euro.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-currency-pound {
+  --aic-icon: url("./aic-icons/hero-s-currency-pound.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-currency-rupee {
+  --aic-icon: url("./aic-icons/hero-s-currency-rupee.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-currency-yen {
+  --aic-icon: url("./aic-icons/hero-s-currency-yen.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-cursor-arrow-rays {
+  --aic-icon: url("./aic-icons/hero-s-cursor-arrow-rays.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-cursor-arrow-ripple {
+  --aic-icon: url("./aic-icons/hero-s-cursor-arrow-ripple.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-device-phone-mobile {
+  --aic-icon: url("./aic-icons/hero-s-device-phone-mobile.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-device-tablet {
+  --aic-icon: url("./aic-icons/hero-s-device-tablet.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-divide {
+  --aic-icon: url("./aic-icons/hero-s-divide.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document {
+  --aic-icon: url("./aic-icons/hero-s-document.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-arrow-down {
+  --aic-icon: url("./aic-icons/hero-s-document-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-document-arrow-up {
+  --aic-icon: url("./aic-icons/hero-s-document-arrow-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-hero-s-document-chart-bar {
+  --aic-icon: url("./aic-icons/hero-s-document-chart-bar.svg");
+  --aic-animation: aic-bar;
+  --aic-origin: 50% 100%;
+}
+
+.aic.aic-hero-s-document-check {
+  --aic-icon: url("./aic-icons/hero-s-document-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-currency-bangladeshi {
+  --aic-icon: url("./aic-icons/hero-s-document-currency-bangladeshi.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-currency-dollar {
+  --aic-icon: url("./aic-icons/hero-s-document-currency-dollar.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-currency-euro {
+  --aic-icon: url("./aic-icons/hero-s-document-currency-euro.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-currency-pound {
+  --aic-icon: url("./aic-icons/hero-s-document-currency-pound.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-currency-rupee {
+  --aic-icon: url("./aic-icons/hero-s-document-currency-rupee.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-currency-yen {
+  --aic-icon: url("./aic-icons/hero-s-document-currency-yen.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-duplicate {
+  --aic-icon: url("./aic-icons/hero-s-document-duplicate.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-magnifying-glass {
+  --aic-icon: url("./aic-icons/hero-s-document-magnifying-glass.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-minus {
+  --aic-icon: url("./aic-icons/hero-s-document-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-plus {
+  --aic-icon: url("./aic-icons/hero-s-document-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-document-text {
+  --aic-icon: url("./aic-icons/hero-s-document-text.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-ellipsis-horizontal {
+  --aic-icon: url("./aic-icons/hero-s-ellipsis-horizontal.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-ellipsis-horizontal-circle {
+  --aic-icon: url("./aic-icons/hero-s-ellipsis-horizontal-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-ellipsis-vertical {
+  --aic-icon: url("./aic-icons/hero-s-ellipsis-vertical.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-envelope {
+  --aic-icon: url("./aic-icons/hero-s-envelope.svg");
+  --aic-animation: aic-mail-flap;
+  --aic-origin: 50% 18%;
+}
+
+.aic.aic-hero-s-envelope-open {
+  --aic-icon: url("./aic-icons/hero-s-envelope-open.svg");
+  --aic-animation: aic-mail-flap;
+  --aic-origin: 50% 18%;
+}
+
+.aic.aic-hero-s-equals {
+  --aic-icon: url("./aic-icons/hero-s-equals.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-exclamation-circle {
+  --aic-icon: url("./aic-icons/hero-s-exclamation-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-exclamation-triangle {
+  --aic-icon: url("./aic-icons/hero-s-exclamation-triangle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-eye {
+  --aic-icon: url("./aic-icons/hero-s-eye.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-eye-dropper {
+  --aic-icon: url("./aic-icons/hero-s-eye-dropper.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-eye-slash {
+  --aic-icon: url("./aic-icons/hero-s-eye-slash.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-face-frown {
+  --aic-icon: url("./aic-icons/hero-s-face-frown.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-face-smile {
+  --aic-icon: url("./aic-icons/hero-s-face-smile.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-film {
+  --aic-icon: url("./aic-icons/hero-s-film.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-finger-print {
+  --aic-icon: url("./aic-icons/hero-s-finger-print.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-fire {
+  --aic-icon: url("./aic-icons/hero-s-fire.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-flag {
+  --aic-icon: url("./aic-icons/hero-s-flag.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-folder {
+  --aic-icon: url("./aic-icons/hero-s-folder.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-folder-arrow-down {
+  --aic-icon: url("./aic-icons/hero-s-folder-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-folder-minus {
+  --aic-icon: url("./aic-icons/hero-s-folder-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-folder-open {
+  --aic-icon: url("./aic-icons/hero-s-folder-open.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-folder-plus {
+  --aic-icon: url("./aic-icons/hero-s-folder-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-forward {
+  --aic-icon: url("./aic-icons/hero-s-forward.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-hero-s-funnel {
+  --aic-icon: url("./aic-icons/hero-s-funnel.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-gif {
+  --aic-icon: url("./aic-icons/hero-s-gif.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-gift {
+  --aic-icon: url("./aic-icons/hero-s-gift.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-gift-top {
+  --aic-icon: url("./aic-icons/hero-s-gift-top.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-globe-alt {
+  --aic-icon: url("./aic-icons/hero-s-globe-alt.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-globe-americas {
+  --aic-icon: url("./aic-icons/hero-s-globe-americas.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-globe-asia-australia {
+  --aic-icon: url("./aic-icons/hero-s-globe-asia-australia.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-globe-europe-africa {
+  --aic-icon: url("./aic-icons/hero-s-globe-europe-africa.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-h1 {
+  --aic-icon: url("./aic-icons/hero-s-h1.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-h2 {
+  --aic-icon: url("./aic-icons/hero-s-h2.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-h3 {
+  --aic-icon: url("./aic-icons/hero-s-h3.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-hand-raised {
+  --aic-icon: url("./aic-icons/hero-s-hand-raised.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-hand-thumb-down {
+  --aic-icon: url("./aic-icons/hero-s-hand-thumb-down.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-hand-thumb-up {
+  --aic-icon: url("./aic-icons/hero-s-hand-thumb-up.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-hashtag {
+  --aic-icon: url("./aic-icons/hero-s-hashtag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-heart {
+  --aic-icon: url("./aic-icons/hero-s-heart.svg");
+  --aic-animation: aic-heart-beat;
+  --aic-origin: 50% 60%;
+}
+
+.aic.aic-hero-s-home {
+  --aic-icon: url("./aic-icons/hero-s-home.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-home-modern {
+  --aic-icon: url("./aic-icons/hero-s-home-modern.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-identification {
+  --aic-icon: url("./aic-icons/hero-s-identification.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-inbox {
+  --aic-icon: url("./aic-icons/hero-s-inbox.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-inbox-arrow-down {
+  --aic-icon: url("./aic-icons/hero-s-inbox-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-hero-s-inbox-stack {
+  --aic-icon: url("./aic-icons/hero-s-inbox-stack.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-information-circle {
+  --aic-icon: url("./aic-icons/hero-s-information-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-italic {
+  --aic-icon: url("./aic-icons/hero-s-italic.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-key {
+  --aic-icon: url("./aic-icons/hero-s-key.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-language {
+  --aic-icon: url("./aic-icons/hero-s-language.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-lifebuoy {
+  --aic-icon: url("./aic-icons/hero-s-lifebuoy.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-light-bulb {
+  --aic-icon: url("./aic-icons/hero-s-light-bulb.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-link {
+  --aic-icon: url("./aic-icons/hero-s-link.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-link-slash {
+  --aic-icon: url("./aic-icons/hero-s-link-slash.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-list-bullet {
+  --aic-icon: url("./aic-icons/hero-s-list-bullet.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-lock-closed {
+  --aic-icon: url("./aic-icons/hero-s-lock-closed.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-lock-open {
+  --aic-icon: url("./aic-icons/hero-s-lock-open.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-magnifying-glass {
+  --aic-icon: url("./aic-icons/hero-s-magnifying-glass.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-magnifying-glass-circle {
+  --aic-icon: url("./aic-icons/hero-s-magnifying-glass-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-magnifying-glass-minus {
+  --aic-icon: url("./aic-icons/hero-s-magnifying-glass-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-magnifying-glass-plus {
+  --aic-icon: url("./aic-icons/hero-s-magnifying-glass-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-map {
+  --aic-icon: url("./aic-icons/hero-s-map.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-map-pin {
+  --aic-icon: url("./aic-icons/hero-s-map-pin.svg");
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-megaphone {
+  --aic-icon: url("./aic-icons/hero-s-megaphone.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-microphone {
+  --aic-icon: url("./aic-icons/hero-s-microphone.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-minus {
+  --aic-icon: url("./aic-icons/hero-s-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-minus-circle {
+  --aic-icon: url("./aic-icons/hero-s-minus-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-minus-small {
+  --aic-icon: url("./aic-icons/hero-s-minus-small.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-moon {
+  --aic-icon: url("./aic-icons/hero-s-moon.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-musical-note {
+  --aic-icon: url("./aic-icons/hero-s-musical-note.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-newspaper {
+  --aic-icon: url("./aic-icons/hero-s-newspaper.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-no-symbol {
+  --aic-icon: url("./aic-icons/hero-s-no-symbol.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-numbered-list {
+  --aic-icon: url("./aic-icons/hero-s-numbered-list.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-paint-brush {
+  --aic-icon: url("./aic-icons/hero-s-paint-brush.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-paper-airplane {
+  --aic-icon: url("./aic-icons/hero-s-paper-airplane.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-paper-clip {
+  --aic-icon: url("./aic-icons/hero-s-paper-clip.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-pause {
+  --aic-icon: url("./aic-icons/hero-s-pause.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-pause-circle {
+  --aic-icon: url("./aic-icons/hero-s-pause-circle.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-pencil {
+  --aic-icon: url("./aic-icons/hero-s-pencil.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-pencil-square {
+  --aic-icon: url("./aic-icons/hero-s-pencil-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-percent-badge {
+  --aic-icon: url("./aic-icons/hero-s-percent-badge.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-phone {
+  --aic-icon: url("./aic-icons/hero-s-phone.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-phone-arrow-down-left {
+  --aic-icon: url("./aic-icons/hero-s-phone-arrow-down-left.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-hero-s-phone-arrow-up-right {
+  --aic-icon: url("./aic-icons/hero-s-phone-arrow-up-right.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-hero-s-phone-x-mark {
+  --aic-icon: url("./aic-icons/hero-s-phone-x-mark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-photo {
+  --aic-icon: url("./aic-icons/hero-s-photo.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-play {
+  --aic-icon: url("./aic-icons/hero-s-play.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-play-circle {
+  --aic-icon: url("./aic-icons/hero-s-play-circle.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-play-pause {
+  --aic-icon: url("./aic-icons/hero-s-play-pause.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-plus {
+  --aic-icon: url("./aic-icons/hero-s-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-plus-circle {
+  --aic-icon: url("./aic-icons/hero-s-plus-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-plus-small {
+  --aic-icon: url("./aic-icons/hero-s-plus-small.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-power {
+  --aic-icon: url("./aic-icons/hero-s-power.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-presentation-chart-bar {
+  --aic-icon: url("./aic-icons/hero-s-presentation-chart-bar.svg");
+  --aic-animation: aic-bar;
+  --aic-origin: 50% 100%;
+}
+
+.aic.aic-hero-s-presentation-chart-line {
+  --aic-icon: url("./aic-icons/hero-s-presentation-chart-line.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-printer {
+  --aic-icon: url("./aic-icons/hero-s-printer.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-puzzle-piece {
+  --aic-icon: url("./aic-icons/hero-s-puzzle-piece.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-qr-code {
+  --aic-icon: url("./aic-icons/hero-s-qr-code.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-question-mark-circle {
+  --aic-icon: url("./aic-icons/hero-s-question-mark-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-queue-list {
+  --aic-icon: url("./aic-icons/hero-s-queue-list.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-radio {
+  --aic-icon: url("./aic-icons/hero-s-radio.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-receipt-percent {
+  --aic-icon: url("./aic-icons/hero-s-receipt-percent.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-receipt-refund {
+  --aic-icon: url("./aic-icons/hero-s-receipt-refund.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-rectangle-group {
+  --aic-icon: url("./aic-icons/hero-s-rectangle-group.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-rectangle-stack {
+  --aic-icon: url("./aic-icons/hero-s-rectangle-stack.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-rocket-launch {
+  --aic-icon: url("./aic-icons/hero-s-rocket-launch.svg");
+  --aic-animation: aic-rocket-lift;
+}
+
+.aic.aic-hero-s-rss {
+  --aic-icon: url("./aic-icons/hero-s-rss.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-scale {
+  --aic-icon: url("./aic-icons/hero-s-scale.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-scissors {
+  --aic-icon: url("./aic-icons/hero-s-scissors.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-server {
+  --aic-icon: url("./aic-icons/hero-s-server.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-server-stack {
+  --aic-icon: url("./aic-icons/hero-s-server-stack.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-share {
+  --aic-icon: url("./aic-icons/hero-s-share.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-shield-check {
+  --aic-icon: url("./aic-icons/hero-s-shield-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-shield-exclamation {
+  --aic-icon: url("./aic-icons/hero-s-shield-exclamation.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-shopping-bag {
+  --aic-icon: url("./aic-icons/hero-s-shopping-bag.svg");
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-shopping-cart {
+  --aic-icon: url("./aic-icons/hero-s-shopping-cart.svg");
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-signal {
+  --aic-icon: url("./aic-icons/hero-s-signal.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-signal-slash {
+  --aic-icon: url("./aic-icons/hero-s-signal-slash.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-slash {
+  --aic-icon: url("./aic-icons/hero-s-slash.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-sparkles {
+  --aic-icon: url("./aic-icons/hero-s-sparkles.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-speaker-wave {
+  --aic-icon: url("./aic-icons/hero-s-speaker-wave.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-speaker-x-mark {
+  --aic-icon: url("./aic-icons/hero-s-speaker-x-mark.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-square-2-stack {
+  --aic-icon: url("./aic-icons/hero-s-square-2-stack.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-square-3-stack-3d {
+  --aic-icon: url("./aic-icons/hero-s-square-3-stack-3d.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-squares-2x2 {
+  --aic-icon: url("./aic-icons/hero-s-squares-2x2.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-squares-plus {
+  --aic-icon: url("./aic-icons/hero-s-squares-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-star {
+  --aic-icon: url("./aic-icons/hero-s-star.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-stop {
+  --aic-icon: url("./aic-icons/hero-s-stop.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-stop-circle {
+  --aic-icon: url("./aic-icons/hero-s-stop-circle.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-strikethrough {
+  --aic-icon: url("./aic-icons/hero-s-strikethrough.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-sun {
+  --aic-icon: url("./aic-icons/hero-s-sun.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-swatch {
+  --aic-icon: url("./aic-icons/hero-s-swatch.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-table-cells {
+  --aic-icon: url("./aic-icons/hero-s-table-cells.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-tag {
+  --aic-icon: url("./aic-icons/hero-s-tag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-ticket {
+  --aic-icon: url("./aic-icons/hero-s-ticket.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-trash {
+  --aic-icon: url("./aic-icons/hero-s-trash.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-trophy {
+  --aic-icon: url("./aic-icons/hero-s-trophy.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-truck {
+  --aic-icon: url("./aic-icons/hero-s-truck.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-tv {
+  --aic-icon: url("./aic-icons/hero-s-tv.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-underline {
+  --aic-icon: url("./aic-icons/hero-s-underline.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-user {
+  --aic-icon: url("./aic-icons/hero-s-user.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-user-circle {
+  --aic-icon: url("./aic-icons/hero-s-user-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-user-group {
+  --aic-icon: url("./aic-icons/hero-s-user-group.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-user-minus {
+  --aic-icon: url("./aic-icons/hero-s-user-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-user-plus {
+  --aic-icon: url("./aic-icons/hero-s-user-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-users {
+  --aic-icon: url("./aic-icons/hero-s-users.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-variable {
+  --aic-icon: url("./aic-icons/hero-s-variable.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-video-camera {
+  --aic-icon: url("./aic-icons/hero-s-video-camera.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-video-camera-slash {
+  --aic-icon: url("./aic-icons/hero-s-video-camera-slash.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-view-columns {
+  --aic-icon: url("./aic-icons/hero-s-view-columns.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-viewfinder-circle {
+  --aic-icon: url("./aic-icons/hero-s-viewfinder-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-wallet {
+  --aic-icon: url("./aic-icons/hero-s-wallet.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-wifi {
+  --aic-icon: url("./aic-icons/hero-s-wifi.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-window {
+  --aic-icon: url("./aic-icons/hero-s-window.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-wrench {
+  --aic-icon: url("./aic-icons/hero-s-wrench.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-wrench-screwdriver {
+  --aic-icon: url("./aic-icons/hero-s-wrench-screwdriver.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-x-circle {
+  --aic-icon: url("./aic-icons/hero-s-x-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-hero-s-x-mark {
+  --aic-icon: url("./aic-icons/hero-s-x-mark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
 .aic.aic-hero-academic-cap {
   --aic-icon: url("./aic-icons/hero-academic-cap.svg");
   --aic-animation: aic-scale-pop;
@@ -2182,6 +4048,1697 @@
 
 .aic.aic-hero-x-mark {
   --aic-icon: url("./aic-icons/hero-x-mark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-adobe-after-effects {
+  --aic-icon: url("./aic-icons/io-s-adobe-after-effects.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-adobe-illustrator {
+  --aic-icon: url("./aic-icons/io-s-adobe-illustrator.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-adobe-indesign {
+  --aic-icon: url("./aic-icons/io-s-adobe-indesign.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-adobe-lightroom {
+  --aic-icon: url("./aic-icons/io-s-adobe-lightroom.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-adobe-photoshop {
+  --aic-icon: url("./aic-icons/io-s-adobe-photoshop.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-adobe-xd {
+  --aic-icon: url("./aic-icons/io-s-adobe-xd.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-airplay {
+  --aic-icon: url("./aic-icons/io-s-airplay.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-alarm {
+  --aic-icon: url("./aic-icons/io-s-alarm.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-bottom-box {
+  --aic-icon: url("./aic-icons/io-s-align-bottom-box.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-horizontal-centers {
+  --aic-icon: url("./aic-icons/io-s-align-horizontal-centers.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-horizontal-spacing {
+  --aic-icon: url("./aic-icons/io-s-align-horizontal-spacing.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-left-box {
+  --aic-icon: url("./aic-icons/io-s-align-left-box.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-right-box {
+  --aic-icon: url("./aic-icons/io-s-align-right-box.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-top-box {
+  --aic-icon: url("./aic-icons/io-s-align-top-box.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-vertical-centers {
+  --aic-icon: url("./aic-icons/io-s-align-vertical-centers.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-align-vertical-spacing {
+  --aic-icon: url("./aic-icons/io-s-align-vertical-spacing.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-app-notification {
+  --aic-icon: url("./aic-icons/io-s-app-notification.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-app-store {
+  --aic-icon: url("./aic-icons/io-s-app-store.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-apple-shortcuts {
+  --aic-icon: url("./aic-icons/io-s-apple-shortcuts.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-arrow-down-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-down-circle.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-io-s-arrow-down-left-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-down-left-circle.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-io-s-arrow-down-left-square {
+  --aic-icon: url("./aic-icons/io-s-arrow-down-left-square.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-io-s-arrow-down-right-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-down-right-circle.svg");
+  --aic-animation: aic-nudge-right-down;
+}
+
+.aic.aic-io-s-arrow-down-right-square {
+  --aic-icon: url("./aic-icons/io-s-arrow-down-right-square.svg");
+  --aic-animation: aic-nudge-right-down;
+}
+
+.aic.aic-io-s-arrow-left-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-left-circle.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-io-s-arrow-left-tag {
+  --aic-icon: url("./aic-icons/io-s-arrow-left-tag.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-io-s-arrow-right-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-right-circle.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-io-s-arrow-right-tag {
+  --aic-icon: url("./aic-icons/io-s-arrow-right-tag.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-io-s-arrow-up-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-up-circle.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-io-s-arrow-up-left-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-up-left-circle.svg");
+  --aic-animation: aic-nudge-left-up;
+}
+
+.aic.aic-io-s-arrow-up-left-square {
+  --aic-icon: url("./aic-icons/io-s-arrow-up-left-square.svg");
+  --aic-animation: aic-nudge-left-up;
+}
+
+.aic.aic-io-s-arrow-up-right-circle {
+  --aic-icon: url("./aic-icons/io-s-arrow-up-right-circle.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-io-s-arrow-up-right-square {
+  --aic-icon: url("./aic-icons/io-s-arrow-up-right-square.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-io-s-bathroom {
+  --aic-icon: url("./aic-icons/io-s-bathroom.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-bell-notification {
+  --aic-icon: url("./aic-icons/io-s-bell-notification.svg");
+  --aic-animation: aic-bell-ring;
+  --aic-origin: 50% 12%;
+}
+
+.aic.aic-io-s-bitcoin-circle {
+  --aic-icon: url("./aic-icons/io-s-bitcoin-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-bluetooth-tag {
+  --aic-icon: url("./aic-icons/io-s-bluetooth-tag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-bold-square {
+  --aic-icon: url("./aic-icons/io-s-bold-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-book {
+  --aic-icon: url("./aic-icons/io-s-book.svg");
+  --aic-animation: aic-page-turn;
+  --aic-origin: 0% 50%;
+}
+
+.aic.aic-io-s-bookmark {
+  --aic-icon: url("./aic-icons/io-s-bookmark.svg");
+  --aic-animation: aic-page-turn;
+  --aic-origin: 0% 50%;
+}
+
+.aic.aic-io-s-bookmark-circle {
+  --aic-icon: url("./aic-icons/io-s-bookmark-circle.svg");
+  --aic-animation: aic-page-turn;
+  --aic-origin: 0% 50%;
+}
+
+.aic.aic-io-s-bubble-search {
+  --aic-icon: url("./aic-icons/io-s-bubble-search.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-bubble-xmark {
+  --aic-icon: url("./aic-icons/io-s-bubble-xmark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-bug {
+  --aic-icon: url("./aic-icons/io-s-bug.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-cable-tag {
+  --aic-icon: url("./aic-icons/io-s-cable-tag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-calendar-arrow-down {
+  --aic-icon: url("./aic-icons/io-s-calendar-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-io-s-calendar-arrow-up {
+  --aic-icon: url("./aic-icons/io-s-calendar-arrow-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-io-s-calendar-check {
+  --aic-icon: url("./aic-icons/io-s-calendar-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-calendar-minus {
+  --aic-icon: url("./aic-icons/io-s-calendar-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-calendar-plus {
+  --aic-icon: url("./aic-icons/io-s-calendar-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-calendar-rotate {
+  --aic-icon: url("./aic-icons/io-s-calendar-rotate.svg");
+  --aic-animation: aic-spin;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-calendar-xmark {
+  --aic-icon: url("./aic-icons/io-s-calendar-xmark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-camera {
+  --aic-icon: url("./aic-icons/io-s-camera.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-cash {
+  --aic-icon: url("./aic-icons/io-s-cash.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-center-align {
+  --aic-icon: url("./aic-icons/io-s-center-align.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-bubble {
+  --aic-icon: url("./aic-icons/io-s-chat-bubble.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-bubble-check {
+  --aic-icon: url("./aic-icons/io-s-chat-bubble-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-bubble-empty {
+  --aic-icon: url("./aic-icons/io-s-chat-bubble-empty.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-bubble-question {
+  --aic-icon: url("./aic-icons/io-s-chat-bubble-question.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-bubble-translate {
+  --aic-icon: url("./aic-icons/io-s-chat-bubble-translate.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-bubble-warning {
+  --aic-icon: url("./aic-icons/io-s-chat-bubble-warning.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-bubble-xmark {
+  --aic-icon: url("./aic-icons/io-s-chat-bubble-xmark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-lines {
+  --aic-icon: url("./aic-icons/io-s-chat-lines.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-minus-in {
+  --aic-icon: url("./aic-icons/io-s-chat-minus-in.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-chat-plus-in {
+  --aic-icon: url("./aic-icons/io-s-chat-plus-in.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-check-circle {
+  --aic-icon: url("./aic-icons/io-s-check-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-check-square {
+  --aic-icon: url("./aic-icons/io-s-check-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-clock {
+  --aic-icon: url("./aic-icons/io-s-clock.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-closed-captions-tag {
+  --aic-icon: url("./aic-icons/io-s-closed-captions-tag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-cloud-square {
+  --aic-icon: url("./aic-icons/io-s-cloud-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-comp-align-bottom {
+  --aic-icon: url("./aic-icons/io-s-comp-align-bottom.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-comp-align-left {
+  --aic-icon: url("./aic-icons/io-s-comp-align-left.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-comp-align-right {
+  --aic-icon: url("./aic-icons/io-s-comp-align-right.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-comp-align-top {
+  --aic-icon: url("./aic-icons/io-s-comp-align-top.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-compass {
+  --aic-icon: url("./aic-icons/io-s-compass.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-component {
+  --aic-icon: url("./aic-icons/io-s-component.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-cooling-square {
+  --aic-icon: url("./aic-icons/io-s-cooling-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-credit-card {
+  --aic-icon: url("./aic-icons/io-s-credit-card.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-cube-dots {
+  --aic-icon: url("./aic-icons/io-s-cube-dots.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-cube-scan {
+  --aic-icon: url("./aic-icons/io-s-cube-scan.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-database {
+  --aic-icon: url("./aic-icons/io-s-database.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-database-check {
+  --aic-icon: url("./aic-icons/io-s-database-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-database-tag {
+  --aic-icon: url("./aic-icons/io-s-database-tag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-database-xmark {
+  --aic-icon: url("./aic-icons/io-s-database-xmark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-design-nib {
+  --aic-icon: url("./aic-icons/io-s-design-nib.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-diameter {
+  --aic-icon: url("./aic-icons/io-s-diameter.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-divide {
+  --aic-icon: url("./aic-icons/io-s-divide.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-divide-three {
+  --aic-icon: url("./aic-icons/io-s-divide-three.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-dogecoin-circle {
+  --aic-icon: url("./aic-icons/io-s-dogecoin-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-dollar-circle {
+  --aic-icon: url("./aic-icons/io-s-dollar-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-dots-grid-3x3 {
+  --aic-icon: url("./aic-icons/io-s-dots-grid-3x3.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-download-circle {
+  --aic-icon: url("./aic-icons/io-s-download-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-download-square {
+  --aic-icon: url("./aic-icons/io-s-download-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-drag {
+  --aic-icon: url("./aic-icons/io-s-drag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-droplet {
+  --aic-icon: url("./aic-icons/io-s-droplet.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-droplet-snow-flake-in {
+  --aic-icon: url("./aic-icons/io-s-droplet-snow-flake-in.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-erase {
+  --aic-icon: url("./aic-icons/io-s-erase.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-ethereum-circle {
+  --aic-icon: url("./aic-icons/io-s-ethereum-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-euro-square {
+  --aic-icon: url("./aic-icons/io-s-euro-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-eye {
+  --aic-icon: url("./aic-icons/io-s-eye.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-facetime {
+  --aic-icon: url("./aic-icons/io-s-facetime.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-fast-arrow-down-square {
+  --aic-icon: url("./aic-icons/io-s-fast-arrow-down-square.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-io-s-fast-arrow-left-square {
+  --aic-icon: url("./aic-icons/io-s-fast-arrow-left-square.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-io-s-fast-arrow-right-square {
+  --aic-icon: url("./aic-icons/io-s-fast-arrow-right-square.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-io-s-fast-arrow-up-square {
+  --aic-icon: url("./aic-icons/io-s-fast-arrow-up-square.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-io-s-fill-color {
+  --aic-icon: url("./aic-icons/io-s-fill-color.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-filter {
+  --aic-icon: url("./aic-icons/io-s-filter.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-filter-list-circle {
+  --aic-icon: url("./aic-icons/io-s-filter-list-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-flash {
+  --aic-icon: url("./aic-icons/io-s-flash.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-flask {
+  --aic-icon: url("./aic-icons/io-s-flask.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-forward {
+  --aic-icon: url("./aic-icons/io-s-forward.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-io-s-frame-tool {
+  --aic-icon: url("./aic-icons/io-s-frame-tool.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-fx-tag {
+  --aic-icon: url("./aic-icons/io-s-fx-tag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-git {
+  --aic-icon: url("./aic-icons/io-s-git.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-google-circle {
+  --aic-icon: url("./aic-icons/io-s-google-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-graduation-cap {
+  --aic-icon: url("./aic-icons/io-s-graduation-cap.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-hd-display {
+  --aic-icon: url("./aic-icons/io-s-hd-display.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-headset {
+  --aic-icon: url("./aic-icons/io-s-headset.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-headset-bolt {
+  --aic-icon: url("./aic-icons/io-s-headset-bolt.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-headset-warning {
+  --aic-icon: url("./aic-icons/io-s-headset-warning.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-heart {
+  --aic-icon: url("./aic-icons/io-s-heart.svg");
+  --aic-animation: aic-heart-beat;
+  --aic-origin: 50% 60%;
+}
+
+.aic.aic-io-s-heating-square {
+  --aic-icon: url("./aic-icons/io-s-heating-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-help-circle {
+  --aic-icon: url("./aic-icons/io-s-help-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-help-square {
+  --aic-icon: url("./aic-icons/io-s-help-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-horiz-distribution-left {
+  --aic-icon: url("./aic-icons/io-s-horiz-distribution-left.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-horiz-distribution-right {
+  --aic-icon: url("./aic-icons/io-s-horiz-distribution-right.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-hospital-circle {
+  --aic-icon: url("./aic-icons/io-s-hospital-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-ice-cream {
+  --aic-icon: url("./aic-icons/io-s-ice-cream.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-info-circle {
+  --aic-icon: url("./aic-icons/io-s-info-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-italic-square {
+  --aic-icon: url("./aic-icons/io-s-italic-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe {
+  --aic-icon: url("./aic-icons/io-s-keyframe.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-align-center {
+  --aic-icon: url("./aic-icons/io-s-keyframe-align-center.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-align-horizontal {
+  --aic-icon: url("./aic-icons/io-s-keyframe-align-horizontal.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-align-vertical {
+  --aic-icon: url("./aic-icons/io-s-keyframe-align-vertical.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-minus {
+  --aic-icon: url("./aic-icons/io-s-keyframe-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-minus-in {
+  --aic-icon: url("./aic-icons/io-s-keyframe-minus-in.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-plus {
+  --aic-icon: url("./aic-icons/io-s-keyframe-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-plus-in {
+  --aic-icon: url("./aic-icons/io-s-keyframe-plus-in.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframe-position {
+  --aic-icon: url("./aic-icons/io-s-keyframe-position.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframes {
+  --aic-icon: url("./aic-icons/io-s-keyframes.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-keyframes-couple {
+  --aic-icon: url("./aic-icons/io-s-keyframes-couple.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-label {
+  --aic-icon: url("./aic-icons/io-s-label.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-litecoin-circle {
+  --aic-icon: url("./aic-icons/io-s-litecoin-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-long-arrow-down-left {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-down-left.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-io-s-long-arrow-down-right {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-down-right.svg");
+  --aic-animation: aic-nudge-right-down;
+}
+
+.aic.aic-io-s-long-arrow-left-down {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-left-down.svg");
+  --aic-animation: aic-nudge-left-down;
+}
+
+.aic.aic-io-s-long-arrow-left-up {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-left-up.svg");
+  --aic-animation: aic-nudge-left-up;
+}
+
+.aic.aic-io-s-long-arrow-right-down {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-right-down.svg");
+  --aic-animation: aic-nudge-right-down;
+}
+
+.aic.aic-io-s-long-arrow-right-up {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-right-up.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-io-s-long-arrow-up-left {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-up-left.svg");
+  --aic-animation: aic-nudge-left-up;
+}
+
+.aic.aic-io-s-long-arrow-up-right {
+  --aic-icon: url("./aic-icons/io-s-long-arrow-up-right.svg");
+  --aic-animation: aic-nudge-right-up;
+}
+
+.aic.aic-io-s-magnet {
+  --aic-icon: url("./aic-icons/io-s-magnet.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-mail {
+  --aic-icon: url("./aic-icons/io-s-mail.svg");
+  --aic-animation: aic-mail-flap;
+  --aic-origin: 50% 18%;
+}
+
+.aic.aic-io-s-mail-in {
+  --aic-icon: url("./aic-icons/io-s-mail-in.svg");
+  --aic-animation: aic-mail-flap;
+  --aic-origin: 50% 18%;
+}
+
+.aic.aic-io-s-mail-open {
+  --aic-icon: url("./aic-icons/io-s-mail-open.svg");
+  --aic-animation: aic-mail-flap;
+  --aic-origin: 50% 18%;
+}
+
+.aic.aic-io-s-mail-out {
+  --aic-icon: url("./aic-icons/io-s-mail-out.svg");
+  --aic-animation: aic-mail-flap;
+  --aic-origin: 50% 18%;
+}
+
+.aic.aic-io-s-medal {
+  --aic-icon: url("./aic-icons/io-s-medal.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-medal-1st {
+  --aic-icon: url("./aic-icons/io-s-medal-1st.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-message {
+  --aic-icon: url("./aic-icons/io-s-message.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-message-alert {
+  --aic-icon: url("./aic-icons/io-s-message-alert.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-message-text {
+  --aic-icon: url("./aic-icons/io-s-message-text.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microphone {
+  --aic-icon: url("./aic-icons/io-s-microphone.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microphone-check {
+  --aic-icon: url("./aic-icons/io-s-microphone-check.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microphone-minus {
+  --aic-icon: url("./aic-icons/io-s-microphone-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microphone-mute {
+  --aic-icon: url("./aic-icons/io-s-microphone-mute.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microphone-plus {
+  --aic-icon: url("./aic-icons/io-s-microphone-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microphone-speaking {
+  --aic-icon: url("./aic-icons/io-s-microphone-speaking.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microphone-warning {
+  --aic-icon: url("./aic-icons/io-s-microphone-warning.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-microscope {
+  --aic-icon: url("./aic-icons/io-s-microscope.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-minus-circle {
+  --aic-icon: url("./aic-icons/io-s-minus-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-minus-square {
+  --aic-icon: url("./aic-icons/io-s-minus-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-money-square {
+  --aic-icon: url("./aic-icons/io-s-money-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-multi-bubble {
+  --aic-icon: url("./aic-icons/io-s-multi-bubble.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-music-note {
+  --aic-icon: url("./aic-icons/io-s-music-note.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-music-note-plus {
+  --aic-icon: url("./aic-icons/io-s-music-note-plus.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-nav-arrow-down {
+  --aic-icon: url("./aic-icons/io-s-nav-arrow-down.svg");
+  --aic-animation: aic-nudge-down;
+}
+
+.aic.aic-io-s-nav-arrow-left {
+  --aic-icon: url("./aic-icons/io-s-nav-arrow-left.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-io-s-nav-arrow-right {
+  --aic-icon: url("./aic-icons/io-s-nav-arrow-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-io-s-nav-arrow-up {
+  --aic-icon: url("./aic-icons/io-s-nav-arrow-up.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-io-s-network {
+  --aic-icon: url("./aic-icons/io-s-network.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-network-left {
+  --aic-icon: url("./aic-icons/io-s-network-left.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-network-reverse {
+  --aic-icon: url("./aic-icons/io-s-network-reverse.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-network-right {
+  --aic-icon: url("./aic-icons/io-s-network-right.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-0-square {
+  --aic-icon: url("./aic-icons/io-s-number-0-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-1-square {
+  --aic-icon: url("./aic-icons/io-s-number-1-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-2-square {
+  --aic-icon: url("./aic-icons/io-s-number-2-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-3-square {
+  --aic-icon: url("./aic-icons/io-s-number-3-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-4-square {
+  --aic-icon: url("./aic-icons/io-s-number-4-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-5-square {
+  --aic-icon: url("./aic-icons/io-s-number-5-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-6-square {
+  --aic-icon: url("./aic-icons/io-s-number-6-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-7-square {
+  --aic-icon: url("./aic-icons/io-s-number-7-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-8-square {
+  --aic-icon: url("./aic-icons/io-s-number-8-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-number-9-square {
+  --aic-icon: url("./aic-icons/io-s-number-9-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-page-down {
+  --aic-icon: url("./aic-icons/io-s-page-down.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-page-left {
+  --aic-icon: url("./aic-icons/io-s-page-left.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-page-right {
+  --aic-icon: url("./aic-icons/io-s-page-right.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-page-up {
+  --aic-icon: url("./aic-icons/io-s-page-up.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-path-arrow {
+  --aic-icon: url("./aic-icons/io-s-path-arrow.svg");
+  --aic-animation: aic-nudge-up;
+}
+
+.aic.aic-io-s-pause {
+  --aic-icon: url("./aic-icons/io-s-pause.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-peerlist {
+  --aic-icon: url("./aic-icons/io-s-peerlist.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-percentage-circle {
+  --aic-icon: url("./aic-icons/io-s-percentage-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-percentage-square {
+  --aic-icon: url("./aic-icons/io-s-percentage-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-phone {
+  --aic-icon: url("./aic-icons/io-s-phone.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-phone-income {
+  --aic-icon: url("./aic-icons/io-s-phone-income.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-phone-minus {
+  --aic-icon: url("./aic-icons/io-s-phone-minus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-phone-outcome {
+  --aic-icon: url("./aic-icons/io-s-phone-outcome.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-phone-paused {
+  --aic-icon: url("./aic-icons/io-s-phone-paused.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-phone-plus {
+  --aic-icon: url("./aic-icons/io-s-phone-plus.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-phone-xmark {
+  --aic-icon: url("./aic-icons/io-s-phone-xmark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-pin {
+  --aic-icon: url("./aic-icons/io-s-pin.svg");
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-pin-slash {
+  --aic-icon: url("./aic-icons/io-s-pin-slash.svg");
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-planet {
+  --aic-icon: url("./aic-icons/io-s-planet.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-play {
+  --aic-icon: url("./aic-icons/io-s-play.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-plus-circle {
+  --aic-icon: url("./aic-icons/io-s-plus-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-plus-square {
+  --aic-icon: url("./aic-icons/io-s-plus-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-pocket {
+  --aic-icon: url("./aic-icons/io-s-pocket.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-podcast {
+  --aic-icon: url("./aic-icons/io-s-podcast.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-post {
+  --aic-icon: url("./aic-icons/io-s-post.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-presentation {
+  --aic-icon: url("./aic-icons/io-s-presentation.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-priority-down {
+  --aic-icon: url("./aic-icons/io-s-priority-down.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-priority-high {
+  --aic-icon: url("./aic-icons/io-s-priority-high.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-priority-medium {
+  --aic-icon: url("./aic-icons/io-s-priority-medium.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-priority-up {
+  --aic-icon: url("./aic-icons/io-s-priority-up.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-quote {
+  --aic-icon: url("./aic-icons/io-s-quote.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-quote-message {
+  --aic-icon: url("./aic-icons/io-s-quote-message.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-radiation {
+  --aic-icon: url("./aic-icons/io-s-radiation.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-radius {
+  --aic-icon: url("./aic-icons/io-s-radius.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-redo-circle {
+  --aic-icon: url("./aic-icons/io-s-redo-circle.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-io-s-refresh-circle {
+  --aic-icon: url("./aic-icons/io-s-refresh-circle.svg");
+  --aic-animation: aic-spin;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-reports {
+  --aic-icon: url("./aic-icons/io-s-reports.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-rewind {
+  --aic-icon: url("./aic-icons/io-s-rewind.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-rhombus-arrow-right {
+  --aic-icon: url("./aic-icons/io-s-rhombus-arrow-right.svg");
+  --aic-animation: aic-nudge-right;
+}
+
+.aic.aic-io-s-round-flask {
+  --aic-icon: url("./aic-icons/io-s-round-flask.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-rss-feed-tag {
+  --aic-icon: url("./aic-icons/io-s-rss-feed-tag.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-send {
+  --aic-icon: url("./aic-icons/io-s-send.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-send-diagonal {
+  --aic-icon: url("./aic-icons/io-s-send-diagonal.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-send-mail {
+  --aic-icon: url("./aic-icons/io-s-send-mail.svg");
+  --aic-animation: aic-mail-flap;
+  --aic-origin: 50% 18%;
+}
+
+.aic.aic-io-s-server {
+  --aic-icon: url("./aic-icons/io-s-server.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-server-connection {
+  --aic-icon: url("./aic-icons/io-s-server-connection.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-share-android {
+  --aic-icon: url("./aic-icons/io-s-share-android.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-shortcut-square {
+  --aic-icon: url("./aic-icons/io-s-shortcut-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-skip-next {
+  --aic-icon: url("./aic-icons/io-s-skip-next.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-skip-prev {
+  --aic-icon: url("./aic-icons/io-s-skip-prev.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-snapchat {
+  --aic-icon: url("./aic-icons/io-s-snapchat.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-sound-high {
+  --aic-icon: url("./aic-icons/io-s-sound-high.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-sound-low {
+  --aic-icon: url("./aic-icons/io-s-sound-low.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-sound-min {
+  --aic-icon: url("./aic-icons/io-s-sound-min.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-sound-off {
+  --aic-icon: url("./aic-icons/io-s-sound-off.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-spark {
+  --aic-icon: url("./aic-icons/io-s-spark.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-sparks {
+  --aic-icon: url("./aic-icons/io-s-sparks.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-square-cursor {
+  --aic-icon: url("./aic-icons/io-s-square-cursor.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-star {
+  --aic-icon: url("./aic-icons/io-s-star.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-stats-down-square {
+  --aic-icon: url("./aic-icons/io-s-stats-down-square.svg");
+  --aic-animation: aic-bar;
+  --aic-origin: 50% 100%;
+}
+
+.aic.aic-io-s-stats-up-square {
+  --aic-icon: url("./aic-icons/io-s-stats-up-square.svg");
+  --aic-animation: aic-bar;
+  --aic-origin: 50% 100%;
+}
+
+.aic.aic-io-s-style-border {
+  --aic-icon: url("./aic-icons/io-s-style-border.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-test-tube {
+  --aic-icon: url("./aic-icons/io-s-test-tube.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-text-square {
+  --aic-icon: url("./aic-icons/io-s-text-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-three-stars {
+  --aic-icon: url("./aic-icons/io-s-three-stars.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-tiktok {
+  --aic-icon: url("./aic-icons/io-s-tiktok.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-timer {
+  --aic-icon: url("./aic-icons/io-s-timer.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-transition-down {
+  --aic-icon: url("./aic-icons/io-s-transition-down.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-transition-left {
+  --aic-icon: url("./aic-icons/io-s-transition-left.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-transition-right {
+  --aic-icon: url("./aic-icons/io-s-transition-right.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-transition-up {
+  --aic-icon: url("./aic-icons/io-s-transition-up.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-trash {
+  --aic-icon: url("./aic-icons/io-s-trash.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-underline-square {
+  --aic-icon: url("./aic-icons/io-s-underline-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-undo-circle {
+  --aic-icon: url("./aic-icons/io-s-undo-circle.svg");
+  --aic-animation: aic-nudge-left;
+}
+
+.aic.aic-io-s-upload-square {
+  --aic-icon: url("./aic-icons/io-s-upload-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-usb {
+  --aic-icon: url("./aic-icons/io-s-usb.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-vials {
+  --aic-icon: url("./aic-icons/io-s-vials.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-wallet {
+  --aic-icon: url("./aic-icons/io-s-wallet.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-warning-circle {
+  --aic-icon: url("./aic-icons/io-s-warning-circle.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-warning-square {
+  --aic-icon: url("./aic-icons/io-s-warning-square.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-warning-triangle {
+  --aic-icon: url("./aic-icons/io-s-warning-triangle.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-web-window {
+  --aic-icon: url("./aic-icons/io-s-web-window.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-web-window-energy-consumption {
+  --aic-icon: url("./aic-icons/io-s-web-window-energy-consumption.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-web-window-xmark {
+  --aic-icon: url("./aic-icons/io-s-web-window-xmark.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-whatsapp {
+  --aic-icon: url("./aic-icons/io-s-whatsapp.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-white-flag {
+  --aic-icon: url("./aic-icons/io-s-white-flag.svg");
+  --aic-animation: aic-shake;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-wifi-signal-none {
+  --aic-icon: url("./aic-icons/io-s-wifi-signal-none.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-wifi-tag {
+  --aic-icon: url("./aic-icons/io-s-wifi-tag.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-wifi-warning {
+  --aic-icon: url("./aic-icons/io-s-wifi-warning.svg");
+  --aic-animation: aic-pulse-element;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-window-tabs {
+  --aic-icon: url("./aic-icons/io-s-window-tabs.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-wolf {
+  --aic-icon: url("./aic-icons/io-s-wolf.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-xmark-circle {
+  --aic-icon: url("./aic-icons/io-s-xmark-circle.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-xmark-square {
+  --aic-icon: url("./aic-icons/io-s-xmark-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-yen-square {
+  --aic-icon: url("./aic-icons/io-s-yen-square.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-io-s-youtube {
+  --aic-icon: url("./aic-icons/io-s-youtube.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
