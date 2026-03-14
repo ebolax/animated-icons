@@ -16,11 +16,14 @@ const lucideDir = path.join(rootDir, "node_modules", "lucide-static", "icons");
 
 const categories = ["all", "arrows", "communication", "media", "files", "ui", "status", "weather", "objects", "editing", "people", "navigation", "data", "security", "development"];
 
-const animations = {
+let animations = {
     bar: { name: "bar", origin: "50% 100%" },
     "bell-ring": { name: "bell-ring", origin: "50% 12%" },
     "dot-appear": { name: "dot-appear", origin: "center" },
     fade: { name: "fade", origin: "center" },
+    "flip-3d": { name: "flip-3d", origin: "center" },
+    "flip-in-3d": { name: "flip-in-3d", origin: "center" },
+    "orbit-3d": { name: "orbit-3d", origin: "center" },
     gear: { name: "gear", origin: "center" },
     "heart-beat": { name: "heart-beat", origin: "50% 60%" },
     "mail-flap": { name: "mail-flap", origin: "50% 18%" },
@@ -39,6 +42,12 @@ const animations = {
     shake: { name: "shake", origin: "center" },
     spin: { name: "spin", origin: "center" }
 };
+animations = Object.keys(animations)
+    .sort()
+    .reduce((acc, key) => {
+        acc[key] = animations[key];
+        return acc;
+    }, {});
 
 function ensureDir(dir) {
     fs.mkdirSync(dir, { recursive: true });
@@ -85,12 +94,20 @@ function pickAnimation(iconName) {
         return { animation: animations["bell-ring"].name, origin: animations["bell-ring"].origin };
     }
 
-    if (/dot-appear|pin|location|locate|map-pin/.test(name)) {
+    if (/dot|pin|location|locate|map-pin/.test(name)) {
         return { animation: animations["dot-appear"].name, origin: animations["dot-appear"].origin };
     }
 
     if (/play|pause|stop|radio|music|audio|speaker|volume/.test(name)) {
         return { animation: animations.fade.name, origin: animations.fade.origin };
+    }
+
+    if (/wifi|signal|alert|warning|bolt|notification/.test(name)) {
+        return { animation: animations["flip-3d"].name, origin: animations["flip-3d"].origin };
+    }
+
+    if (/spark|zap/.test(name)) {
+        return { animation: animations["flip-in-3d"].name, origin: animations["flip-in-3d"].origin };
     }
 
     if (/settings|cog|gear|sun|moon|clock|scissor|scissors/.test(name)) {
@@ -109,19 +126,19 @@ function pickAnimation(iconName) {
         return { animation: animations["nudge-" + dir].name };
     }
 
-    if (/book/.test(name)) {
-        return { animation: animations["page-turn"].name, origin: animations["page-turn"].origin };
+    if (/eye|face|chat/.test(name)) {
+        return { animation: animations["orbit-3d"].name, origin: animations["orbit-3d"].origin };
     }
 
-    if (/wifi|signal|alert|warning|bolt|spark|zap|notification/.test(name)) {
-        return { animation: animations["pulse-element"].name, origin: animations["pulse-element"].origin };
+    if (/book/.test(name)) {
+        return { animation: animations["page-turn"].name, origin: animations["page-turn"].origin };
     }
 
     if (/rocket|navigation/.test(name)) {
         return { animation: animations["rocket-lift"].name };
     }
 
-    if (/search|magnifying-glass|camera|video|eye|face|chat|message|phone|mic|microphone|cloud|globe|shield|star|key|wrench|archive/.test(name)) {
+    if (/search|magnifying-glass|camera|video|message|phone|mic|microphone|cloud|globe|shield|star|key|wrench|archive/.test(name)) {
         return { animation: animations["scale-pop"].name, origin: animations["scale-pop"].origin };
     }
 

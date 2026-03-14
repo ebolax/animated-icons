@@ -99,16 +99,36 @@
 /* fade */
 @keyframes aic-fade {
     0% {
-        opacity: 0.35;
+        opacity: 1;
         transform: scale(0.92);
     }
-    60% {
-        opacity: 1;
+    50% {
+        opacity: 0.3;
         transform: scale(1.04);
     }
     100% {
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+/* flip-3d — 3D flip on Y axis */
+@keyframes aic-flip-3d {
+    0% {
+        transform: perspective(120px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(120px) rotateY(360deg);
+    }
+}
+
+/* flip-in-3d — 3D flip from back to front */
+@keyframes aic-flip-in-3d {
+    0% {
+        transform: perspective(120px) rotateX(0deg);
+    }
+    100% {
+        transform: perspective(120px) rotateX(360deg);
     }
 }
 
@@ -232,13 +252,27 @@
     }
 }
 
+/* orbit-3d — Orbit-like subtle 3D rotation */
+@keyframes aic-orbit-3d {
+    0%,
+    100% {
+        transform: perspective(160px) rotateY(0deg) rotateX(0deg);
+    }
+    33% {
+        transform: perspective(160px) rotateY(45deg) rotateX(-45deg);
+    }
+    66% {
+        transform: perspective(160px) rotateY(45deg) rotateX(45deg);
+    }
+}
+
 /* page-turn */
 @keyframes aic-page-turn {
     0% {
         transform: perspective(80px) rotateY(0deg);
     }
     40% {
-        transform: perspective(80px) rotateY(-12deg);
+        transform: perspective(80px) rotateY(-30deg);
     }
     75% {
         transform: perspective(80px) rotateY(4deg);
@@ -251,11 +285,15 @@
 /* pulse-element */
 @keyframes aic-pulse-element {
     0%,
+    50%,
     100% {
         opacity: 1;
     }
-    50% {
-        opacity: 0.35;
+    25% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.5;
     }
 }
 
@@ -745,13 +783,13 @@
 
 .aic.aic-hero-s-bolt {
   --aic-icon: url("./aic-icons/hero-s-bolt.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-bolt-slash {
   --aic-icon: url("./aic-icons/hero-s-bolt-slash.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -871,43 +909,43 @@
 
 .aic.aic-hero-s-chat-bubble-bottom-center {
   --aic-icon: url("./aic-icons/hero-s-chat-bubble-bottom-center.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-chat-bubble-bottom-center-text {
   --aic-icon: url("./aic-icons/hero-s-chat-bubble-bottom-center-text.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-chat-bubble-left {
   --aic-icon: url("./aic-icons/hero-s-chat-bubble-left.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-chat-bubble-left-ellipsis {
   --aic-icon: url("./aic-icons/hero-s-chat-bubble-left-ellipsis.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-chat-bubble-left-right {
   --aic-icon: url("./aic-icons/hero-s-chat-bubble-left-right.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-chat-bubble-oval-left {
   --aic-icon: url("./aic-icons/hero-s-chat-bubble-oval-left.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-chat-bubble-oval-left-ellipsis {
   --aic-icon: url("./aic-icons/hero-s-chat-bubble-oval-left-ellipsis.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -1300,31 +1338,31 @@
 
 .aic.aic-hero-s-eye {
   --aic-icon: url("./aic-icons/hero-s-eye.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-eye-dropper {
   --aic-icon: url("./aic-icons/hero-s-eye-dropper.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-eye-slash {
   --aic-icon: url("./aic-icons/hero-s-eye-slash.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-face-frown {
   --aic-icon: url("./aic-icons/hero-s-face-frown.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-face-smile {
   --aic-icon: url("./aic-icons/hero-s-face-smile.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -1936,13 +1974,13 @@
 
 .aic.aic-hero-s-signal {
   --aic-icon: url("./aic-icons/hero-s-signal.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-s-signal-slash {
   --aic-icon: url("./aic-icons/hero-s-signal-slash.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -1954,7 +1992,7 @@
 
 .aic.aic-hero-s-sparkles {
   --aic-icon: url("./aic-icons/hero-s-sparkles.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -2152,7 +2190,7 @@
 
 .aic.aic-hero-s-wifi {
   --aic-icon: url("./aic-icons/hero-s-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -2611,13 +2649,13 @@
 
 .aic.aic-hero-bolt {
   --aic-icon: url("./aic-icons/hero-bolt.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-bolt-slash {
   --aic-icon: url("./aic-icons/hero-bolt-slash.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -2737,43 +2775,43 @@
 
 .aic.aic-hero-chat-bubble-bottom-center {
   --aic-icon: url("./aic-icons/hero-chat-bubble-bottom-center.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-chat-bubble-bottom-center-text {
   --aic-icon: url("./aic-icons/hero-chat-bubble-bottom-center-text.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-chat-bubble-left {
   --aic-icon: url("./aic-icons/hero-chat-bubble-left.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-chat-bubble-left-ellipsis {
   --aic-icon: url("./aic-icons/hero-chat-bubble-left-ellipsis.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-chat-bubble-left-right {
   --aic-icon: url("./aic-icons/hero-chat-bubble-left-right.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-chat-bubble-oval-left {
   --aic-icon: url("./aic-icons/hero-chat-bubble-oval-left.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-chat-bubble-oval-left-ellipsis {
   --aic-icon: url("./aic-icons/hero-chat-bubble-oval-left-ellipsis.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -3166,31 +3204,31 @@
 
 .aic.aic-hero-eye {
   --aic-icon: url("./aic-icons/hero-eye.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-eye-dropper {
   --aic-icon: url("./aic-icons/hero-eye-dropper.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-eye-slash {
   --aic-icon: url("./aic-icons/hero-eye-slash.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-face-frown {
   --aic-icon: url("./aic-icons/hero-face-frown.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-face-smile {
   --aic-icon: url("./aic-icons/hero-face-smile.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -3802,13 +3840,13 @@
 
 .aic.aic-hero-signal {
   --aic-icon: url("./aic-icons/hero-signal.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-hero-signal-slash {
   --aic-icon: url("./aic-icons/hero-signal-slash.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -3820,7 +3858,7 @@
 
 .aic.aic-hero-sparkles {
   --aic-icon: url("./aic-icons/hero-sparkles.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -4018,7 +4056,7 @@
 
 .aic.aic-hero-wifi {
   --aic-icon: url("./aic-icons/hero-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -4150,7 +4188,7 @@
 
 .aic.aic-io-s-app-notification {
   --aic-icon: url("./aic-icons/io-s-app-notification.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -4368,61 +4406,61 @@
 
 .aic.aic-io-s-chat-bubble {
   --aic-icon: url("./aic-icons/io-s-chat-bubble.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-bubble-check {
   --aic-icon: url("./aic-icons/io-s-chat-bubble-check.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-bubble-empty {
   --aic-icon: url("./aic-icons/io-s-chat-bubble-empty.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-bubble-question {
   --aic-icon: url("./aic-icons/io-s-chat-bubble-question.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-bubble-translate {
   --aic-icon: url("./aic-icons/io-s-chat-bubble-translate.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-bubble-warning {
   --aic-icon: url("./aic-icons/io-s-chat-bubble-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-bubble-xmark {
   --aic-icon: url("./aic-icons/io-s-chat-bubble-xmark.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-lines {
   --aic-icon: url("./aic-icons/io-s-chat-lines.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-minus-in {
   --aic-icon: url("./aic-icons/io-s-chat-minus-in.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-chat-plus-in {
   --aic-icon: url("./aic-icons/io-s-chat-plus-in.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -4506,7 +4544,7 @@
 
 .aic.aic-io-s-cube-dots {
   --aic-icon: url("./aic-icons/io-s-cube-dots.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -4578,7 +4616,7 @@
 
 .aic.aic-io-s-dots-grid-3x3 {
   --aic-icon: url("./aic-icons/io-s-dots-grid-3x3.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -4632,13 +4670,13 @@
 
 .aic.aic-io-s-eye {
   --aic-icon: url("./aic-icons/io-s-eye.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-facetime {
   --aic-icon: url("./aic-icons/io-s-facetime.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -4741,13 +4779,13 @@
 
 .aic.aic-io-s-headset-bolt {
   --aic-icon: url("./aic-icons/io-s-headset-bolt.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-headset-warning {
   --aic-icon: url("./aic-icons/io-s-headset-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -4979,7 +5017,7 @@
 
 .aic.aic-io-s-message-alert {
   --aic-icon: url("./aic-icons/io-s-message-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -5027,7 +5065,7 @@
 
 .aic.aic-io-s-microphone-warning {
   --aic-icon: url("./aic-icons/io-s-microphone-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -5476,7 +5514,7 @@
 
 .aic.aic-io-s-snapchat {
   --aic-icon: url("./aic-icons/io-s-snapchat.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -5506,13 +5544,13 @@
 
 .aic.aic-io-s-spark {
   --aic-icon: url("./aic-icons/io-s-spark.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-sparks {
   --aic-icon: url("./aic-icons/io-s-sparks.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -5643,19 +5681,19 @@
 
 .aic.aic-io-s-warning-circle {
   --aic-icon: url("./aic-icons/io-s-warning-circle.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-warning-square {
   --aic-icon: url("./aic-icons/io-s-warning-square.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-warning-triangle {
   --aic-icon: url("./aic-icons/io-s-warning-triangle.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -5691,19 +5729,19 @@
 
 .aic.aic-io-s-wifi-signal-none {
   --aic-icon: url("./aic-icons/io-s-wifi-signal-none.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-wifi-tag {
   --aic-icon: url("./aic-icons/io-s-wifi-tag.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-s-wifi-warning {
   --aic-icon: url("./aic-icons/io-s-wifi-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -5979,19 +6017,19 @@
 
 .aic.aic-io-antenna-signal {
   --aic-icon: url("./aic-icons/io-antenna-signal.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-antenna-signal-tag {
   --aic-icon: url("./aic-icons/io-antenna-signal-tag.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-app-notification {
   --aic-icon: url("./aic-icons/io-app-notification.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -6432,7 +6470,7 @@
 
 .aic.aic-io-battery-warning {
   --aic-icon: url("./aic-icons/io-battery-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -6762,7 +6800,7 @@
 
 .aic.aic-io-brain-warning {
   --aic-icon: url("./aic-icons/io-brain-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -6780,7 +6818,7 @@
 
 .aic.aic-io-bridge-surface {
   --aic-icon: url("./aic-icons/io-bridge-surface.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -6846,7 +6884,7 @@
 
 .aic.aic-io-bubble-warning {
   --aic-icon: url("./aic-icons/io-bubble-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -7048,61 +7086,61 @@
 
 .aic.aic-io-chat-bubble {
   --aic-icon: url("./aic-icons/io-chat-bubble.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-bubble-check {
   --aic-icon: url("./aic-icons/io-chat-bubble-check.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-bubble-empty {
   --aic-icon: url("./aic-icons/io-chat-bubble-empty.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-bubble-question {
   --aic-icon: url("./aic-icons/io-chat-bubble-question.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-bubble-translate {
   --aic-icon: url("./aic-icons/io-chat-bubble-translate.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-bubble-warning {
   --aic-icon: url("./aic-icons/io-chat-bubble-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-bubble-xmark {
   --aic-icon: url("./aic-icons/io-chat-bubble-xmark.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-lines {
   --aic-icon: url("./aic-icons/io-chat-lines.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-minus-in {
   --aic-icon: url("./aic-icons/io-chat-minus-in.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-chat-plus-in {
   --aic-icon: url("./aic-icons/io-chat-plus-in.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -7174,7 +7212,7 @@
 
 .aic.aic-io-circle-spark {
   --aic-icon: url("./aic-icons/io-circle-spark.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -7432,7 +7470,7 @@
 
 .aic.aic-io-constrained-surface {
   --aic-icon: url("./aic-icons/io-constrained-surface.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -7510,7 +7548,7 @@
 
 .aic.aic-io-cpu-warning {
   --aic-icon: url("./aic-icons/io-cpu-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -7618,7 +7656,7 @@
 
 .aic.aic-io-cube-dots {
   --aic-icon: url("./aic-icons/io-cube-dots.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -7630,7 +7668,7 @@
 
 .aic.aic-io-cube-replace-face {
   --aic-icon: url("./aic-icons/io-cube-replace-face.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -7690,7 +7728,7 @@
 
 .aic.aic-io-dashboard-dots {
   --aic-icon: url("./aic-icons/io-dashboard-dots.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -7726,7 +7764,7 @@
 
 .aic.aic-io-data-transfer-warning {
   --aic-icon: url("./aic-icons/io-data-transfer-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -7816,7 +7854,7 @@
 
 .aic.aic-io-database-warning {
   --aic-icon: url("./aic-icons/io-database-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -8032,7 +8070,7 @@
 
 .aic.aic-io-domotic-warning {
   --aic-icon: url("./aic-icons/io-domotic-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -8044,27 +8082,31 @@
 
 .aic.aic-io-dot-arrow-down {
   --aic-icon: url("./aic-icons/io-dot-arrow-down.svg");
-  --aic-animation: aic-nudge-down;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-io-dot-arrow-left {
   --aic-icon: url("./aic-icons/io-dot-arrow-left.svg");
-  --aic-animation: aic-nudge-left;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-io-dot-arrow-right {
   --aic-icon: url("./aic-icons/io-dot-arrow-right.svg");
-  --aic-animation: aic-nudge-right;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-io-dot-arrow-up {
   --aic-icon: url("./aic-icons/io-dot-arrow-up.svg");
-  --aic-animation: aic-nudge-up;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-io-dots-grid-3x3 {
   --aic-icon: url("./aic-icons/io-dots-grid-3x3.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -8550,13 +8592,13 @@
 
 .aic.aic-io-eye {
   --aic-icon: url("./aic-icons/io-eye.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-eye-closed {
   --aic-icon: url("./aic-icons/io-eye-closed.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -8568,31 +8610,31 @@
 
 .aic.aic-io-face-3d-draft {
   --aic-icon: url("./aic-icons/io-face-3d-draft.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-face-id {
   --aic-icon: url("./aic-icons/io-face-id.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-facebook {
   --aic-icon: url("./aic-icons/io-facebook.svg");
-  --aic-animation: aic-page-turn;
-  --aic-origin: 0% 50%;
+  --aic-animation: aic-orbit-3d;
+  --aic-origin: center;
 }
 
 .aic.aic-io-facebook-tag {
   --aic-icon: url("./aic-icons/io-facebook-tag.svg");
-  --aic-animation: aic-page-turn;
-  --aic-origin: 0% 50%;
+  --aic-animation: aic-orbit-3d;
+  --aic-origin: center;
 }
 
 .aic.aic-io-facetime {
   --aic-icon: url("./aic-icons/io-facetime.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -8894,7 +8936,7 @@
 
 .aic.aic-io-folder-warning {
   --aic-icon: url("./aic-icons/io-folder-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -9191,7 +9233,7 @@
 
 .aic.aic-io-google-drive-warning {
   --aic-icon: url("./aic-icons/io-google-drive-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -9359,7 +9401,7 @@
 
 .aic.aic-io-headset-bolt {
   --aic-icon: url("./aic-icons/io-headset-bolt.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -9371,7 +9413,7 @@
 
 .aic.aic-io-headset-warning {
   --aic-icon: url("./aic-icons/io-headset-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -9911,7 +9953,7 @@
 
 .aic.aic-io-laptop-warning {
   --aic-icon: url("./aic-icons/io-laptop-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -10425,7 +10467,7 @@
 
 .aic.aic-io-message-alert {
   --aic-icon: url("./aic-icons/io-message-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -10484,7 +10526,7 @@
 
 .aic.aic-io-microphone-warning {
   --aic-icon: url("./aic-icons/io-microphone-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -11217,7 +11259,7 @@
 
 .aic.aic-io-pc-warning {
   --aic-icon: url("./aic-icons/io-pc-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -11241,7 +11283,7 @@
 
 .aic.aic-io-pen-connect-wifi {
   --aic-icon: url("./aic-icons/io-pen-connect-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -11259,7 +11301,7 @@
 
 .aic.aic-io-pen-tablet-connect-wifi {
   --aic-icon: url("./aic-icons/io-pen-tablet-connect-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -11631,7 +11673,7 @@
 
 .aic.aic-io-private-wifi {
   --aic-icon: url("./aic-icons/io-private-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -12079,7 +12121,7 @@
 
 .aic.aic-io-select-face-3d {
   --aic-icon: url("./aic-icons/io-select-face-3d.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -12187,7 +12229,7 @@
 
 .aic.aic-io-shield-alert {
   --aic-icon: url("./aic-icons/io-shield-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -12217,7 +12259,7 @@
 
 .aic.aic-io-shield-eye {
   --aic-icon: url("./aic-icons/io-shield-eye.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -12499,7 +12541,7 @@
 
 .aic.aic-io-snapchat {
   --aic-icon: url("./aic-icons/io-snapchat.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -12595,13 +12637,13 @@
 
 .aic.aic-io-spark {
   --aic-icon: url("./aic-icons/io-spark.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-sparks {
   --aic-icon: url("./aic-icons/io-sparks.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -13116,7 +13158,7 @@
 
 .aic.aic-io-tower-warning {
   --aic-icon: url("./aic-icons/io-tower-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -13266,7 +13308,7 @@
 
 .aic.aic-io-tv-warning {
   --aic-icon: url("./aic-icons/io-tv-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -13639,31 +13681,31 @@
 
 .aic.aic-io-warning-circle {
   --aic-icon: url("./aic-icons/io-warning-circle.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-warning-hexagon {
   --aic-icon: url("./aic-icons/io-warning-hexagon.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-warning-square {
   --aic-icon: url("./aic-icons/io-warning-square.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-warning-triangle {
   --aic-icon: url("./aic-icons/io-warning-triangle.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-warning-window {
   --aic-icon: url("./aic-icons/io-warning-window.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -13735,37 +13777,37 @@
 
 .aic.aic-io-wifi {
   --aic-icon: url("./aic-icons/io-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-wifi-off {
   --aic-icon: url("./aic-icons/io-wifi-off.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-wifi-signal-none {
   --aic-icon: url("./aic-icons/io-wifi-signal-none.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-wifi-tag {
   --aic-icon: url("./aic-icons/io-wifi-tag.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-wifi-warning {
   --aic-icon: url("./aic-icons/io-wifi-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-io-wifi-xmark {
   --aic-icon: url("./aic-icons/io-wifi-xmark.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -14063,19 +14105,19 @@
 
 .aic.aic-luc-alert-circle {
   --aic-icon: url("./aic-icons/luc-alert-circle.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-alert-octagon {
   --aic-icon: url("./aic-icons/luc-alert-octagon.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-alert-triangle {
   --aic-icon: url("./aic-icons/luc-alert-triangle.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -14480,7 +14522,8 @@
 
 .aic.aic-luc-arrow-down-to-dot {
   --aic-icon: url("./aic-icons/luc-arrow-down-to-dot.svg");
-  --aic-animation: aic-nudge-down;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-luc-arrow-down-to-line {
@@ -14615,7 +14658,8 @@
 
 .aic.aic-luc-arrow-up-from-dot {
   --aic-icon: url("./aic-icons/luc-arrow-up-from-dot.svg");
-  --aic-animation: aic-nudge-up;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-luc-arrow-up-from-line {
@@ -14778,7 +14822,7 @@
 
 .aic.aic-luc-badge-alert {
   --aic-icon: url("./aic-icons/luc-badge-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -15040,7 +15084,7 @@
 
 .aic.aic-luc-battery-warning {
   --aic-icon: url("./aic-icons/luc-battery-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -15274,7 +15318,7 @@
 
 .aic.aic-luc-bolt {
   --aic-icon: url("./aic-icons/luc-bolt.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -15304,8 +15348,8 @@
 
 .aic.aic-luc-book-alert {
   --aic-icon: url("./aic-icons/luc-book-alert.svg");
-  --aic-animation: aic-page-turn;
-  --aic-origin: 0% 50%;
+  --aic-animation: aic-flip-3d;
+  --aic-origin: center;
 }
 
 .aic.aic-luc-book-audio {
@@ -16358,7 +16402,7 @@
 
 .aic.aic-luc-circle-alert {
   --aic-icon: url("./aic-icons/luc-circle-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -16454,13 +16498,13 @@
 
 .aic.aic-luc-circle-dot {
   --aic-icon: url("./aic-icons/luc-circle-dot.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
 .aic.aic-luc-circle-dot-dashed {
   --aic-icon: url("./aic-icons/luc-circle-dot-dashed.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -16807,7 +16851,7 @@
 
 .aic.aic-luc-clock-alert {
   --aic-icon: url("./aic-icons/luc-clock-alert.svg");
-  --aic-animation: aic-gear;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -16855,7 +16899,7 @@
 
 .aic.aic-luc-cloud-alert {
   --aic-icon: url("./aic-icons/luc-cloud-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -17365,7 +17409,7 @@
 
 .aic.aic-luc-database-zap {
   --aic-icon: url("./aic-icons/luc-database-zap.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -17567,13 +17611,13 @@
 
 .aic.aic-luc-dot {
   --aic-icon: url("./aic-icons/luc-dot.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
 .aic.aic-luc-dot-square {
   --aic-icon: url("./aic-icons/luc-dot-square.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -17801,26 +17845,26 @@
 
 .aic.aic-luc-eye {
   --aic-icon: url("./aic-icons/luc-eye.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-eye-closed {
   --aic-icon: url("./aic-icons/luc-eye-closed.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-eye-off {
   --aic-icon: url("./aic-icons/luc-eye-off.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-facebook {
   --aic-icon: url("./aic-icons/luc-facebook.svg");
-  --aic-animation: aic-page-turn;
-  --aic-origin: 0% 50%;
+  --aic-animation: aic-orbit-3d;
+  --aic-origin: center;
 }
 
 .aic.aic-luc-factory {
@@ -18226,7 +18270,7 @@
 
 .aic.aic-luc-file-signal {
   --aic-icon: url("./aic-icons/luc-file-signal.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -18334,7 +18378,7 @@
 
 .aic.aic-luc-file-warning {
   --aic-icon: url("./aic-icons/luc-file-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -18598,7 +18642,7 @@
 
 .aic.aic-luc-folder-dot {
   --aic-icon: url("./aic-icons/luc-folder-dot.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -18670,7 +18714,7 @@
 
 .aic.aic-luc-folder-open-dot {
   --aic-icon: url("./aic-icons/luc-folder-open-dot.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -19572,7 +19616,7 @@
 
 .aic.aic-luc-house-wifi {
   --aic-icon: url("./aic-icons/luc-house-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -20070,7 +20114,7 @@
 
 .aic.aic-luc-line-dot-right-horizontal {
   --aic-icon: url("./aic-icons/luc-line-dot-right-horizontal.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -20392,8 +20436,8 @@
 
 .aic.aic-luc-mail-warning {
   --aic-icon: url("./aic-icons/luc-mail-warning.svg");
-  --aic-animation: aic-mail-flap;
-  --aic-origin: 50% 18%;
+  --aic-animation: aic-flip-3d;
+  --aic-origin: center;
 }
 
 .aic.aic-luc-mail-x {
@@ -20656,7 +20700,7 @@
 
 .aic.aic-luc-message-circle-warning {
   --aic-icon: url("./aic-icons/luc-message-circle-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -20698,7 +20742,7 @@
 
 .aic.aic-luc-message-square-dot {
   --aic-icon: url("./aic-icons/luc-message-square-dot.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -20758,7 +20802,7 @@
 
 .aic.aic-luc-message-square-warning {
   --aic-icon: url("./aic-icons/luc-message-square-warning.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -20908,7 +20952,7 @@
 
 .aic.aic-luc-monitor-dot {
   --aic-icon: url("./aic-icons/luc-monitor-dot.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -21282,7 +21326,7 @@
 
 .aic.aic-luc-octagon-alert {
   --aic-icon: url("./aic-icons/luc-octagon-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -21971,13 +22015,13 @@
 
 .aic.aic-luc-plug-zap {
   --aic-icon: url("./aic-icons/luc-plug-zap.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-plug-zap-2 {
   --aic-icon: url("./aic-icons/luc-plug-zap-2.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -22311,7 +22355,8 @@
 
 .aic.aic-luc-redo-dot {
   --aic-icon: url("./aic-icons/luc-redo-dot.svg");
-  --aic-animation: aic-nudge-right;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-luc-refresh-ccw {
@@ -22322,7 +22367,7 @@
 
 .aic.aic-luc-refresh-ccw-dot {
   --aic-icon: url("./aic-icons/luc-refresh-ccw-dot.svg");
-  --aic-animation: aic-spin;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -22633,13 +22678,13 @@
 
 .aic.aic-luc-scan-eye {
   --aic-icon: url("./aic-icons/luc-scan-eye.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-scan-face {
   --aic-icon: url("./aic-icons/luc-scan-face.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-orbit-3d;
   --aic-origin: center;
 }
 
@@ -22753,7 +22798,7 @@
 
 .aic.aic-luc-search-alert {
   --aic-icon: url("./aic-icons/luc-search-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -22903,7 +22948,7 @@
 
 .aic.aic-luc-shield-alert {
   --aic-icon: url("./aic-icons/luc-shield-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -23089,31 +23134,31 @@
 
 .aic.aic-luc-signal {
   --aic-icon: url("./aic-icons/luc-signal.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-signal-high {
   --aic-icon: url("./aic-icons/luc-signal-high.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-signal-low {
   --aic-icon: url("./aic-icons/luc-signal-low.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-signal-medium {
   --aic-icon: url("./aic-icons/luc-signal-medium.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-signal-zero {
   --aic-icon: url("./aic-icons/luc-signal-zero.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -23292,13 +23337,13 @@
 
 .aic.aic-luc-sparkle {
   --aic-icon: url("./aic-icons/luc-sparkle.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-sparkles {
   --aic-icon: url("./aic-icons/luc-sparkles.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -23574,7 +23619,7 @@
 
 .aic.aic-luc-square-dot {
   --aic-icon: url("./aic-icons/luc-square-dot.svg");
-  --aic-animation: aic-scale-pop;
+  --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
 
@@ -24566,7 +24611,7 @@
 
 .aic.aic-luc-triangle-alert {
   --aic-icon: url("./aic-icons/luc-triangle-alert.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -24696,7 +24741,8 @@
 
 .aic.aic-luc-undo-dot {
   --aic-icon: url("./aic-icons/luc-undo-dot.svg");
-  --aic-animation: aic-nudge-left;
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
 }
 
 .aic.aic-luc-unfold-horizontal {
@@ -25169,7 +25215,7 @@
 
 .aic.aic-luc-wand-sparkles {
   --aic-icon: url("./aic-icons/luc-wand-sparkles.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
@@ -25269,49 +25315,49 @@
 
 .aic.aic-luc-wifi {
   --aic-icon: url("./aic-icons/luc-wifi.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-wifi-cog {
   --aic-icon: url("./aic-icons/luc-wifi-cog.svg");
-  --aic-animation: aic-gear;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-wifi-high {
   --aic-icon: url("./aic-icons/luc-wifi-high.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-wifi-low {
   --aic-icon: url("./aic-icons/luc-wifi-low.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-wifi-off {
   --aic-icon: url("./aic-icons/luc-wifi-off.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-wifi-pen {
   --aic-icon: url("./aic-icons/luc-wifi-pen.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-wifi-sync {
   --aic-icon: url("./aic-icons/luc-wifi-sync.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-wifi-zero {
   --aic-icon: url("./aic-icons/luc-wifi-zero.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-3d;
   --aic-origin: center;
 }
 
@@ -25400,13 +25446,13 @@
 
 .aic.aic-luc-zap {
   --aic-icon: url("./aic-icons/luc-zap.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 
 .aic.aic-luc-zap-off {
   --aic-icon: url("./aic-icons/luc-zap-off.svg");
-  --aic-animation: aic-pulse-element;
+  --aic-animation: aic-flip-in-3d;
   --aic-origin: center;
 }
 

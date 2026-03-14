@@ -638,7 +638,7 @@
                     <span class="hero-count-badge-dot" aria-hidden="true"></span>
                     <span><%= iconMeta.length.toLocaleString('en-US') %> animated icons</span>
                 </div>
-                <h1 class="hero-title">ebolax Animated Icons</h1>
+                <h1 class="hero-title">@ebolax/animated-icons</h1>
                 <p class="hero-lead">Lucide, Heroicons (with solid icons) and Iconoir (with solid icons) CSS-only hover animations. Click any button to copy the icon code with the <code class="text-reset">&lt;i&gt;</code> tag in one click.</p>
                 <div class="hero-actions">
                     <a href="https://github.com/ebolax/animated-icons" class="hero-btn-primary" target="_blank" rel="noopener noreferrer">
@@ -928,8 +928,11 @@
             <h6 class="mt-3">Available animations (you can click to change the animation):</h6>
             <p class="mt-3">
                 <% Object.values(animations).forEach((animation) => { %>
-            <p class="badge bg-primary" style="cursor: pointer;" onclick="document.getElementById('animation-demo').style.setProperty('--aic-animation', 'aic-<%= animation.name %>'); document.getElementById('animation-demo-code').textContent = '&lt;i class=&quot;aic aic-hero-arrow-path&quot; style=&quot;--aic-animation: aic-<%= animation.name %>;&quot;&gt;&lt;/i&gt;';"><%= animation.name %></p>
-            <% }) %>
+                <p class="badge bg-primary aic-wrapper" style="cursor: pointer;" onclick="document.getElementById('animation-demo').style.setProperty('--aic-animation', 'aic-<%= animation.name %>'); document.getElementById('animation-demo-code').textContent = '&lt;i class=&quot;aic aic-hero-arrow-path&quot; style=&quot;--aic-animation: aic-<%= animation.name %>;&quot;&gt;&lt;/i&gt;';">
+                    <i class="aic aic-hero-cog-6-tooth" style="--aic-size: 24px; --aic-animation: aic-<%= animation.name %>;"></i>
+                    <%= animation.name %>
+                </p>
+                <% }) %>
             </p>
         </section>
 

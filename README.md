@@ -160,10 +160,13 @@ You can control the animation applied to any icon by setting the `--aic-animatio
 - **bell-ring**: Mimics a ringing bell; a subtle shaking from the top, great for notification or alert icons.
 - **dot-appear**: Fades & scales a dot in/out; best for indicators and "active" states.
 - **fade**: Simple fade-in/out effect.
+- **flip-3d**: 3D flip on the Y axis; good for cards, reveal, or turn effects.
+- **flip-in-3d**: 3D flip from back to front (rotateX); ideal for reveal or “flip in” transitions.
 - **gear**: Rotates as a gear; useful for settings, cog, or machinery icons.
 - **heart-beat**: Pulseslike a beating heart. Use with heart or favorite icons.
 - **mail-flap**: Flips/flaps on the Y axis like an envelope; works best with mail/envelope icons.
 - **nudge-up, nudge-down, nudge-left, nudge-right, nudge-right-up, nudge-right-down, nudge-left-up, nudge-left-down**: Nudges the icon quickly in a given direction. Great for arrows, navigation, or "movement" cues.
+- **orbit-3d**: Orbit-like subtle 3D rotation; adds depth for badges or decorative icons.
 - **page-turn**: Simulates the corner of a page being turned; ideally used with book or document-related icons.
 - **pulse-element**: Scales and pulses the icon, perfect for "live," "online," or attention-grabbing effects.
 - **rocket-lift**: Lifts/launches like a rocket; fun for rocket, navigation, or launch-related icons.

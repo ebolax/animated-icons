@@ -99,16 +99,36 @@
 /* fade */
 @keyframes aic-fade {
     0% {
-        opacity: 0.35;
+        opacity: 1;
         transform: scale(0.92);
     }
-    60% {
-        opacity: 1;
+    50% {
+        opacity: 0.3;
         transform: scale(1.04);
     }
     100% {
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+/* flip-3d — 3D flip on Y axis */
+@keyframes aic-flip-3d {
+    0% {
+        transform: perspective(120px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(120px) rotateY(360deg);
+    }
+}
+
+/* flip-in-3d — 3D flip from back to front */
+@keyframes aic-flip-in-3d {
+    0% {
+        transform: perspective(120px) rotateX(0deg);
+    }
+    100% {
+        transform: perspective(120px) rotateX(360deg);
     }
 }
 
@@ -232,13 +252,27 @@
     }
 }
 
+/* orbit-3d — Orbit-like subtle 3D rotation */
+@keyframes aic-orbit-3d {
+    0%,
+    100% {
+        transform: perspective(160px) rotateY(0deg) rotateX(0deg);
+    }
+    33% {
+        transform: perspective(160px) rotateY(45deg) rotateX(-45deg);
+    }
+    66% {
+        transform: perspective(160px) rotateY(45deg) rotateX(45deg);
+    }
+}
+
 /* page-turn */
 @keyframes aic-page-turn {
     0% {
         transform: perspective(80px) rotateY(0deg);
     }
     40% {
-        transform: perspective(80px) rotateY(-12deg);
+        transform: perspective(80px) rotateY(-30deg);
     }
     75% {
         transform: perspective(80px) rotateY(4deg);
@@ -251,11 +285,15 @@
 /* pulse-element */
 @keyframes aic-pulse-element {
     0%,
+    50%,
     100% {
         opacity: 1;
     }
-    50% {
-        opacity: 0.35;
+    25% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.5;
     }
 }
 

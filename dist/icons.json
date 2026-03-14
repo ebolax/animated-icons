@@ -645,7 +645,7 @@
     "category": "objects",
     "className": "aic aic-hero-s-bolt",
     "fileName": "hero-s-bolt.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons-solid",
@@ -653,7 +653,7 @@
     "category": "objects",
     "className": "aic aic-hero-s-bolt-slash",
     "fileName": "hero-s-bolt-slash.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons-solid",
@@ -813,7 +813,7 @@
     "category": "communication",
     "className": "aic aic-hero-s-chat-bubble-bottom-center",
     "fileName": "hero-s-chat-bubble-bottom-center.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -821,7 +821,7 @@
     "category": "communication",
     "className": "aic aic-hero-s-chat-bubble-bottom-center-text",
     "fileName": "hero-s-chat-bubble-bottom-center-text.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -829,7 +829,7 @@
     "category": "communication",
     "className": "aic aic-hero-s-chat-bubble-left",
     "fileName": "hero-s-chat-bubble-left.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -837,7 +837,7 @@
     "category": "communication",
     "className": "aic aic-hero-s-chat-bubble-left-ellipsis",
     "fileName": "hero-s-chat-bubble-left-ellipsis.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -845,7 +845,7 @@
     "category": "communication",
     "className": "aic aic-hero-s-chat-bubble-left-right",
     "fileName": "hero-s-chat-bubble-left-right.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -853,7 +853,7 @@
     "category": "communication",
     "className": "aic aic-hero-s-chat-bubble-oval-left",
     "fileName": "hero-s-chat-bubble-oval-left.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -861,7 +861,7 @@
     "category": "communication",
     "className": "aic aic-hero-s-chat-bubble-oval-left-ellipsis",
     "fileName": "hero-s-chat-bubble-oval-left-ellipsis.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -1405,7 +1405,7 @@
     "category": "objects",
     "className": "aic aic-hero-s-eye",
     "fileName": "hero-s-eye.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -1413,7 +1413,7 @@
     "category": "objects",
     "className": "aic aic-hero-s-eye-dropper",
     "fileName": "hero-s-eye-dropper.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -1421,7 +1421,7 @@
     "category": "security",
     "className": "aic aic-hero-s-eye-slash",
     "fileName": "hero-s-eye-slash.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -1429,7 +1429,7 @@
     "category": "people",
     "className": "aic aic-hero-s-face-frown",
     "fileName": "hero-s-face-frown.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -1437,7 +1437,7 @@
     "category": "people",
     "className": "aic aic-hero-s-face-smile",
     "fileName": "hero-s-face-smile.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons-solid",
@@ -2261,7 +2261,7 @@
     "category": "data",
     "className": "aic aic-hero-s-signal",
     "fileName": "hero-s-signal.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons-solid",
@@ -2269,7 +2269,7 @@
     "category": "data",
     "className": "aic aic-hero-s-signal-slash",
     "fileName": "hero-s-signal-slash.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons-solid",
@@ -2285,7 +2285,7 @@
     "category": "objects",
     "className": "aic aic-hero-s-sparkles",
     "fileName": "hero-s-sparkles.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "heroicons-solid",
@@ -2549,7 +2549,7 @@
     "category": "data",
     "className": "aic aic-hero-s-wifi",
     "fileName": "hero-s-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons-solid",
@@ -3237,7 +3237,7 @@
     "category": "objects",
     "className": "aic aic-hero-bolt",
     "fileName": "hero-bolt.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons",
@@ -3245,7 +3245,7 @@
     "category": "objects",
     "className": "aic aic-hero-bolt-slash",
     "fileName": "hero-bolt-slash.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons",
@@ -3405,7 +3405,7 @@
     "category": "communication",
     "className": "aic aic-hero-chat-bubble-bottom-center",
     "fileName": "hero-chat-bubble-bottom-center.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -3413,7 +3413,7 @@
     "category": "communication",
     "className": "aic aic-hero-chat-bubble-bottom-center-text",
     "fileName": "hero-chat-bubble-bottom-center-text.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -3421,7 +3421,7 @@
     "category": "communication",
     "className": "aic aic-hero-chat-bubble-left",
     "fileName": "hero-chat-bubble-left.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -3429,7 +3429,7 @@
     "category": "communication",
     "className": "aic aic-hero-chat-bubble-left-ellipsis",
     "fileName": "hero-chat-bubble-left-ellipsis.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -3437,7 +3437,7 @@
     "category": "communication",
     "className": "aic aic-hero-chat-bubble-left-right",
     "fileName": "hero-chat-bubble-left-right.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -3445,7 +3445,7 @@
     "category": "communication",
     "className": "aic aic-hero-chat-bubble-oval-left",
     "fileName": "hero-chat-bubble-oval-left.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -3453,7 +3453,7 @@
     "category": "communication",
     "className": "aic aic-hero-chat-bubble-oval-left-ellipsis",
     "fileName": "hero-chat-bubble-oval-left-ellipsis.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -3997,7 +3997,7 @@
     "category": "objects",
     "className": "aic aic-hero-eye",
     "fileName": "hero-eye.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -4005,7 +4005,7 @@
     "category": "objects",
     "className": "aic aic-hero-eye-dropper",
     "fileName": "hero-eye-dropper.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -4013,7 +4013,7 @@
     "category": "security",
     "className": "aic aic-hero-eye-slash",
     "fileName": "hero-eye-slash.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -4021,7 +4021,7 @@
     "category": "people",
     "className": "aic aic-hero-face-frown",
     "fileName": "hero-face-frown.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -4029,7 +4029,7 @@
     "category": "people",
     "className": "aic aic-hero-face-smile",
     "fileName": "hero-face-smile.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "heroicons",
@@ -4853,7 +4853,7 @@
     "category": "data",
     "className": "aic aic-hero-signal",
     "fileName": "hero-signal.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons",
@@ -4861,7 +4861,7 @@
     "category": "data",
     "className": "aic aic-hero-signal-slash",
     "fileName": "hero-signal-slash.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons",
@@ -4877,7 +4877,7 @@
     "category": "objects",
     "className": "aic aic-hero-sparkles",
     "fileName": "hero-sparkles.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "heroicons",
@@ -5141,7 +5141,7 @@
     "category": "data",
     "className": "aic aic-hero-wifi",
     "fileName": "hero-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "heroicons",
@@ -5317,7 +5317,7 @@
     "category": "ui",
     "className": "aic aic-io-s-app-notification",
     "fileName": "io-s-app-notification.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5629,7 +5629,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-bubble",
     "fileName": "io-s-chat-bubble.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5637,7 +5637,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-bubble-check",
     "fileName": "io-s-chat-bubble-check.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5645,7 +5645,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-bubble-empty",
     "fileName": "io-s-chat-bubble-empty.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5653,7 +5653,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-bubble-question",
     "fileName": "io-s-chat-bubble-question.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5661,7 +5661,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-bubble-translate",
     "fileName": "io-s-chat-bubble-translate.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5669,7 +5669,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-bubble-warning",
     "fileName": "io-s-chat-bubble-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5677,7 +5677,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-bubble-xmark",
     "fileName": "io-s-chat-bubble-xmark.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5685,7 +5685,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-lines",
     "fileName": "io-s-chat-lines.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5693,7 +5693,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-minus-in",
     "fileName": "io-s-chat-minus-in.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5701,7 +5701,7 @@
     "category": "communication",
     "className": "aic aic-io-s-chat-plus-in",
     "fileName": "io-s-chat-plus-in.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5813,7 +5813,7 @@
     "category": "objects",
     "className": "aic aic-io-s-cube-dots",
     "fileName": "io-s-cube-dots.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir-solid",
@@ -5909,7 +5909,7 @@
     "category": "ui",
     "className": "aic aic-io-s-dots-grid-3x3",
     "fileName": "io-s-dots-grid-3x3.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir-solid",
@@ -5981,7 +5981,7 @@
     "category": "objects",
     "className": "aic aic-io-s-eye",
     "fileName": "io-s-eye.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -5989,7 +5989,7 @@
     "category": "people",
     "className": "aic aic-io-s-facetime",
     "fileName": "io-s-facetime.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -6133,7 +6133,7 @@
     "category": "objects",
     "className": "aic aic-io-s-headset-bolt",
     "fileName": "io-s-headset-bolt.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -6141,7 +6141,7 @@
     "category": "status",
     "className": "aic aic-io-s-headset-warning",
     "fileName": "io-s-headset-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -6461,7 +6461,7 @@
     "category": "communication",
     "className": "aic aic-io-s-message-alert",
     "fileName": "io-s-message-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -6525,7 +6525,7 @@
     "category": "communication",
     "className": "aic aic-io-s-microphone-warning",
     "fileName": "io-s-microphone-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7133,7 +7133,7 @@
     "category": "communication",
     "className": "aic aic-io-s-snapchat",
     "fileName": "io-s-snapchat.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7173,7 +7173,7 @@
     "category": "objects",
     "className": "aic aic-io-s-spark",
     "fileName": "io-s-spark.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7181,7 +7181,7 @@
     "category": "objects",
     "className": "aic aic-io-s-sparks",
     "fileName": "io-s-sparks.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7357,7 +7357,7 @@
     "category": "status",
     "className": "aic aic-io-s-warning-circle",
     "fileName": "io-s-warning-circle.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7365,7 +7365,7 @@
     "category": "status",
     "className": "aic aic-io-s-warning-square",
     "fileName": "io-s-warning-square.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7373,7 +7373,7 @@
     "category": "status",
     "className": "aic aic-io-s-warning-triangle",
     "fileName": "io-s-warning-triangle.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7421,7 +7421,7 @@
     "category": "data",
     "className": "aic aic-io-s-wifi-signal-none",
     "fileName": "io-s-wifi-signal-none.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7429,7 +7429,7 @@
     "category": "objects",
     "className": "aic aic-io-s-wifi-tag",
     "fileName": "io-s-wifi-tag.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7437,7 +7437,7 @@
     "category": "status",
     "className": "aic aic-io-s-wifi-warning",
     "fileName": "io-s-wifi-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir-solid",
@@ -7805,7 +7805,7 @@
     "category": "data",
     "className": "aic aic-io-antenna-signal",
     "fileName": "io-antenna-signal.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -7813,7 +7813,7 @@
     "category": "objects",
     "className": "aic aic-io-antenna-signal-tag",
     "fileName": "io-antenna-signal-tag.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -7821,7 +7821,7 @@
     "category": "ui",
     "className": "aic aic-io-app-notification",
     "fileName": "io-app-notification.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -8453,7 +8453,7 @@
     "category": "status",
     "className": "aic aic-io-battery-warning",
     "fileName": "io-battery-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -8893,7 +8893,7 @@
     "category": "status",
     "className": "aic aic-io-brain-warning",
     "fileName": "io-brain-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -8917,7 +8917,7 @@
     "category": "people",
     "className": "aic aic-io-bridge-surface",
     "fileName": "io-bridge-surface.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9005,7 +9005,7 @@
     "category": "communication",
     "className": "aic aic-io-bubble-warning",
     "fileName": "io-bubble-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -9277,7 +9277,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-bubble",
     "fileName": "io-chat-bubble.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9285,7 +9285,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-bubble-check",
     "fileName": "io-chat-bubble-check.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9293,7 +9293,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-bubble-empty",
     "fileName": "io-chat-bubble-empty.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9301,7 +9301,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-bubble-question",
     "fileName": "io-chat-bubble-question.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9309,7 +9309,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-bubble-translate",
     "fileName": "io-chat-bubble-translate.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9317,7 +9317,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-bubble-warning",
     "fileName": "io-chat-bubble-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -9325,7 +9325,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-bubble-xmark",
     "fileName": "io-chat-bubble-xmark.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9333,7 +9333,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-lines",
     "fileName": "io-chat-lines.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9341,7 +9341,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-minus-in",
     "fileName": "io-chat-minus-in.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9349,7 +9349,7 @@
     "category": "communication",
     "className": "aic aic-io-chat-plus-in",
     "fileName": "io-chat-plus-in.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9445,7 +9445,7 @@
     "category": "objects",
     "className": "aic aic-io-circle-spark",
     "fileName": "io-circle-spark.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "iconoir",
@@ -9789,7 +9789,7 @@
     "category": "weather",
     "className": "aic aic-io-constrained-surface",
     "fileName": "io-constrained-surface.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -9893,7 +9893,7 @@
     "category": "status",
     "className": "aic aic-io-cpu-warning",
     "fileName": "io-cpu-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -10037,7 +10037,7 @@
     "category": "objects",
     "className": "aic aic-io-cube-dots",
     "fileName": "io-cube-dots.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir",
@@ -10053,7 +10053,7 @@
     "category": "objects",
     "className": "aic aic-io-cube-replace-face",
     "fileName": "io-cube-replace-face.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -10133,7 +10133,7 @@
     "category": "ui",
     "className": "aic aic-io-dashboard-dots",
     "fileName": "io-dashboard-dots.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir",
@@ -10181,7 +10181,7 @@
     "category": "status",
     "className": "aic aic-io-data-transfer-warning",
     "fileName": "io-data-transfer-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -10301,7 +10301,7 @@
     "category": "status",
     "className": "aic aic-io-database-warning",
     "fileName": "io-database-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -10589,7 +10589,7 @@
     "category": "status",
     "className": "aic aic-io-domotic-warning",
     "fileName": "io-domotic-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -10605,7 +10605,7 @@
     "category": "arrows",
     "className": "aic aic-io-dot-arrow-down",
     "fileName": "io-dot-arrow-down.svg",
-    "animation": "nudge-down"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir",
@@ -10613,7 +10613,7 @@
     "category": "arrows",
     "className": "aic aic-io-dot-arrow-left",
     "fileName": "io-dot-arrow-left.svg",
-    "animation": "nudge-left"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir",
@@ -10621,7 +10621,7 @@
     "category": "arrows",
     "className": "aic aic-io-dot-arrow-right",
     "fileName": "io-dot-arrow-right.svg",
-    "animation": "nudge-right"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir",
@@ -10629,7 +10629,7 @@
     "category": "arrows",
     "className": "aic aic-io-dot-arrow-up",
     "fileName": "io-dot-arrow-up.svg",
-    "animation": "nudge-up"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir",
@@ -10637,7 +10637,7 @@
     "category": "ui",
     "className": "aic aic-io-dots-grid-3x3",
     "fileName": "io-dots-grid-3x3.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "iconoir",
@@ -11285,7 +11285,7 @@
     "category": "objects",
     "className": "aic aic-io-eye",
     "fileName": "io-eye.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -11293,7 +11293,7 @@
     "category": "objects",
     "className": "aic aic-io-eye-closed",
     "fileName": "io-eye-closed.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -11309,7 +11309,7 @@
     "category": "people",
     "className": "aic aic-io-face-3d-draft",
     "fileName": "io-face-3d-draft.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -11317,7 +11317,7 @@
     "category": "people",
     "className": "aic aic-io-face-id",
     "fileName": "io-face-id.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -11325,7 +11325,7 @@
     "category": "files",
     "className": "aic aic-io-facebook",
     "fileName": "io-facebook.svg",
-    "animation": "page-turn"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -11333,7 +11333,7 @@
     "category": "files",
     "className": "aic aic-io-facebook-tag",
     "fileName": "io-facebook-tag.svg",
-    "animation": "page-turn"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -11341,7 +11341,7 @@
     "category": "people",
     "className": "aic aic-io-facetime",
     "fileName": "io-facetime.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -11757,7 +11757,7 @@
     "category": "files",
     "className": "aic aic-io-folder-warning",
     "fileName": "io-folder-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -12157,7 +12157,7 @@
     "category": "status",
     "className": "aic aic-io-google-drive-warning",
     "fileName": "io-google-drive-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -12381,7 +12381,7 @@
     "category": "objects",
     "className": "aic aic-io-headset-bolt",
     "fileName": "io-headset-bolt.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -12397,7 +12397,7 @@
     "category": "status",
     "className": "aic aic-io-headset-warning",
     "fileName": "io-headset-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -13117,7 +13117,7 @@
     "category": "status",
     "className": "aic aic-io-laptop-warning",
     "fileName": "io-laptop-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -13821,7 +13821,7 @@
     "category": "communication",
     "className": "aic aic-io-message-alert",
     "fileName": "io-message-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -13901,7 +13901,7 @@
     "category": "communication",
     "className": "aic aic-io-microphone-warning",
     "fileName": "io-microphone-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -14885,7 +14885,7 @@
     "category": "status",
     "className": "aic aic-io-pc-warning",
     "fileName": "io-pc-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -14917,7 +14917,7 @@
     "category": "objects",
     "className": "aic aic-io-pen-connect-wifi",
     "fileName": "io-pen-connect-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -14941,7 +14941,7 @@
     "category": "objects",
     "className": "aic aic-io-pen-tablet-connect-wifi",
     "fileName": "io-pen-tablet-connect-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -15437,7 +15437,7 @@
     "category": "data",
     "className": "aic aic-io-private-wifi",
     "fileName": "io-private-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -16045,7 +16045,7 @@
     "category": "people",
     "className": "aic aic-io-select-face-3d",
     "fileName": "io-select-face-3d.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -16189,7 +16189,7 @@
     "category": "status",
     "className": "aic aic-io-shield-alert",
     "fileName": "io-shield-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -16229,7 +16229,7 @@
     "category": "security",
     "className": "aic aic-io-shield-eye",
     "fileName": "io-shield-eye.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -16605,7 +16605,7 @@
     "category": "communication",
     "className": "aic aic-io-snapchat",
     "fileName": "io-snapchat.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "iconoir",
@@ -16733,7 +16733,7 @@
     "category": "objects",
     "className": "aic aic-io-spark",
     "fileName": "io-spark.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "iconoir",
@@ -16741,7 +16741,7 @@
     "category": "objects",
     "className": "aic aic-io-sparks",
     "fileName": "io-sparks.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "iconoir",
@@ -17429,7 +17429,7 @@
     "category": "status",
     "className": "aic aic-io-tower-warning",
     "fileName": "io-tower-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -17629,7 +17629,7 @@
     "category": "status",
     "className": "aic aic-io-tv-warning",
     "fileName": "io-tv-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18133,7 +18133,7 @@
     "category": "status",
     "className": "aic aic-io-warning-circle",
     "fileName": "io-warning-circle.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18141,7 +18141,7 @@
     "category": "status",
     "className": "aic aic-io-warning-hexagon",
     "fileName": "io-warning-hexagon.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18149,7 +18149,7 @@
     "category": "status",
     "className": "aic aic-io-warning-square",
     "fileName": "io-warning-square.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18157,7 +18157,7 @@
     "category": "status",
     "className": "aic aic-io-warning-triangle",
     "fileName": "io-warning-triangle.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18165,7 +18165,7 @@
     "category": "ui",
     "className": "aic aic-io-warning-window",
     "fileName": "io-warning-window.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18261,7 +18261,7 @@
     "category": "data",
     "className": "aic aic-io-wifi",
     "fileName": "io-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18269,7 +18269,7 @@
     "category": "data",
     "className": "aic aic-io-wifi-off",
     "fileName": "io-wifi-off.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18277,7 +18277,7 @@
     "category": "data",
     "className": "aic aic-io-wifi-signal-none",
     "fileName": "io-wifi-signal-none.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18285,7 +18285,7 @@
     "category": "objects",
     "className": "aic aic-io-wifi-tag",
     "fileName": "io-wifi-tag.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18293,7 +18293,7 @@
     "category": "status",
     "className": "aic aic-io-wifi-warning",
     "fileName": "io-wifi-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18301,7 +18301,7 @@
     "category": "status",
     "className": "aic aic-io-wifi-xmark",
     "fileName": "io-wifi-xmark.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "iconoir",
@@ -18701,7 +18701,7 @@
     "category": "status",
     "className": "aic aic-luc-alert-circle",
     "fileName": "luc-alert-circle.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -18709,7 +18709,7 @@
     "category": "status",
     "className": "aic aic-luc-alert-octagon",
     "fileName": "luc-alert-octagon.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -18717,7 +18717,7 @@
     "category": "status",
     "className": "aic aic-luc-alert-triangle",
     "fileName": "luc-alert-triangle.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -19293,7 +19293,7 @@
     "category": "arrows",
     "className": "aic aic-luc-arrow-down-to-dot",
     "fileName": "luc-arrow-down-to-dot.svg",
-    "animation": "nudge-down"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -19509,7 +19509,7 @@
     "category": "arrows",
     "className": "aic aic-luc-arrow-up-from-dot",
     "fileName": "luc-arrow-up-from-dot.svg",
-    "animation": "nudge-up"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -19749,7 +19749,7 @@
     "category": "status",
     "className": "aic aic-luc-badge-alert",
     "fileName": "luc-badge-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -20101,7 +20101,7 @@
     "category": "status",
     "className": "aic aic-luc-battery-warning",
     "fileName": "luc-battery-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -20413,7 +20413,7 @@
     "category": "objects",
     "className": "aic aic-luc-bolt",
     "fileName": "luc-bolt.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -20453,7 +20453,7 @@
     "category": "files",
     "className": "aic aic-luc-book-alert",
     "fileName": "luc-book-alert.svg",
-    "animation": "page-turn"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -21893,7 +21893,7 @@
     "category": "status",
     "className": "aic aic-luc-circle-alert",
     "fileName": "luc-circle-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -22037,7 +22037,7 @@
     "category": "objects",
     "className": "aic aic-luc-circle-dot",
     "fileName": "luc-circle-dot.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -22045,7 +22045,7 @@
     "category": "objects",
     "className": "aic aic-luc-circle-dot-dashed",
     "fileName": "luc-circle-dot-dashed.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -22509,7 +22509,7 @@
     "category": "status",
     "className": "aic aic-luc-clock-alert",
     "fileName": "luc-clock-alert.svg",
-    "animation": "gear"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -22573,7 +22573,7 @@
     "category": "status",
     "className": "aic aic-luc-cloud-alert",
     "fileName": "luc-cloud-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -23253,7 +23253,7 @@
     "category": "data",
     "className": "aic aic-luc-database-zap",
     "fileName": "luc-database-zap.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
@@ -23525,7 +23525,7 @@
     "category": "objects",
     "className": "aic aic-luc-dot",
     "fileName": "luc-dot.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -23533,7 +23533,7 @@
     "category": "objects",
     "className": "aic aic-luc-dot-square",
     "fileName": "luc-dot-square.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -23837,7 +23837,7 @@
     "category": "objects",
     "className": "aic aic-luc-eye",
     "fileName": "luc-eye.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "lucide",
@@ -23845,7 +23845,7 @@
     "category": "objects",
     "className": "aic aic-luc-eye-closed",
     "fileName": "luc-eye-closed.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "lucide",
@@ -23853,7 +23853,7 @@
     "category": "objects",
     "className": "aic aic-luc-eye-off",
     "fileName": "luc-eye-off.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "lucide",
@@ -23861,7 +23861,7 @@
     "category": "files",
     "className": "aic aic-luc-facebook",
     "fileName": "luc-facebook.svg",
-    "animation": "page-turn"
+    "animation": "orbit-3d"
   },
   {
     "source": "lucide",
@@ -24405,7 +24405,7 @@
     "category": "files",
     "className": "aic aic-luc-file-signal",
     "fileName": "luc-file-signal.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -24549,7 +24549,7 @@
     "category": "files",
     "className": "aic aic-luc-file-warning",
     "fileName": "luc-file-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -24901,7 +24901,7 @@
     "category": "files",
     "className": "aic aic-luc-folder-dot",
     "fileName": "luc-folder-dot.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -24997,7 +24997,7 @@
     "category": "files",
     "className": "aic aic-luc-folder-open-dot",
     "fileName": "luc-folder-open-dot.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -26205,7 +26205,7 @@
     "category": "data",
     "className": "aic aic-luc-house-wifi",
     "fileName": "luc-house-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -26869,7 +26869,7 @@
     "category": "objects",
     "className": "aic aic-luc-line-dot-right-horizontal",
     "fileName": "luc-line-dot-right-horizontal.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -27301,7 +27301,7 @@
     "category": "communication",
     "className": "aic aic-luc-mail-warning",
     "fileName": "luc-mail-warning.svg",
-    "animation": "mail-flap"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -27653,7 +27653,7 @@
     "category": "communication",
     "className": "aic aic-luc-message-circle-warning",
     "fileName": "luc-message-circle-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -27709,7 +27709,7 @@
     "category": "communication",
     "className": "aic aic-luc-message-square-dot",
     "fileName": "luc-message-square-dot.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -27789,7 +27789,7 @@
     "category": "communication",
     "className": "aic aic-luc-message-square-warning",
     "fileName": "luc-message-square-warning.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -27989,7 +27989,7 @@
     "category": "objects",
     "className": "aic aic-luc-monitor-dot",
     "fileName": "luc-monitor-dot.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -28493,7 +28493,7 @@
     "category": "status",
     "className": "aic aic-luc-octagon-alert",
     "fileName": "luc-octagon-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -29413,7 +29413,7 @@
     "category": "objects",
     "className": "aic aic-luc-plug-zap",
     "fileName": "luc-plug-zap.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
@@ -29421,7 +29421,7 @@
     "category": "objects",
     "className": "aic aic-luc-plug-zap-2",
     "fileName": "luc-plug-zap-2.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
@@ -29869,7 +29869,7 @@
     "category": "arrows",
     "className": "aic aic-luc-redo-dot",
     "fileName": "luc-redo-dot.svg",
-    "animation": "nudge-right"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -29885,7 +29885,7 @@
     "category": "objects",
     "className": "aic aic-luc-refresh-ccw-dot",
     "fileName": "luc-refresh-ccw-dot.svg",
-    "animation": "spin"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -30301,7 +30301,7 @@
     "category": "security",
     "className": "aic aic-luc-scan-eye",
     "fileName": "luc-scan-eye.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "lucide",
@@ -30309,7 +30309,7 @@
     "category": "people",
     "className": "aic aic-luc-scan-face",
     "fileName": "luc-scan-face.svg",
-    "animation": "scale-pop"
+    "animation": "orbit-3d"
   },
   {
     "source": "lucide",
@@ -30461,7 +30461,7 @@
     "category": "ui",
     "className": "aic aic-luc-search-alert",
     "fileName": "luc-search-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -30661,7 +30661,7 @@
     "category": "status",
     "className": "aic aic-luc-shield-alert",
     "fileName": "luc-shield-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -30909,7 +30909,7 @@
     "category": "data",
     "className": "aic aic-luc-signal",
     "fileName": "luc-signal.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -30917,7 +30917,7 @@
     "category": "data",
     "className": "aic aic-luc-signal-high",
     "fileName": "luc-signal-high.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -30925,7 +30925,7 @@
     "category": "data",
     "className": "aic aic-luc-signal-low",
     "fileName": "luc-signal-low.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -30933,7 +30933,7 @@
     "category": "data",
     "className": "aic aic-luc-signal-medium",
     "fileName": "luc-signal-medium.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -30941,7 +30941,7 @@
     "category": "data",
     "className": "aic aic-luc-signal-zero",
     "fileName": "luc-signal-zero.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -31181,7 +31181,7 @@
     "category": "objects",
     "className": "aic aic-luc-sparkle",
     "fileName": "luc-sparkle.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
@@ -31189,7 +31189,7 @@
     "category": "objects",
     "className": "aic aic-luc-sparkles",
     "fileName": "luc-sparkles.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
@@ -31581,7 +31581,7 @@
     "category": "objects",
     "className": "aic aic-luc-square-dot",
     "fileName": "luc-square-dot.svg",
-    "animation": "scale-pop"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -32909,7 +32909,7 @@
     "category": "status",
     "className": "aic aic-luc-triangle-alert",
     "fileName": "luc-triangle-alert.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33085,7 +33085,7 @@
     "category": "arrows",
     "className": "aic aic-luc-undo-dot",
     "fileName": "luc-undo-dot.svg",
-    "animation": "nudge-left"
+    "animation": "dot-appear"
   },
   {
     "source": "lucide",
@@ -33717,7 +33717,7 @@
     "category": "objects",
     "className": "aic aic-luc-wand-sparkles",
     "fileName": "luc-wand-sparkles.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
@@ -33853,7 +33853,7 @@
     "category": "data",
     "className": "aic aic-luc-wifi",
     "fileName": "luc-wifi.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33861,7 +33861,7 @@
     "category": "ui",
     "className": "aic aic-luc-wifi-cog",
     "fileName": "luc-wifi-cog.svg",
-    "animation": "gear"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33869,7 +33869,7 @@
     "category": "data",
     "className": "aic aic-luc-wifi-high",
     "fileName": "luc-wifi-high.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33877,7 +33877,7 @@
     "category": "data",
     "className": "aic aic-luc-wifi-low",
     "fileName": "luc-wifi-low.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33885,7 +33885,7 @@
     "category": "data",
     "className": "aic aic-luc-wifi-off",
     "fileName": "luc-wifi-off.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33893,7 +33893,7 @@
     "category": "objects",
     "className": "aic aic-luc-wifi-pen",
     "fileName": "luc-wifi-pen.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33901,7 +33901,7 @@
     "category": "data",
     "className": "aic aic-luc-wifi-sync",
     "fileName": "luc-wifi-sync.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -33909,7 +33909,7 @@
     "category": "data",
     "className": "aic aic-luc-wifi-zero",
     "fileName": "luc-wifi-zero.svg",
-    "animation": "pulse-element"
+    "animation": "flip-3d"
   },
   {
     "source": "lucide",
@@ -34029,7 +34029,7 @@
     "category": "objects",
     "className": "aic aic-luc-zap",
     "fileName": "luc-zap.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
@@ -34037,7 +34037,7 @@
     "category": "objects",
     "className": "aic aic-luc-zap-off",
     "fileName": "luc-zap-off.svg",
-    "animation": "pulse-element"
+    "animation": "flip-in-3d"
   },
   {
     "source": "lucide",
