@@ -1,5 +1,5 @@
 /* Animated Icons CSS */
-.aic {
+i.aic {
     --aic-size: 1em;
     --aic-duration: 600ms;
     --aic-ease: cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -13,7 +13,7 @@
     color: inherit;
 }
 
-.aic::before {
+i.aic::before {
     content: "";
     display: block;
     width: 100%;
@@ -31,11 +31,11 @@
     will-change: transform, opacity;
 }
 
-.aic:hover::before,
-.aic:focus-visible::before,
-.aic-wrapper:hover .aic::before,
-.aic-wrapper:focus-visible .aic::before,
-.aic-wrapper:focus-within .aic::before {
+i.aic:hover::before,
+i.aic:focus-visible::before,
+.aic-wrapper:hover i.aic::before,
+.aic-wrapper:focus-visible i.aic::before,
+.aic-wrapper:focus-within i.aic::before {
     animation-name: var(--aic-animation);
     animation-duration: var(--aic-duration);
     animation-timing-function: var(--aic-ease);
