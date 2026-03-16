@@ -1,6 +1,7 @@
 import ejs from "ejs";
 import fs from "fs";
 import path from "path";
+import packageJson from "./package.json" with { type: "json" };
 
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, "dist");
@@ -225,7 +226,8 @@ function buildHtmlPreview(iconMeta) {
             iconoirSolidMeta,
             lucideMeta,
             titleCase,
-            animations
+            animations,
+            version: packageJson.version
         },
         {
             filename: templatePath
