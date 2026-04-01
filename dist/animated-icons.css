@@ -15130,6 +15130,12 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
+.aic.aic-luc-beef-off {
+  --aic-icon: url("./aic-icons/luc-beef-off.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
 .aic.aic-luc-beer {
   --aic-icon: url("./aic-icons/luc-beer.svg");
   --aic-animation: aic-scale-pop;
@@ -16021,6 +16027,12 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
+.aic.aic-luc-cctv-off {
+  --aic-icon: url("./aic-icons/luc-cctv-off.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
 .aic.aic-luc-chart-area {
   --aic-icon: url("./aic-icons/luc-chart-area.svg");
   --aic-animation: aic-scale-pop;
@@ -16362,18 +16374,6 @@ i.aic:focus-visible::before,
 .aic.aic-luc-chevrons-up-down {
   --aic-icon: url("./aic-icons/luc-chevrons-up-down.svg");
   --aic-animation: aic-nudge-up;
-}
-
-.aic.aic-luc-chrome {
-  --aic-icon: url("./aic-icons/luc-chrome.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-chromium {
-  --aic-icon: url("./aic-icons/luc-chromium.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
 }
 
 .aic.aic-luc-church {
@@ -17053,18 +17053,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-codepen {
-  --aic-icon: url("./aic-icons/luc-codepen.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-codesandbox {
-  --aic-icon: url("./aic-icons/luc-codesandbox.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-coffee {
   --aic-icon: url("./aic-icons/luc-coffee.svg");
   --aic-animation: aic-scale-pop;
@@ -17645,12 +17633,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-dribbble {
-  --aic-icon: url("./aic-icons/luc-dribbble.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-drill {
   --aic-icon: url("./aic-icons/luc-drill.svg");
   --aic-animation: aic-scale-pop;
@@ -17861,12 +17843,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-facebook {
-  --aic-icon: url("./aic-icons/luc-facebook.svg");
-  --aic-animation: aic-orbit-3d;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-factory {
   --aic-icon: url("./aic-icons/luc-factory.svg");
   --aic-animation: aic-scale-pop;
@@ -17898,12 +17874,6 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-ferris-wheel {
   --aic-icon: url("./aic-icons/luc-ferris-wheel.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-figma {
-  --aic-icon: url("./aic-icons/luc-figma.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
@@ -18837,12 +18807,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-framer {
-  --aic-icon: url("./aic-icons/luc-framer.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-frown {
   --aic-icon: url("./aic-icons/luc-frown.svg");
   --aic-animation: aic-scale-pop;
@@ -19088,18 +19052,6 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-git-pull-request-draft {
   --aic-icon: url("./aic-icons/luc-git-pull-request-draft.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-github {
-  --aic-icon: url("./aic-icons/luc-github.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-gitlab {
-  --aic-icon: url("./aic-icons/luc-gitlab.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
@@ -19770,12 +19722,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-instagram {
-  --aic-icon: url("./aic-icons/luc-instagram.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-italic {
   --aic-icon: url("./aic-icons/luc-italic.svg");
   --aic-animation: aic-scale-pop;
@@ -20124,6 +20070,12 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
+.aic.aic-luc-line-style {
+  --aic-icon: url("./aic-icons/luc-line-style.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
 .aic.aic-luc-link {
   --aic-icon: url("./aic-icons/luc-link.svg");
   --aic-animation: aic-scale-pop;
@@ -20138,12 +20090,6 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-link-2-off {
   --aic-icon: url("./aic-icons/luc-link-2-off.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-linkedin {
-  --aic-icon: url("./aic-icons/luc-linkedin.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
@@ -20526,6 +20472,12 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-map-pin-plus-inside {
   --aic-icon: url("./aic-icons/luc-map-pin-plus-inside.svg");
+  --aic-animation: aic-dot-appear;
+  --aic-origin: center;
+}
+
+.aic.aic-luc-map-pin-search {
+  --aic-icon: url("./aic-icons/luc-map-pin-search.svg");
   --aic-animation: aic-dot-appear;
   --aic-origin: center;
 }
@@ -22043,12 +21995,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-pocket {
-  --aic-icon: url("./aic-icons/luc-pocket.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-pocket-knife {
   --aic-icon: url("./aic-icons/luc-pocket-knife.svg");
   --aic-animation: aic-scale-pop;
@@ -22205,6 +22151,12 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
+.aic.aic-luc-radio-off {
+  --aic-icon: url("./aic-icons/luc-radio-off.svg");
+  --aic-animation: aic-fade;
+  --aic-origin: center;
+}
+
 .aic.aic-luc-radio-receiver {
   --aic-icon: url("./aic-icons/luc-radio-receiver.svg");
   --aic-animation: aic-fade;
@@ -22219,12 +22171,6 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-radius {
   --aic-icon: url("./aic-icons/luc-radius.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-rail-symbol {
-  --aic-icon: url("./aic-icons/luc-rail-symbol.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
@@ -22451,6 +22397,12 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-ribbon {
   --aic-icon: url("./aic-icons/luc-ribbon.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-luc-road {
+  --aic-icon: url("./aic-icons/luc-road.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
@@ -22970,6 +22922,18 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
+.aic.aic-luc-shield-cog {
+  --aic-icon: url("./aic-icons/luc-shield-cog.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
+.aic.aic-luc-shield-cog-corner {
+  --aic-icon: url("./aic-icons/luc-shield-cog-corner.svg");
+  --aic-animation: aic-gear;
+  --aic-origin: center;
+}
+
 .aic.aic-luc-shield-ellipsis {
   --aic-icon: url("./aic-icons/luc-shield-ellipsis.svg");
   --aic-animation: aic-scale-pop;
@@ -23203,12 +23167,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-slack {
-  --aic-icon: url("./aic-icons/luc-slack.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-slash {
   --aic-icon: url("./aic-icons/luc-slash.svg");
   --aic-animation: aic-scale-pop;
@@ -23403,6 +23361,12 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-spool {
   --aic-icon: url("./aic-icons/luc-spool.svg");
+  --aic-animation: aic-scale-pop;
+  --aic-origin: center;
+}
+
+.aic.aic-luc-sport-shoe {
+  --aic-icon: url("./aic-icons/luc-sport-shoe.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
@@ -24582,12 +24546,6 @@ i.aic:focus-visible::before,
   --aic-origin: center;
 }
 
-.aic.aic-luc-trello {
-  --aic-icon: url("./aic-icons/luc-trello.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
 .aic.aic-luc-trending-down {
   --aic-icon: url("./aic-icons/luc-trending-down.svg");
   --aic-animation: aic-nudge-down;
@@ -24684,18 +24642,6 @@ i.aic:focus-visible::before,
 .aic.aic-luc-tv-minimal-play {
   --aic-icon: url("./aic-icons/luc-tv-minimal-play.svg");
   --aic-animation: aic-fade;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-twitch {
-  --aic-icon: url("./aic-icons/luc-twitch.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-twitter {
-  --aic-icon: url("./aic-icons/luc-twitter.svg");
-  --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }
 
@@ -25434,12 +25380,6 @@ i.aic:focus-visible::before,
 
 .aic.aic-luc-x-square {
   --aic-icon: url("./aic-icons/luc-x-square.svg");
-  --aic-animation: aic-scale-pop;
-  --aic-origin: center;
-}
-
-.aic.aic-luc-youtube {
-  --aic-icon: url("./aic-icons/luc-youtube.svg");
   --aic-animation: aic-scale-pop;
   --aic-origin: center;
 }

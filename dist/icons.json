@@ -20161,6 +20161,14 @@
   },
   {
     "source": "lucide",
+    "name": "beef-off",
+    "category": "objects",
+    "className": "aic aic-luc-beef-off",
+    "fileName": "luc-beef-off.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "lucide",
     "name": "beer",
     "category": "objects",
     "className": "aic aic-luc-beer",
@@ -21353,6 +21361,14 @@
   },
   {
     "source": "lucide",
+    "name": "cctv-off",
+    "category": "objects",
+    "className": "aic aic-luc-cctv-off",
+    "fileName": "luc-cctv-off.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "lucide",
     "name": "chart-area",
     "category": "data",
     "className": "aic aic-luc-chart-area",
@@ -21838,22 +21854,6 @@
     "className": "aic aic-luc-chevrons-up-down",
     "fileName": "luc-chevrons-up-down.svg",
     "animation": "nudge-up"
-  },
-  {
-    "source": "lucide",
-    "name": "chrome",
-    "category": "objects",
-    "className": "aic aic-luc-chrome",
-    "fileName": "luc-chrome.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "chromium",
-    "category": "objects",
-    "className": "aic aic-luc-chromium",
-    "fileName": "luc-chromium.svg",
-    "animation": "scale-pop"
   },
   {
     "source": "lucide",
@@ -22777,22 +22777,6 @@
   },
   {
     "source": "lucide",
-    "name": "codepen",
-    "category": "objects",
-    "className": "aic aic-luc-codepen",
-    "fileName": "luc-codepen.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "codesandbox",
-    "category": "objects",
-    "className": "aic aic-luc-codesandbox",
-    "fileName": "luc-codesandbox.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
     "name": "coffee",
     "category": "objects",
     "className": "aic aic-luc-coffee",
@@ -23569,14 +23553,6 @@
   },
   {
     "source": "lucide",
-    "name": "dribbble",
-    "category": "objects",
-    "className": "aic aic-luc-dribbble",
-    "fileName": "luc-dribbble.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
     "name": "drill",
     "category": "objects",
     "className": "aic aic-luc-drill",
@@ -23857,14 +23833,6 @@
   },
   {
     "source": "lucide",
-    "name": "facebook",
-    "category": "files",
-    "className": "aic aic-luc-facebook",
-    "fileName": "luc-facebook.svg",
-    "animation": "orbit-3d"
-  },
-  {
-    "source": "lucide",
     "name": "factory",
     "category": "objects",
     "className": "aic aic-luc-factory",
@@ -23909,14 +23877,6 @@
     "category": "objects",
     "className": "aic aic-luc-ferris-wheel",
     "fileName": "luc-ferris-wheel.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "figma",
-    "category": "objects",
-    "className": "aic aic-luc-figma",
-    "fileName": "luc-figma.svg",
     "animation": "scale-pop"
   },
   {
@@ -25161,14 +25121,6 @@
   },
   {
     "source": "lucide",
-    "name": "framer",
-    "category": "objects",
-    "className": "aic aic-luc-framer",
-    "fileName": "luc-framer.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
     "name": "frown",
     "category": "objects",
     "className": "aic aic-luc-frown",
@@ -25501,22 +25453,6 @@
     "category": "development",
     "className": "aic aic-luc-git-pull-request-draft",
     "fileName": "luc-git-pull-request-draft.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "github",
-    "category": "development",
-    "className": "aic aic-luc-github",
-    "fileName": "luc-github.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "gitlab",
-    "category": "development",
-    "className": "aic aic-luc-gitlab",
-    "fileName": "luc-gitlab.svg",
     "animation": "scale-pop"
   },
   {
@@ -26409,14 +26345,6 @@
   },
   {
     "source": "lucide",
-    "name": "instagram",
-    "category": "objects",
-    "className": "aic aic-luc-instagram",
-    "fileName": "luc-instagram.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
     "name": "italic",
     "category": "editing",
     "className": "aic aic-luc-italic",
@@ -26881,6 +26809,14 @@
   },
   {
     "source": "lucide",
+    "name": "line-style",
+    "category": "objects",
+    "className": "aic aic-luc-line-style",
+    "fileName": "luc-line-style.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "lucide",
     "name": "link",
     "category": "objects",
     "className": "aic aic-luc-link",
@@ -26901,14 +26837,6 @@
     "category": "objects",
     "className": "aic aic-luc-link-2-off",
     "fileName": "luc-link-2-off.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "linkedin",
-    "category": "objects",
-    "className": "aic aic-luc-linkedin",
-    "fileName": "luc-linkedin.svg",
     "animation": "scale-pop"
   },
   {
@@ -27421,6 +27349,14 @@
     "category": "status",
     "className": "aic aic-luc-map-pin-plus-inside",
     "fileName": "luc-map-pin-plus-inside.svg",
+    "animation": "dot-appear"
+  },
+  {
+    "source": "lucide",
+    "name": "map-pin-search",
+    "category": "ui",
+    "className": "aic aic-luc-map-pin-search",
+    "fileName": "luc-map-pin-search.svg",
     "animation": "dot-appear"
   },
   {
@@ -29449,14 +29385,6 @@
   },
   {
     "source": "lucide",
-    "name": "pocket",
-    "category": "objects",
-    "className": "aic aic-luc-pocket",
-    "fileName": "luc-pocket.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
     "name": "pocket-knife",
     "category": "objects",
     "className": "aic aic-luc-pocket-knife",
@@ -29665,6 +29593,14 @@
   },
   {
     "source": "lucide",
+    "name": "radio-off",
+    "category": "media",
+    "className": "aic aic-luc-radio-off",
+    "fileName": "luc-radio-off.svg",
+    "animation": "fade"
+  },
+  {
+    "source": "lucide",
     "name": "radio-receiver",
     "category": "media",
     "className": "aic aic-luc-radio-receiver",
@@ -29685,14 +29621,6 @@
     "category": "objects",
     "className": "aic aic-luc-radius",
     "fileName": "luc-radius.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "rail-symbol",
-    "category": "objects",
-    "className": "aic aic-luc-rail-symbol",
-    "fileName": "luc-rail-symbol.svg",
     "animation": "scale-pop"
   },
   {
@@ -29997,6 +29925,14 @@
     "category": "objects",
     "className": "aic aic-luc-ribbon",
     "fileName": "luc-ribbon.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "lucide",
+    "name": "road",
+    "category": "navigation",
+    "className": "aic aic-luc-road",
+    "fileName": "luc-road.svg",
     "animation": "scale-pop"
   },
   {
@@ -30689,6 +30625,22 @@
   },
   {
     "source": "lucide",
+    "name": "shield-cog",
+    "category": "ui",
+    "className": "aic aic-luc-shield-cog",
+    "fileName": "luc-shield-cog.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "lucide",
+    "name": "shield-cog-corner",
+    "category": "ui",
+    "className": "aic aic-luc-shield-cog-corner",
+    "fileName": "luc-shield-cog-corner.svg",
+    "animation": "gear"
+  },
+  {
+    "source": "lucide",
     "name": "shield-ellipsis",
     "category": "ui",
     "className": "aic aic-luc-shield-ellipsis",
@@ -31001,14 +30953,6 @@
   },
   {
     "source": "lucide",
-    "name": "slack",
-    "category": "objects",
-    "className": "aic aic-luc-slack",
-    "fileName": "luc-slack.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
     "name": "slash",
     "category": "objects",
     "className": "aic aic-luc-slash",
@@ -31269,6 +31213,14 @@
     "category": "objects",
     "className": "aic aic-luc-spool",
     "fileName": "luc-spool.svg",
+    "animation": "scale-pop"
+  },
+  {
+    "source": "lucide",
+    "name": "sport-shoe",
+    "category": "objects",
+    "className": "aic aic-luc-sport-shoe",
+    "fileName": "luc-sport-shoe.svg",
     "animation": "scale-pop"
   },
   {
@@ -32865,14 +32817,6 @@
   },
   {
     "source": "lucide",
-    "name": "trello",
-    "category": "objects",
-    "className": "aic aic-luc-trello",
-    "fileName": "luc-trello.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
     "name": "trending-down",
     "category": "arrows",
     "className": "aic aic-luc-trending-down",
@@ -33006,22 +32950,6 @@
     "className": "aic aic-luc-tv-minimal-play",
     "fileName": "luc-tv-minimal-play.svg",
     "animation": "fade"
-  },
-  {
-    "source": "lucide",
-    "name": "twitch",
-    "category": "objects",
-    "className": "aic aic-luc-twitch",
-    "fileName": "luc-twitch.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "twitter",
-    "category": "communication",
-    "className": "aic aic-luc-twitter",
-    "fileName": "luc-twitter.svg",
-    "animation": "scale-pop"
   },
   {
     "source": "lucide",
@@ -34013,14 +33941,6 @@
     "category": "status",
     "className": "aic aic-luc-x-square",
     "fileName": "luc-x-square.svg",
-    "animation": "scale-pop"
-  },
-  {
-    "source": "lucide",
-    "name": "youtube",
-    "category": "objects",
-    "className": "aic aic-luc-youtube",
-    "fileName": "luc-youtube.svg",
     "animation": "scale-pop"
   },
   {
